@@ -1,0 +1,13 @@
+# Naval Professionalism Progress 0-100
+0_naval_professionalism = {
+	light_ship_cost = -0.15
+	global_sailors_modifier = 0.15
+}
+
+100_naval_professionalism = {
+	heavy_ship_power = 0.1
+	galley_power = 0.1
+	blockade_efficiency = 0.2
+	sunk_ship_morale_hit_recieved = -0.2
+	allowed_marine_fraction = 0.1
+}

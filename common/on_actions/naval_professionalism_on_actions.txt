@@ -1,0 +1,76 @@
+# country
+on_startup = {
+	events = {
+		naval_professionalism_events.0001 # Initialize Naval Professionalism
+	}
+}
+
+# country
+on_admiral_recruited = {
+	if = {
+		limit = {
+			NOT = { is_at_max_np = yes }
+			NOT = { is_over_np_limit = yes }
+		}
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 1
+		}
+	}
+}
+
+# ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
+on_flagship_captured = {
+	FROM = {
+		if = {
+			limit = {
+				is_less_than_5 = yes
+			}
+			set_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+		}
+		else_if = {
+			limit = { is_under_np_limit = yes }
+			set_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+		}
+		else = {
+			subtract_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+		}
+	}
+}
+
+# ROOT = Tag that destroyed the flagship, FROM = Tag that lost the flagship
+on_flagship_destroyed = {
+	FROM = {
+		if = {
+			limit = {
+				is_less_than_5 = yes
+			}
+			set_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+		}
+		else_if = {
+			limit = { is_under_np_limit = yes }
+			set_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+		}
+		else = {
+			subtract_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+		}
+	}
+}

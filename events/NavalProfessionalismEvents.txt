@@ -1,0 +1,18 @@
+namespace = naval_professionalism_events
+
+country_event = { # Initialize Naval Professionalism
+	id = naval_professionalism_events.0001
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+
+	option = {
+		name = naval_professionalism_events.0001.a
+	}
+}

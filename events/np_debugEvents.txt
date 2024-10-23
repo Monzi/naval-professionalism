@@ -1,0 +1,100 @@
+namespace = np_debug_events
+
+# Debug Events
+country_event = {
+	id = np_debug_events.9000
+	title = np_debug_events.9000.t
+	desc = np_debug_events.9000.d
+	is_triggered_only = yes
+
+	option = {
+		name = np_debug_events.9000.1
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 1
+		}
+	}
+	option = {
+		name = np_debug_events.9000.2
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 5
+		}
+	}
+	option = {
+		name = np_debug_events.9000.3
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 10
+		}
+	}
+	option = {
+		name = np_debug_events.9000.4
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 1
+		}
+	}
+	option = {
+		name = np_debug_events.9000.5
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 5
+		}
+	}
+	option = {
+		name = np_debug_events.9000.6
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 10
+		}
+	}
+	option = {
+		name = np_debug_events.9000.7
+		highlight = yes
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+	option = {
+		name = np_debug_events.9000.8
+		highlight = yes
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}
+country_event = {
+	id = np_debug_events.9001
+	title = np_debug_events.9001.t
+	desc = np_debug_events.9001.d
+	trigger = {
+		is_under_np_limit = yes
+	}
+
+	option = {
+		name = np_debug_events.9001.1
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+}
+country_event = {
+	id = np_debug_events.9002
+	title = np_debug_events.9002.t
+	desc = np_debug_events.9002.d
+	trigger = {
+		is_over_np_limit = yes
+	}
+
+	option = {
+		name = np_debug_events.9002.1
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}

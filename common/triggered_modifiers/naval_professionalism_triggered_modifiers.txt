@@ -1,0 +1,65 @@
+# Naval Professionalism Ranks
+naval_professionalism_rank1_modifier = { # Naval Professionalism 20%
+    potential = {
+        always = no
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 20
+		}
+    }
+    # Code mechanic for rank 1
+}
+
+naval_professionalism_rank2_modifier = { # Naval Professionalism 40%
+    potential = {
+        always = no
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 40
+		}
+    }
+    # Code mechanic for rank 2
+}
+
+naval_professionalism_rank3_modifier = { # Naval Professionalism 60%
+    potential = {
+        always = no
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 60
+		}
+    }
+    # Code mechanic for rank 3
+}
+
+naval_professionalism_rank4_modifier = { # Naval Professionalism 80%
+    potential = {
+        always = no
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 80
+		}
+    }
+    own_coast_naval_combat_bonus = 1.0
+}
+
+naval_professionalism_rank5_modifier = { # Naval Professionalism 100%
+    potential = {
+        always = no
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+    }
+    admiral_cost = -0.5
+}

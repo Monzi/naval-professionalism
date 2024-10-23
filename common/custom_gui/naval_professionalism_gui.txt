@@ -1,0 +1,130 @@
+# Naval Professionalism GUI
+# Naval Professionalism Icon
+custom_icon = {
+	name = naval_professionalism_icon
+	tooltip = naval_professionalism_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+# Naval Professionalism Progressbar
+# Naval Professionalism Progress
+custom_icon = {
+	name = naval_professionalism_progress
+	tooltip = naval_professionalism_progress_tooltip
+	potential = {
+		always = yes
+	}
+	frame_variable = "navalProfessionalismVariable"
+}
+
+# Naval Professionalism Progress Frame
+custom_icon = {
+	name = naval_professionalism_progress_frame
+	tooltip = naval_professionalism_progress_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+# Naval Professionalism Ranks
+# Rank 1
+custom_icon = {
+	name = naval_professionalism_rank1_marker_base
+	tooltip = naval_professionalism_rank1_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+custom_icon = {
+	name = naval_professionalism_rank1_marker
+	tooltip = naval_professionalism_rank1_tooltip
+	potential = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 20
+		}
+	}
+}
+
+# Rank 2
+custom_icon = {
+	name = naval_professionalism_rank2_marker_base
+	tooltip = naval_professionalism_rank2_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+custom_icon = {
+	name = naval_professionalism_rank2_marker
+	tooltip = naval_professionalism_rank2_tooltip
+	potential = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 40
+		}
+	}
+}
+
+# Rank 3
+custom_icon = {
+	name = naval_professionalism_rank3_marker_base
+	tooltip = naval_professionalism_rank3_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+custom_icon = {
+	name = naval_professionalism_rank3_marker
+	tooltip = naval_professionalism_rank3_tooltip
+	potential = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 60
+		}
+	}
+}
+
+# Rank 4
+custom_icon = {
+	name = naval_professionalism_rank4_marker_base
+	tooltip = naval_professionalism_rank4_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+custom_icon = {
+	name = naval_professionalism_rank4_marker
+	tooltip = naval_professionalism_rank4_tooltip
+	potential = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 80
+		}
+	}
+}
+
+# Rank 5
+custom_icon = {
+	name = naval_professionalism_rank5_marker_base
+	tooltip = naval_professionalism_rank5_tooltip
+	potential = {
+		always = yes
+	}
+}
+
+custom_icon = {
+	name = naval_professionalism_rank5_marker
+	tooltip = naval_professionalism_rank5_tooltip
+	potential = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}

@@ -1,0 +1,36 @@
+﻿l_english:
+# Interface
+ navalProfessionalismVariable:0 "Naval Professionalism"
+ naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nPut desc here...\n--------------\n§YImmediate Gain:§!\nRecruit Admiral: §G+1%§!\nLoss Flagship: §R-5%§!"
+ naval_professionalism_progress_tooltip:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue].00%§!\n--------------\nEffect_name: §GModifier§!"
+
+
+
+# System Events
+ naval_professionalism_events.0001.a:0 "Ok"
+
+# Debug
+ np_debug_title:0 "Debug Menu"
+ np_debug_desc:0 "Opens the Debug Menu"
+
+ np_debug_loss_title:0 "Simulate loss of Flagship"
+ np_debug_loss_desc:0 "Simulates the loss of a Flagship"
+
+ np_debug_events.9000.t:0 "Debug Menu"
+ np_debug_events.9000.d:0 "Increase or Decrease [Root.navalProfessionalismVariable.GetName]"
+ np_debug_events.9000.1:0 "Increase 1"
+ np_debug_events.9000.2:0 "Increase 5"
+ np_debug_events.9000.3:0 "Increase 10"
+ np_debug_events.9000.4:0 "Decrease 1"
+ np_debug_events.9000.5:0 "Decrease 5"
+ np_debug_events.9000.6:0 "Decrease 10"
+ np_debug_events.9000.7:0 "Set to 0"
+ np_debug_events.9000.8:0 "Set to 100"
+
+ np_debug_events.9001.t:0 "Debug Message"
+ np_debug_events.9001.d:0 "You're under the limit."
+ np_debug_events.9001.1:0 "Ok"
+
+ np_debug_events.9002.t:0 "Debug Message"
+ np_debug_events.9002.d:0 "You're over the limit."
+ np_debug_events.9002.1:0 "Ok"
