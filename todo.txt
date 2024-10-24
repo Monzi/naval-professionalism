@@ -1,0 +1,6 @@
+[] Add more Modifiers | naval_professionalism_event_modifiers.txt
+[] Add Switch cases to naval_professionalism_events.0002 | NavalProfessionalismEvents.txt
+[] Add Modifers to Localisation | naval_professionalism_progress_l_english.yml
+[] Add Rank Mechanics
+[] Finish interface
+[] Remove Debug code

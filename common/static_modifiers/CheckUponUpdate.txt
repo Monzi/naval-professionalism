@@ -1,0 +1,1 @@
+If EU4 has been updated compare 00_static_modifiers.txt with new files before updating.

@@ -1,0 +1,204 @@
+﻿l_english:
+# Progress Tooltips
+# 0% - Rank 0
+ string_np_progress_0:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-15%§!\nNational Sailors Modifier: §G15%§!"
+# 1%
+ string_np_progress_1:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 2%
+ string_np_progress_2:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 3%
+ string_np_progress_3:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 4%
+ string_np_progress_4:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 5%
+ string_np_progress_5:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 6%
+ string_np_progress_6:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 7%
+ string_np_progress_7:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 8%
+ string_np_progress_8:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 9%
+ string_np_progress_9:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 10%
+ string_np_progress_10:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 11%
+ string_np_progress_11:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 12%
+ string_np_progress_12:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 13%
+ string_np_progress_13:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 14%
+ string_np_progress_14:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 15%
+ string_np_progress_15:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 16%
+ string_np_progress_16:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 17%
+ string_np_progress_17:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 18%
+ string_np_progress_18:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 19%
+ string_np_progress_19:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 20% - Rank 1
+ string_np_progress_20:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 21%
+ string_np_progress_21:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 22%
+ string_np_progress_22:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 23%
+ string_np_progress_23:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 24%
+ string_np_progress_24:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 25%
+ string_np_progress_25:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 26%
+ string_np_progress_26:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 27%
+ string_np_progress_27:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 28%
+ string_np_progress_28:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 29%
+ string_np_progress_29:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 30%
+ string_np_progress_30:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 31%
+ string_np_progress_31:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 32%
+ string_np_progress_32:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 33%
+ string_np_progress_33:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 34%
+ string_np_progress_34:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 35%
+ string_np_progress_35:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 36%
+ string_np_progress_36:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 37%
+ string_np_progress_37:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 38%
+ string_np_progress_38:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 39%
+ string_np_progress_39:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 40% - Rank 2
+ string_np_progress_40:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 41%
+ string_np_progress_41:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 42%
+ string_np_progress_42:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 43%
+ string_np_progress_43:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 44%
+ string_np_progress_44:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 45%
+ string_np_progress_45:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 46%
+ string_np_progress_46:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 47%
+ string_np_progress_47:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 48%
+ string_np_progress_48:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 49%
+ string_np_progress_49:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 50%
+ string_np_progress_50:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 51%
+ string_np_progress_51:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 52%
+ string_np_progress_52:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 53%
+ string_np_progress_53:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 54%
+ string_np_progress_54:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 55%
+ string_np_progress_55:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 56%
+ string_np_progress_56:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 57%
+ string_np_progress_57:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 58%
+ string_np_progress_58:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 59%
+ string_np_progress_59:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 60% - Rank 3
+ string_np_progress_60:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 61%
+ string_np_progress_61:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 62%
+ string_np_progress_62:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 63%
+ string_np_progress_63:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 64%
+ string_np_progress_64:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 65%
+ string_np_progress_65:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 66%
+ string_np_progress_66:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 67%
+ string_np_progress_67:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 68%
+ string_np_progress_68:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 69%
+ string_np_progress_69:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 70%
+ string_np_progress_70:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 71%
+ string_np_progress_71:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 72%
+ string_np_progress_72:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 73%
+ string_np_progress_73:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 74%
+ string_np_progress_74:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 75%
+ string_np_progress_75:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 76%
+ string_np_progress_76:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 77%
+ string_np_progress_77:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 78%
+ string_np_progress_78:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 79%
+ string_np_progress_79:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 80% - Rank 4
+ string_np_progress_80:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 81%
+ string_np_progress_81:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 82%
+ string_np_progress_82:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 83%
+ string_np_progress_83:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 84%
+ string_np_progress_84:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 85%
+ string_np_progress_85:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 86%
+ string_np_progress_86:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 87%
+ string_np_progress_87:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 88%
+ string_np_progress_88:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 89%
+ string_np_progress_89:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 90%
+ string_np_progress_90:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 91%
+ string_np_progress_91:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 92%
+ string_np_progress_92:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 93%
+ string_np_progress_93:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 94%
+ string_np_progress_94:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 95%
+ string_np_progress_95:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 96%
+ string_np_progress_96:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 97%
+ string_np_progress_97:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 98%
+ string_np_progress_98:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 99%
+ string_np_progress_99:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+# 100% - Rank 5
+ string_np_progress_100:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"

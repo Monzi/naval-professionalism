@@ -10,9 +10,85 @@ country_event = { # Initialize Naval Professionalism
 			which = navalProfessionalismVariable
 			value = 0
 		}
+		set_variable = {
+			which = navalProfessionalismControlVariable
+			value = 0
+		}
 	}
 
 	option = {
 		name = naval_professionalism_events.0001.a
+	}
+}
+
+country_event = { # Gives out modifiers based on level of Naval Professionalism
+	id = naval_professionalism_events.0002
+	hidden = yes
+	trigger = {
+		OR = {
+			NOT = { has_country_flag = has_naval_professionalism_modifier }
+			AND = {
+				has_country_flag = has_naval_professionalism_modifier
+				is_variable_equal = {
+					which = navalProfessionalismVariable
+					which = navalProfessionalismControlVariable
+				}
+			}
+		}
+	}
+
+	immediate = {
+		clear_naval_professionalism_modifiers = yes
+		trigger_switch = {
+			on_trigger = navalProfessionalismVariable
+			0 = {
+				add_country_modifier = {
+					name = 0_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+			1 = {
+				add_country_modifier = {
+					name = 1_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+			2 = {
+				add_country_modifier = {
+					name = 2_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+			3 = {
+				add_country_modifier = {
+					name = 3_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+			4 = {
+				add_country_modifier = {
+					name = 4_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+			5 = {
+				add_country_modifier = {
+					name = 5_naval_professionalism
+					duration = -1
+					hidden = yes
+				}
+			}
+		}
+		update_control_variable = yes
+		set_country_flag = has_naval_professionalism_modifier
+	}
+
+	option = {
+		name = naval_professionalism_events.0002.a
 	}
 }

@@ -5,8 +5,399 @@
 }
 
 1_naval_professionalism = {
-	light_ship_cost = -0.14
-	global_sailors_modifier = 0.14
+
+}
+
+2_naval_professionalism = {
+
+}
+
+3_naval_professionalism = {
+
+}
+
+4_naval_professionalism = {
+
+}
+
+5_naval_professionalism = {
+
+}
+
+6_naval_professionalism = {
+
+}
+
+7_naval_professionalism = {
+
+}
+
+8_naval_professionalism = {
+
+}
+
+9_naval_professionalism = {
+
+}
+
+10_naval_professionalism = {
+
+}
+
+11_naval_professionalism = {
+
+}
+
+12_naval_professionalism = {
+
+}
+
+13_naval_professionalism = {
+
+}
+
+14_naval_professionalism = {
+
+}
+
+15_naval_professionalism = {
+
+}
+
+16_naval_professionalism = {
+
+}
+
+17_naval_professionalism = {
+
+}
+
+18_naval_professionalism = {
+
+}
+
+19_naval_professionalism = {
+
+}
+
+20_naval_professionalism = {
+
+}
+
+21_naval_professionalism = {
+
+}
+
+22_naval_professionalism = {
+
+}
+
+23_naval_professionalism = {
+
+}
+
+24_naval_professionalism = {
+
+}
+
+25_naval_professionalism = {
+
+}
+
+26_naval_professionalism = {
+
+}
+
+27_naval_professionalism = {
+
+}
+
+28_naval_professionalism = {
+
+}
+
+29_naval_professionalism = {
+
+}
+
+30_naval_professionalism = {
+
+}
+
+31_naval_professionalism = {
+
+}
+
+32_naval_professionalism = {
+
+}
+
+33_naval_professionalism = {
+
+}
+
+34_naval_professionalism = {
+
+}
+
+35_naval_professionalism = {
+
+}
+
+36_naval_professionalism = {
+
+}
+
+37_naval_professionalism = {
+
+}
+
+38_naval_professionalism = {
+
+}
+
+39_naval_professionalism = {
+
+}
+
+40_naval_professionalism = {
+
+}
+
+41_naval_professionalism = {
+
+}
+
+42_naval_professionalism = {
+
+}
+
+43_naval_professionalism = {
+
+}
+
+44_naval_professionalism = {
+
+}
+
+45_naval_professionalism = {
+
+}
+
+46_naval_professionalism = {
+
+}
+
+47_naval_professionalism = {
+
+}
+
+48_naval_professionalism = {
+
+}
+
+49_naval_professionalism = {
+
+}
+
+50_naval_professionalism = {
+
+}
+
+51_naval_professionalism = {
+
+}
+
+52_naval_professionalism = {
+
+}
+
+53_naval_professionalism = {
+
+}
+
+54_naval_professionalism = {
+
+}
+
+55_naval_professionalism = {
+
+}
+
+56_naval_professionalism = {
+
+}
+
+57_naval_professionalism = {
+
+}
+
+58_naval_professionalism = {
+
+}
+
+59_naval_professionalism = {
+
+}
+
+60_naval_professionalism = {
+
+}
+
+61_naval_professionalism = {
+
+}
+
+62_naval_professionalism = {
+
+}
+
+63_naval_professionalism = {
+
+}
+
+64_naval_professionalism = {
+
+}
+
+65_naval_professionalism = {
+
+}
+
+66_naval_professionalism = {
+
+}
+
+67_naval_professionalism = {
+
+}
+
+68_naval_professionalism = {
+
+}
+
+69_naval_professionalism = {
+
+}
+
+70_naval_professionalism = {
+
+}
+
+71_naval_professionalism = {
+
+}
+
+72_naval_professionalism = {
+
+}
+
+73_naval_professionalism = {
+
+}
+
+74_naval_professionalism = {
+
+}
+
+75_naval_professionalism = {
+
+}
+
+76_naval_professionalism = {
+
+}
+
+77_naval_professionalism = {
+
+}
+
+78_naval_professionalism = {
+
+}
+
+79_naval_professionalism = {
+
+}
+
+80_naval_professionalism = {
+
+}
+
+81_naval_professionalism = {
+
+}
+
+82_naval_professionalism = {
+
+}
+
+83_naval_professionalism = {
+
+}
+
+84_naval_professionalism = {
+
+}
+
+85_naval_professionalism = {
+
+}
+
+86_naval_professionalism = {
+
+}
+
+87_naval_professionalism = {
+
+}
+
+88_naval_professionalism = {
+
+}
+
+89_naval_professionalism = {
+
+}
+
+90_naval_professionalism = {
+
+}
+
+91_naval_professionalism = {
+
+}
+
+92_naval_professionalism = {
+
+}
+
+93_naval_professionalism = {
+
+}
+
+94_naval_professionalism = {
+
+}
+
+95_naval_professionalism = {
+
+}
+
+96_naval_professionalism = {
+
+}
+
+97_naval_professionalism = {
+
+}
+
+98_naval_professionalism = {
+
+}
+
+99_naval_professionalism = {
+
 }
 
 100_naval_professionalism = {

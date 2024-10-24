@@ -1,0 +1,305 @@
+﻿l_english:
+# Modifiers
+# 0% Progress
+ 0_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_0_naval_professionalism:0 ""
+# 1% Progress
+ 1_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_1_naval_professionalism:0 ""
+# 2% Progress
+ 2_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_2_naval_professionalism:0 ""
+# 3% Progress
+ 3_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_3_naval_professionalism:0 ""
+# 4% Progress
+ 4_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_4_naval_professionalism:0 ""
+# 5% Progress
+ 5_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_5_naval_professionalism:0 ""
+# 6% Progress
+ 6_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_6_naval_professionalism:0 ""
+# 7% Progress
+ 7_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_7_naval_professionalism:0 ""
+# 8% Progress
+ 8_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_8_naval_professionalism:0 ""
+# 9% Progress
+ 9_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_9_naval_professionalism:0 ""
+# 10% Progress
+ 10_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_10_naval_professionalism:0 ""
+# 11% Progress
+ 11_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_11_naval_professionalism:0 ""
+# 12% Progress
+ 12_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_12_naval_professionalism:0 ""
+# 13% Progress
+ 13_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_13_naval_professionalism:0 ""
+# 14% Progress
+ 14_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_14_naval_professionalism:0 ""
+# 15% Progress
+ 15_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_15_naval_professionalism:0 ""
+# 16% Progress
+ 16_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_16_naval_professionalism:0 ""
+# 17% Progress
+ 17_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_17_naval_professionalism:0 ""
+# 18% Progress
+ 18_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_18_naval_professionalism:0 ""
+# 19% Progress
+ 19_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_19_naval_professionalism:0 ""
+# 20% Progress
+ 20_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_20_naval_professionalism:0 ""
+# 21% Progress
+ 21_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_21_naval_professionalism:0 ""
+# 22% Progress
+ 22_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_22_naval_professionalism:0 ""
+# 23% Progress
+ 23_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_23_naval_professionalism:0 ""
+# 24% Progress
+ 24_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_24_naval_professionalism:0 ""
+# 25% Progress
+ 25_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_25_naval_professionalism:0 ""
+# 26% Progress
+ 26_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_26_naval_professionalism:0 ""
+# 27% Progress
+ 27_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_27_naval_professionalism:0 ""
+# 28% Progress
+ 28_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_28_naval_professionalism:0 ""
+# 29% Progress
+ 29_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_29_naval_professionalism:0 ""
+# 30% Progress
+ 30_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_30_naval_professionalism:0 ""
+# 31% Progress
+ 31_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_31_naval_professionalism:0 ""
+# 32% Progress
+ 32_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_32_naval_professionalism:0 ""
+# 33% Progress
+ 33_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_33_naval_professionalism:0 ""
+# 34% Progress
+ 34_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_34_naval_professionalism:0 ""
+# 35% Progress
+ 35_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_35_naval_professionalism:0 ""
+# 36% Progress
+ 36_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_36_naval_professionalism:0 ""
+# 37% Progress
+ 37_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_37_naval_professionalism:0 ""
+# 38% Progress
+ 38_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_38_naval_professionalism:0 ""
+# 39% Progress
+ 39_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_39_naval_professionalism:0 ""
+# 40% Progress
+ 40_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_40_naval_professionalism:0 ""
+# 41% Progress
+ 41_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_41_naval_professionalism:0 ""
+# 42% Progress
+ 42_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_42_naval_professionalism:0 ""
+# 43% Progress
+ 43_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_43_naval_professionalism:0 ""
+# 44% Progress
+ 44_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_44_naval_professionalism:0 ""
+# 45% Progress
+ 45_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_45_naval_professionalism:0 ""
+# 46% Progress
+ 46_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_46_naval_professionalism:0 ""
+# 47% Progress
+ 47_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_47_naval_professionalism:0 ""
+# 48% Progress
+ 48_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_48_naval_professionalism:0 ""
+# 49% Progress
+ 49_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_49_naval_professionalism:0 ""
+# 50% Progress
+ 50_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_50_naval_professionalism:0 ""
+# 51% Progress
+ 51_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_51_naval_professionalism:0 ""
+# 52% Progress
+ 52_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_52_naval_professionalism:0 ""
+# 53% Progress
+ 53_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_53_naval_professionalism:0 ""
+# 54% Progress
+ 54_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_54_naval_professionalism:0 ""
+# 55% Progress
+ 55_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_55_naval_professionalism:0 ""
+# 56% Progress
+ 56_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_56_naval_professionalism:0 ""
+# 57% Progress
+ 57_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_57_naval_professionalism:0 ""
+# 58% Progress
+ 58_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_58_naval_professionalism:0 ""
+# 59% Progress
+ 59_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_59_naval_professionalism:0 ""
+# 60% Progress
+ 60_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_60_naval_professionalism:0 ""
+# 61% Progress
+ 61_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_61_naval_professionalism:0 ""
+# 62% Progress
+ 62_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_62_naval_professionalism:0 ""
+# 63% Progress
+ 63_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_63_naval_professionalism:0 ""
+# 64% Progress
+ 64_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_64_naval_professionalism:0 ""
+# 65% Progress
+ 65_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_65_naval_professionalism:0 ""
+# 66% Progress
+ 66_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_66_naval_professionalism:0 ""
+# 67% Progress
+ 67_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_67_naval_professionalism:0 ""
+# 68% Progress
+ 68_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_68_naval_professionalism:0 ""
+# 69% Progress
+ 69_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_69_naval_professionalism:0 ""
+# 70% Progress
+ 70_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_70_naval_professionalism:0 ""
+# 71% Progress
+ 71_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_71_naval_professionalism:0 ""
+# 72% Progress
+ 72_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_72_naval_professionalism:0 ""
+# 73% Progress
+ 73_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_73_naval_professionalism:0 ""
+# 74% Progress
+ 74_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_74_naval_professionalism:0 ""
+# 75% Progress
+ 75_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_75_naval_professionalism:0 ""
+# 76% Progress
+ 76_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_76_naval_professionalism:0 ""
+# 77% Progress
+ 77_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_77_naval_professionalism:0 ""
+# 78% Progress
+ 78_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_78_naval_professionalism:0 ""
+# 79% Progress
+ 79_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_79_naval_professionalism:0 ""
+# 80% Progress
+ 80_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_80_naval_professionalism:0 ""
+# 81% Progress
+ 81_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_81_naval_professionalism:0 ""
+# 82% Progress
+ 82_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_82_naval_professionalism:0 ""
+# 83% Progress
+ 83_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_83_naval_professionalism:0 ""
+# 84% Progress
+ 84_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_84_naval_professionalism:0 ""
+# 85% Progress
+ 85_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_85_naval_professionalism:0 ""
+# 86% Progress
+ 86_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_86_naval_professionalism:0 ""
+# 87% Progress
+ 87_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_87_naval_professionalism:0 ""
+# 88% Progress
+ 88_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_88_naval_professionalism:0 ""
+# 89% Progress
+ 89_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_89_naval_professionalism:0 ""
+# 90% Progress
+ 90_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_90_naval_professionalism:0 ""
+# 91% Progress
+ 91_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_91_naval_professionalism:0 ""
+# 92% Progress
+ 92_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_92_naval_professionalism:0 ""
+# 93% Progress
+ 93_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_93_naval_professionalism:0 ""
+# 94% Progress
+ 94_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_94_naval_professionalism:0 ""
+# 95% Progress
+ 95_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_95_naval_professionalism:0 ""
+# 96% Progress
+ 96_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_96_naval_professionalism:0 ""
+# 97% Progress
+ 97_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_97_naval_professionalism:0 ""
+# 98% Progress
+ 98_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_98_naval_professionalism:0 ""
+# 99% Progress
+ 99_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_99_naval_professionalism:0 ""
+# 100% Progress
+ 100_naval_professionalism:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%"
+ desc_100_naval_professionalism:0 ""
