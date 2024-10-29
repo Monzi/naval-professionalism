@@ -105,6 +105,144 @@ clear_naval_professionalism_modifiers = {
 update_control_variable = {
 	set_variable = {
 		which = navalProfessionalismControlVariable
-		value = navalProfessionalismVariable
+		which = navalProfessionalismVariable
+	}
+}
+
+add_small_np_progress = {
+	custom_tooltip = SMALL_NP_GAIN
+	hidden_effect = {
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}
+
+add_medium_np_progress = {
+	custom_tooltip = MEDIUM_NP_GAIN
+	hidden_effect = {
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 5
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}
+
+add_large_np_progress = {
+	custom_tooltip = LARGE_NP_GAIN
+	hidden_effect = {
+		change_variable = {
+			which = navalProfessionalismVariable
+			value = 10
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+	}
+}
+
+subtract_small_np_progress = {
+	custom_tooltip = SMALL_NP_LOSS
+	hidden_effect = {
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 0
+				}
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+}
+
+subtract_medium_np_progress = {
+	custom_tooltip = MEDIUM_NP_LOSS
+	hidden_effect = {
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 5
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 0
+				}
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+}
+
+subtract_large_np_progress = {
+	custom_tooltip = LARGE_NP_LOSS
+	hidden_effect = {
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 10
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 0
+				}
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
 	}
 }

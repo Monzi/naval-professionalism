@@ -1,7 +1,8 @@
 ﻿l_english:
+ naval_professionalism_progress_tooltip: "[This.naval_professionalism_progress_tooltip]"
 # Progress Tooltips
 # 0% - Rank 0
- string_np_progress_0:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-15%§!\nNational Sailors Modifier: §G15%§!"
+ string_np_progress_0:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-15.0%§!\nNational Sailors Modifier: §G+15.0%§!"
 # 1%
  string_np_progress_1:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
 # 2%

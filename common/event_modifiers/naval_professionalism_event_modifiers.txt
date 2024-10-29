@@ -5,47 +5,157 @@
 }
 
 1_naval_professionalism = {
-
+	light_ship_cost = -0.146
+	global_sailors_modifier = 0.146
+	heavy_ship_power = 0.001
+	galley_power = 0.001
+	blockade_efficiency = 0.002
+	allowed_marine_fraction = 0.001
+	allowed_geobukseon_fraction = 0.001
+	allowed_galleass_fraction = 0.001
+	allowed_voc_indiamen_fraction = 0.001
+	allowed_man_of_war_fraction = 0.001
+	allowed_galleon_fraction = 0.001
+	allowed_caravel_fraction = 0.001
 }
 
 2_naval_professionalism = {
-
+	light_ship_cost = -0.143
+	global_sailors_modifier = 0.143
+	heavy_ship_power = 0.002
+	galley_power = 0.002
+	blockade_efficiency = 0.004
+	allowed_marine_fraction = 0.002
+	allowed_geobukseon_fraction = 0.002
+	allowed_galleass_fraction = 0.002
+	allowed_voc_indiamen_fraction = 0.002
+	allowed_man_of_war_fraction = 0.002
+	allowed_galleon_fraction = 0.002
+	allowed_caravel_fraction = 0.002
 }
 
 3_naval_professionalism = {
-
+	light_ship_cost = -0.14
+	global_sailors_modifier = 0.14
+	heavy_ship_power = 0.003
+	galley_power = 0.003
+	blockade_efficiency = 0.006
+	allowed_marine_fraction = 0.003
+	allowed_geobukseon_fraction = 0.003
+	allowed_galleass_fraction = 0.003
+	allowed_voc_indiamen_fraction = 0.003
+	allowed_man_of_war_fraction = 0.003
+	allowed_galleon_fraction = 0.003
+	allowed_caravel_fraction = 0.003
 }
 
 4_naval_professionalism = {
-
+	light_ship_cost = -0.137
+	global_sailors_modifier = 0.137
+	heavy_ship_power = 0.004
+	galley_power = 0.004
+	blockade_efficiency = 0.008
+	allowed_marine_fraction = 0.004
+	allowed_geobukseon_fraction = 0.004
+	allowed_galleass_fraction = 0.004
+	allowed_voc_indiamen_fraction = 0.004
+	allowed_man_of_war_fraction = 0.004
+	allowed_galleon_fraction = 0.004
+	allowed_caravel_fraction = 0.004
 }
 
 5_naval_professionalism = {
-
+	light_ship_cost = -0.134
+	global_sailors_modifier = 0.134
+	heavy_ship_power = 0.005
+	galley_power = 0.005
+	blockade_efficiency = 0.01
+	allowed_marine_fraction = 0.005
+	allowed_geobukseon_fraction = 0.005
+	allowed_galleass_fraction = 0.005
+	allowed_voc_indiamen_fraction = 0.005
+	allowed_man_of_war_fraction = 0.005
+	allowed_galleon_fraction = 0.005
+	allowed_caravel_fraction = 0.005
 }
 
 6_naval_professionalism = {
-
+	light_ship_cost = -0.131
+	global_sailors_modifier = 0.131
+	heavy_ship_power = 0.006
+	galley_power = 0.006
+	blockade_efficiency = 0.012
+	allowed_marine_fraction = 0.006
+	allowed_geobukseon_fraction = 0.006
+	allowed_galleass_fraction = 0.006
+	allowed_voc_indiamen_fraction = 0.006
+	allowed_man_of_war_fraction = 0.006
+	allowed_galleon_fraction = 0.006
+	allowed_caravel_fraction = 0.006
 }
 
 7_naval_professionalism = {
-
+	light_ship_cost = -0.128
+	global_sailors_modifier = 0.128
+	heavy_ship_power = 0.007
+	galley_power = 0.007
+	blockade_efficiency = 0.014
+	allowed_marine_fraction = 0.007
+	allowed_geobukseon_fraction = 0.007
+	allowed_galleass_fraction = 0.007
+	allowed_voc_indiamen_fraction = 0.007
+	allowed_man_of_war_fraction = 0.007
+	allowed_galleon_fraction = 0.007
+	allowed_caravel_fraction = 0.007
 }
 
 8_naval_professionalism = {
-
+	light_ship_cost = -0.125
+	global_sailors_modifier = 0.125
+	heavy_ship_power = 0.008
+	galley_power = 0.008
+	blockade_efficiency = 0.016
+	allowed_marine_fraction = 0.008
+	allowed_geobukseon_fraction = 0.008
+	allowed_galleass_fraction = 0.008
+	allowed_voc_indiamen_fraction = 0.008
+	allowed_man_of_war_fraction = 0.008
+	allowed_galleon_fraction = 0.008
+	allowed_caravel_fraction = 0.008
 }
 
 9_naval_professionalism = {
-
+	light_ship_cost = -0.122
+	global_sailors_modifier = 0.122
+	heavy_ship_power = 0.009
+	galley_power = 0.009
+	blockade_efficiency = 0.018
+	allowed_marine_fraction = 0.009
+	allowed_geobukseon_fraction = 0.009
+	allowed_galleass_fraction = 0.009
+	allowed_voc_indiamen_fraction = 0.009
+	allowed_man_of_war_fraction = 0.009
+	allowed_galleon_fraction = 0.009
+	allowed_caravel_fraction = 0.009
 }
 
 10_naval_professionalism = {
-
+	light_ship_cost = -0.119
+	global_sailors_modifier = 0.119
+	heavy_ship_power = 0.01
+	galley_power = 0.01
+	blockade_efficiency = 0.02
+	allowed_marine_fraction = 0.01
+	allowed_geobukseon_fraction = 0.01
+	allowed_galleass_fraction = 0.01
+	allowed_voc_indiamen_fraction = 0.01
+	allowed_man_of_war_fraction = 0.01
+	allowed_galleon_fraction = 0.01
+	allowed_caravel_fraction = 0.01
 }
 
 11_naval_professionalism = {
-
+	
 }
 
 12_naval_professionalism = {
@@ -404,6 +514,11 @@
 	heavy_ship_power = 0.1
 	galley_power = 0.1
 	blockade_efficiency = 0.2
-	sunk_ship_morale_hit_recieved = -0.2
 	allowed_marine_fraction = 0.1
+	allowed_geobukseon_fraction = 0.1
+	allowed_galleass_fraction = 0.1
+	allowed_voc_indiamen_fraction = 0.1
+	allowed_man_of_war_fraction = 0.1
+	allowed_galleon_fraction = 0.1
+	allowed_caravel_fraction = 0.1
 }

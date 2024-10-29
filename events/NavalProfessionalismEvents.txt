@@ -3,7 +3,9 @@ namespace = naval_professionalism_events
 country_event = { # Initialize Naval Professionalism
 	id = naval_professionalism_events.0001
 	hidden = yes
-	is_triggered_only = yes
+	trigger = {
+		NOT = { has_country_flag = has_naval_professionalism }
+	}
 	
 	immediate = {
 		set_variable = {
@@ -14,6 +16,7 @@ country_event = { # Initialize Naval Professionalism
 			which = navalProfessionalismControlVariable
 			value = 0
 		}
+		set_country_flag = has_naval_professionalism
 	}
 
 	option = {
@@ -21,7 +24,7 @@ country_event = { # Initialize Naval Professionalism
 	}
 }
 
-country_event = { # Gives out modifiers based on level of Naval Professionalism
+country_event = { # Sets / Updates modifiers based on level of Naval Professionalism
 	id = naval_professionalism_events.0002
 	hidden = yes
 	trigger = {
@@ -29,9 +32,11 @@ country_event = { # Gives out modifiers based on level of Naval Professionalism
 			NOT = { has_country_flag = has_naval_professionalism_modifier }
 			AND = {
 				has_country_flag = has_naval_professionalism_modifier
-				is_variable_equal = {
-					which = navalProfessionalismVariable
-					which = navalProfessionalismControlVariable
+				NOT = {
+					is_variable_equal = {
+						which = navalProfessionalismVariable
+						which = navalProfessionalismControlVariable
+					}
 				}
 			}
 		}
@@ -39,49 +44,1930 @@ country_event = { # Gives out modifiers based on level of Naval Professionalism
 
 	immediate = {
 		clear_naval_professionalism_modifiers = yes
-		trigger_switch = {
-			on_trigger = navalProfessionalismVariable
-			0 = {
-				add_country_modifier = {
-					name = 0_naval_professionalism
-					duration = -1
-					hidden = yes
+		if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 0
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 1
+					}
 				}
 			}
-			1 = {
-				add_country_modifier = {
-					name = 1_naval_professionalism
-					duration = -1
-					hidden = yes
+			add_country_modifier = {
+				name = 0_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 2
+					}
 				}
 			}
-			2 = {
-				add_country_modifier = {
-					name = 2_naval_professionalism
-					duration = -1
-					hidden = yes
+			add_country_modifier = {
+				name = 1_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 3
+					}
 				}
 			}
-			3 = {
-				add_country_modifier = {
-					name = 3_naval_professionalism
-					duration = -1
-					hidden = yes
+			add_country_modifier = {
+				name = 2_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 4
+					}
 				}
 			}
-			4 = {
-				add_country_modifier = {
-					name = 4_naval_professionalism
-					duration = -1
-					hidden = yes
+			add_country_modifier = {
+				name = 3_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 5
+					}
 				}
 			}
-			5 = {
-				add_country_modifier = {
-					name = 5_naval_professionalism
-					duration = -1
-					hidden = yes
+			add_country_modifier = {
+				name = 4_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
 				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 6
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 5_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 7
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 6_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 8
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 7_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 9
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 8_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 10
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 9_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 11
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 10_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 12
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 11_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 13
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 12_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 14
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 13_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 15
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 14_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 16
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 15_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 17
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 16_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 18
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 17_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 19
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 18_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 20
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 19_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 21
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 20_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 22
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 21_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 23
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 22_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 24
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 23_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 25
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 24_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 26
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 25_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 27
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 26_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 28
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 27_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 29
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 28_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 30
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 29_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 31
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 30_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 32
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 31_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 33
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 32_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 34
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 33_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 35
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 34_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 36
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 35_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 37
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 36_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 38
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 37_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 39
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 38_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 40
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 39_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 41
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 40_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 42
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 41_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 43
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 42_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 44
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 43_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 45
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 44_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 46
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 45_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 47
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 46_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 48
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 47_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 49
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 48_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 50
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 49_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 51
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 50_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 52
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 51_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 53
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 52_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 54
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 53_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 55
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 54_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 56
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 55_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 57
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 56_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 58
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 57_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 59
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 58_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 60
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 59_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 61
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 60_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 62
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 61_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 63
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 62_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 64
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 63_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 65
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 64_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 66
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 65_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 67
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 66_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 68
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 67_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 69
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 68_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 70
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 69_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 71
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 70_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 72
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 71_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 73
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 72_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 74
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 73_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 75
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 74_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 76
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 75_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 77
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 76_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 78
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 77_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 79
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 78_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 80
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 79_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 81
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 80_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 82
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 81_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 83
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 82_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 84
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 83_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 85
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 84_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 86
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 85_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 87
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 86_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 88
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 87_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 89
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 88_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 90
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 89_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 91
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 90_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 92
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 91_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 93
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 92_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 94
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 93_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 95
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 94_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 96
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 95_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 97
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 96_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 98
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 97_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 99
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 98_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 100
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 99_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 101
+					}
+				}
+			}
+			add_country_modifier = {
+				name = 100_naval_professionalism
+				duration = -1
+				hidden = yes
+			}
+		}
+		else = {
+			add_country_modifier = {
+				name = 0_naval_professionalism
+				duration = -1
+				hidden = yes
 			}
 		}
 		update_control_variable = yes

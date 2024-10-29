@@ -16,6 +16,23 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	ap_debug = {
+		color = { 202 47 181 }
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = {
+				id = np_debug_events.9003
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	np_debug_loss = {
 		color = { 202 47 181 }
 		potential = {
