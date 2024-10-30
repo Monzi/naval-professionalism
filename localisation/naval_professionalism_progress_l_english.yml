@@ -4,7 +4,7 @@
 # 0% - Rank 0
  string_np_progress_0:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-15.0%§!\nNational Sailors Modifier: §G+15.0%§!"
 # 1%
- string_np_progress_1:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_1:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-14.6%§!\nNational Sailors Modifier: §G+14.6%§!\nHeavy Ship Combat Ability: §G+0.01%§!\nGalley Combat Ability: §G+0.01%§!\nBlockade Efficiency: §G+0.02%§!\nMarines force limit: §G+0.01%§!\n\nIf available:\nGeobukseon Force Limit: §G+0.01%§!"
 # 2%
  string_np_progress_2:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
 # 3%

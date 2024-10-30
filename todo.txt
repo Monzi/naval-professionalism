@@ -1,4 +1,4 @@
-[] Add more Modifiers | naval_professionalism_event_modifiers.txt
 [] Add Modifers to Localisation | naval_professionalism_progress_l_english.yml
+    https://eu4.paradoxwikis.com/Naval_units
 [] Add ability to Study
 [] Remove Debug code
