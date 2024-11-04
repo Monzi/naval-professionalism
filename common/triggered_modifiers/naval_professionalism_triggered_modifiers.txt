@@ -53,7 +53,7 @@ naval_professionalism_rank4_modifier = { # Naval Professionalism 80%
 
 naval_professionalism_rank5_modifier = { # Naval Professionalism 100%
     potential = {
-        always = yes
+        NOT = { has_dlc = "Golden Century" }
     }
     trigger = {
         check_variable = {
@@ -62,5 +62,20 @@ naval_professionalism_rank5_modifier = { # Naval Professionalism 100%
 		}
     }
     admiral_cost = -0.5
+    naval_tradition_from_battle = 1
+}
+
+naval_professionalism_rank5_modifier = { # Naval Professionalism 100%
+    potential = {
+        has_dlc = "Golden Century"
+    }
+    trigger = {
+        check_variable = {
+			which = navalProfessionalismVariable
+			value = 100
+		}
+    }
+    admiral_cost = -0.5
+    naval_tradition_from_battle = 1
     number_of_cannons_flagship_modifier = 1
 }

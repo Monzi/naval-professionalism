@@ -1,3 +1,15 @@
+# System Event Modifiers
+30_day_cooldown = {
+}
+
+# allowed_marine_fraction is only used, if one of the following is enabled: Rule Britannia, Golden Century, Lions of the North, Domination
+# allowed_geobukseon_fraction is only used if Domination is enabled
+# allowed_galleass_fraction is only used if Domination is enabled
+# allowed_voc_indiamen_fraction is only used if Domination is enabled
+# allowed_man_of_war_fraction is only used if Domination is enabled
+# allowed_galleon_fraction is only used if Domination is enabled
+# allowed_caravel_fraction is only used if Domination is enabled
+
 # Naval Professionalism Progress 0-100%
 0_naval_professionalism = {
 	light_ship_cost = -0.15

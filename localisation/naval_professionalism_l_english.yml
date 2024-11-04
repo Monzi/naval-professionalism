@@ -2,7 +2,7 @@
 # Interface
  navalProfessionalismVariable:0 "Naval Professionalism"
  navalProfessionalismControlVariable:0 "Naval Professionalism Control"
- naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------\n§YImmediate Gain:§!\nRecruit Admiral: §G+1%§!\nLoss Flagship: §R-5%§!"
+ naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
 
 # Ranks
 # Rank Gui Elements
@@ -11,7 +11,7 @@
  naval_professionalism_rank2_tooltip:0 "§YFlotilla Mustering§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y40.0%§!\n--------------\nShips can repair when in coastal sea zones"
  naval_professionalism_rank3_tooltip:0 "§YConscription Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y60.0%§!\n--------------\nNaval Combat Bonus off owned coast: §G+1.00§!"
  naval_professionalism_rank4_tooltip:0 "§YPermanent Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y80.0%§!\n--------------\nMorale Hit When Losing a Ship: §G-30.0%§!"
- naval_professionalism_rank5_tooltip:0 "§YProfessional Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y100.0%§!\n--------------\nAdmiral Cost: §G-50.0%§!\nFlagship Cannons: §G+100.0%§!"
+ naval_professionalism_rank5_tooltip:0 "§YProfessional Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y100.0%§!\n--------------\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_rank5_cl]"
 
 # Rank Modifiers
 # Rank 0 - Merchant Navy
@@ -21,13 +21,10 @@
  naval_professionalism_rank4_modifier:0 "Permanent Navy"
  naval_professionalism_rank5_modifier:0 "Professional Navy"
 
-# System
- naval_professionalism_events.0001.a:0 "Ok"
- naval_professionalism_events.0002.a:0 "Ok"
-
  SMALL_NP_GAIN:0 "Gain §G1.00%§! Naval Professionalism"
  MEDIUM_NP_GAIN:0 "Gain §G5.00%§! Naval Professionalism"
  LARGE_NP_GAIN:0 "Gain §G10.00%§! Naval Professionalism"
+ TINY_NP_LOSS:0 "Lose §R0.01%§! Naval Professionalism"
  SMALL_NP_LOSS:0 "Lose §R1.00%§! Naval Professionalism"
  MEDIUM_NP_LOSS:0 "Lose §R5.00%§! Naval Professionalism"
  LARGE_NP_LOSS:0 "Lose §R10.00%§! Naval Professionalism"

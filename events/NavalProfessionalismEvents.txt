@@ -3,7 +3,7 @@ namespace = naval_professionalism_events
 country_event = { # Initialize Naval Professionalism
 	id = naval_professionalism_events.0001
 	hidden = yes
-	trigger = {
+	trigger = { # For initializing Naval Professionalism for countries created after game start
 		NOT = { has_country_flag = has_naval_professionalism }
 	}
 	
@@ -1976,5 +1976,27 @@ country_event = { # Sets / Updates modifiers based on level of Naval Professiona
 
 	option = {
 		name = naval_professionalism_events.0002.a
+	}
+}
+
+country_event = {
+	id = naval_professionalism_events.0003
+	hidden = yes
+	trigger = {
+		light_ship_fraction = 0.75
+		NOT = { has_country_modifier = 30_day_cooldown }
+	}
+	
+	immediate = {
+		subtract_tiny_np_progress = yes
+		add_country_modifier = {
+			name = 30_day_cooldown
+			duration = 30
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = naval_professionalism_events.0003.a
 	}
 }

@@ -1,0 +1,8041 @@
+defined_text = { # Icon Tooltip
+	name = naval_professionalism_dlc_icon_cl
+
+	text = {
+		localisation_key = string_np_icon
+		trigger = {
+			NOT = { has_dlc = "Golden Century" }
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_icon
+		trigger = {
+			has_dlc = "Golden Century"
+		}
+	}
+}
+
+defined_text = { # Icon Tooltip
+	name = naval_professionalism_monthly_icon_cl
+	text = {
+		localisation_key = string_np_monthly_on_icon
+		trigger = {
+			light_ship_fraction = 0.75
+		}
+	}
+	text = {
+		localisation_key = string_np_monthly_off_icon
+		trigger = {
+			NOT = { light_ship_fraction = 0.75 }
+		}
+	}
+}
+
+defined_text = { # Rank 5
+	name = naval_professionalism_dlc_rank5_cl
+
+	text = {
+		localisation_key = string_np_rank5
+		trigger = {
+			NOT = { has_dlc = "Golden Century" }
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_rank5
+		trigger = {
+			has_dlc = "Golden Century"
+		}
+	}
+}
+
+defined_text = { # Marines
+	name = naval_professionalism_dlc_marines_cl
+
+	text = {
+		localisation_key = string_np_dlc_marines_0
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_1
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_2
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_3
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_4
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_5
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_6
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_7
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_8
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_9
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_10
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_11
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_12
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_13
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_14
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_15
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_16
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_17
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_18
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_19
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_20
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_21
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_22
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_23
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_24
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_25
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_26
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_27
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_28
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_29
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_30
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_31
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_32
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_33
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_34
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_35
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_36
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_37
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_38
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_39
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_40
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_41
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_42
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_43
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_44
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_45
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_46
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_47
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_48
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_49
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_50
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_51
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_52
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_53
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_54
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_55
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_56
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_57
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_58
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_59
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_60
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_61
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_62
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_63
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_64
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_65
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_66
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_67
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_68
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_69
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_70
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_71
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_72
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_73
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_74
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_75
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_76
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_77
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_78
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_79
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_80
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_81
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_82
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_83
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_84
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_85
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_86
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_87
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_88
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_89
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_90
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_91
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_92
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_93
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_94
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_95
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_96
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_97
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_98
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_99
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_marines_100
+		trigger = {
+			OR = {
+				has_dlc = "Rule Britannia"
+				has_dlc = "Golden Century"
+				has_dlc = "Lions of the North"
+				has_dlc = "Domination"
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
+}
+
+defined_text = { # Geobukseon
+	name = naval_professionalism_dlc_geobukseon_cl
+
+	text = {
+		localisation_key = string_np_dlc_geobukseon_0
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_1
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_2
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_3
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_4
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_5
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_6
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_7
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_8
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_9
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_10
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_11
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_12
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_13
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_14
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_15
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_16
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_17
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_18
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_19
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_20
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_21
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_22
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_23
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_24
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_25
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_26
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_27
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_28
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_29
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_30
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_31
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_32
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_33
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_34
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_35
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_36
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_37
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_38
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_39
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_40
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_41
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_42
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_43
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_44
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_45
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_46
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_47
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_48
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_49
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_50
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_51
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_52
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_53
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_54
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_55
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_56
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_57
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_58
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_59
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_60
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_61
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_62
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_63
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_64
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_65
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_66
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_67
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_68
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_69
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_70
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_71
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_72
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_73
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_74
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_75
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_76
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_77
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_78
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_79
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_80
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_81
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_82
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_83
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_84
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_85
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_86
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_87
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_88
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_89
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_90
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_91
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_92
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_93
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_94
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_95
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_96
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_97
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_98
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_99
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_geobukseon_100
+		trigger = {
+			has_dlc = "Domination"
+			has_idea = geobukseon # Korean National Idea 6
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
+}
+
+defined_text = { # Man of War
+	name = naval_professionalism_dlc_man_of_war_cl
+
+	text = {
+		localisation_key = string_np_dlc_man_of_war_0
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_1
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_2
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_3
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_4
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_5
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_6
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_7
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_8
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_9
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_10
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_11
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_12
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_13
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_14
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_15
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_16
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_17
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_18
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_19
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_20
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_21
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_22
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_23
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_24
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_25
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_26
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_27
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_28
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_29
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_30
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_31
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_32
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_33
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_34
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_35
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_36
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_37
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_38
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_39
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_40
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_41
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_42
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_43
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_44
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_45
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_46
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_47
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_48
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_49
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_50
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_51
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_52
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_53
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_54
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_55
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_56
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_57
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_58
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_59
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_60
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_61
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_62
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_63
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_64
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_65
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_66
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_67
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_68
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_69
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_70
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_71
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_72
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_73
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_74
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_75
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_76
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_77
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_78
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_79
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_80
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_81
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_82
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_83
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_84
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_85
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_86
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_87
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_88
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_89
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_90
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_91
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_92
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_93
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_94
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_95
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_96
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_97
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_98
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_99
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_man_of_war_100
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = eng_the_man_of_war # England / Britain Mission
+				has_country_flag = ned_man_o_wars_from_pu_flag # Netherland PU England Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
+}
+
+defined_text = { # Galleon
+	name = naval_professionalism_dlc_galleon_cl
+
+	text = {
+		localisation_key = string_np_dlc_galleon_0
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_1
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_2
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_3
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_4
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_5
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_6
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_7
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_8
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_9
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_10
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_11
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_12
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_13
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_14
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_15
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_16
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_17
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_18
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_19
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_20
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_21
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_22
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_23
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_24
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_25
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_26
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_27
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_28
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_29
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_30
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_31
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_32
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_33
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_34
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_35
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_36
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_37
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_38
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_39
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_40
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_41
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_42
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_43
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_44
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_45
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_46
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_47
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_48
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_49
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_50
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_51
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_52
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_53
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_54
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_55
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_56
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_57
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_58
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_59
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_60
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_61
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_62
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_63
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_64
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_65
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_66
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_67
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_68
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_69
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_70
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_71
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_72
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_73
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_74
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_75
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_76
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_77
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_78
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_79
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_80
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_81
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_82
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_83
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_84
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_85
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_86
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_87
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_88
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_89
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_90
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_91
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_92
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_93
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_94
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_95
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_96
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_97
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_98
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_99
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleon_100
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
+}
+
+defined_text = { # Galleass
+	name = naval_professionalism_dlc_galleass_cl
+
+	text = {
+		localisation_key = string_np_dlc_galleass_0
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+defined_text = { # Caravel
+	name = naval_professionalism_dlc_caravel_cl
+
+	text = {
+		localisation_key = string_np_dlc_caravel_0
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+defined_text = { # VOC Indiamen
+	name = naval_professionalism_dlc_voc_indiamen_cl
+
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_0
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 1
+				}
+			}
+		}
+	}
+}

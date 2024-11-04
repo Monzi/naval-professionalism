@@ -1,4 +1,18 @@
-[] Add Modifers to Localisation | naval_professionalism_progress_l_english.yml
-    https://eu4.paradoxwikis.com/Naval_units
+[] Finish Localisation
+    Split up special ship into CL triggered by having access to them | cleaner Tooltip
+    Add ranks to progress Tooltip?
+[] Add negative immediate modifier for GUI Icon
+    Do time based?
+    Recruit Light ship small minus per ship?
+    Largest percentage of navy is naval?
+[] Add DLC dependency
 [] Add ability to Study
+    Replacement for drilling
 [] Remove Debug code
+
+# Requirements
+# Feature               DLC
+Flagship                Golden Century
+Special naval units     Domination
+Marines                 Rule Britannia, Golden Century, Lions of the North, Domination
+Army professionalism    Cradle of Civilization

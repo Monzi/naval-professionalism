@@ -6,7 +6,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_naval_professionalism_bar_frame"
-		texturefile = "gfx//interface//naval_professionalism//pa_progress_frame.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_progress_frame.dds"
 		loadType = "INGAME"
 		transparencecheck = yes	
 	}
@@ -15,7 +15,7 @@ spriteTypes = {
 		name = "GFX_naval_professionalism_bar"
 		color = { 1.0 0.0 0.0 }
 		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx\\interface\\naval_professionalism\\pa_progress_bar.dds"
+		textureFile1 = "gfx\\interface\\naval_professionalism\\np_progress_bar.dds"
 		textureFile2 = "gfx\\interface\\institutions\\institution_progress_transparent.dds"
 		size = { x = 483 y = 12 }
 		effectFile = "gfx/FX/progress.lua"
@@ -23,64 +23,63 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_naval_professionalism_icon"
-		texturefile = "gfx//interface//naval_professionalism//pa_icon_large.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_icon_large.dds"
 	}
 
 
-
+	# Ranks
 	spriteType = {
 		name = "GFX_np_rank_1_base"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_1_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_1_gray.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_2_base"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_2_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_2_gray.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_3_base"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_3_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_3_gray.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_4_base"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_4_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_4_gray.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_5_base"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_5_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_5_gray.dds"
 	}
 
-	spriteType = {
+	spriteType = { # Possible use for future update
 		name = "GFX_np_rank_0"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_0.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_0.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_1"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_1.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_2"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_2.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_3"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_3.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_4"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_4.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_4.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_5"
-		texturefile = "gfx//interface//naval_professionalism//pa_rank_5.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_5.dds"
 	}
-
 }

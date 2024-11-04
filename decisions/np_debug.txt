@@ -33,42 +33,4 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	np_debug_loss = {
-		color = { 202 47 181 }
-		potential = {
-			always = yes
-		}
-		allow = {
-			always = yes
-		}
-		effect = {
-			FROM = {
-				if = {
-					limit = {
-						is_less_than_5 = yes
-					}
-					set_variable = {
-						which = navalProfessionalismVariable
-						value = 0
-					}
-				}
-				else_if = {
-					limit = { is_under_np_limit = yes }
-					set_variable = {
-						which = navalProfessionalismVariable
-						value = 0
-					}
-				}
-				else = {
-					subtract_variable = {
-						which = navalProfessionalismVariable
-						value = 5
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 }

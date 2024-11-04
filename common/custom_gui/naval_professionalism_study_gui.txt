@@ -1,7 +1,0 @@
-# Naval Professionalism Study GUI
-custom_window = {
-	name = naval_professionalism_study_window
-	potential = {
-		always = yes
-	}
-}

@@ -175,6 +175,30 @@ add_large_np_progress = {
 	}
 }
 
+subtract_tiny_np_progress = {
+	custom_tooltip = TINY_NP_LOSS
+	hidden_effect = {
+		subtract_variable = {
+			which = navalProfessionalismVariable
+			value = 0.01
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 0
+				}
+			}
+		}
+		set_variable = {
+			which = navalProfessionalismVariable
+			value = 0
+		}
+	}
+}
+
 subtract_small_np_progress = {
 	custom_tooltip = SMALL_NP_LOSS
 	hidden_effect = {

@@ -12,14 +12,23 @@ on_admiral_recruited = {
 
 # ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
 on_flagship_captured = {
-	FROM = {
-		subtract_medium_np_progress = yes
+	if = {
+		limit = { has_dlc = "Golden Century" }
+		FROM = {
+			subtract_medium_np_progress = yes
+		}
+		ROOT = {
+			add_medium_np_progress = yes
+		}
 	}
 }
 
 # ROOT = Tag that destroyed the flagship, FROM = Tag that lost the flagship
 on_flagship_destroyed = {
-	FROM = {
-		subtract_medium_np_progress = yes
+	if = {
+		limit = { has_dlc = "Golden Century" }
+		FROM = {
+			subtract_medium_np_progress = yes
+		}
 	}
 }

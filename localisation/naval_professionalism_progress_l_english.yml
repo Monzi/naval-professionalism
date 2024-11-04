@@ -1,205 +1,205 @@
 ﻿l_english:
- naval_professionalism_progress_tooltip: "[This.naval_professionalism_progress_tooltip]"
+ naval_professionalism_progress_tooltip: "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\n[This.naval_professionalism_progress_tooltip_cl][This.naval_professionalism_dlc_marines_cl][This.naval_professionalism_dlc_geobukseon_cl][This.naval_professionalism_dlc_man_of_war_cl][This.naval_professionalism_dlc_galleon_cl][This.naval_professionalism_dlc_galleass_cl][This.naval_professionalism_dlc_caravel_cl][This.naval_professionalism_dlc_voc_indiamen_cl]"
 # Progress Tooltips
 # 0% - Rank 0
- string_np_progress_0:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-15.0%§!\nNational Sailors Modifier: §G+15.0%§!"
+ string_np_progress_0:0 "Light Ship Cost: §G-15.0%§!\nNational Sailors Modifier: §G+15.0%§!"
 # 1%
- string_np_progress_1:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nLight Ship Cost: §G-14.6%§!\nNational Sailors Modifier: §G+14.6%§!\nHeavy Ship Combat Ability: §G+0.01%§!\nGalley Combat Ability: §G+0.01%§!\nBlockade Efficiency: §G+0.02%§!\nMarines force limit: §G+0.01%§!\n\nIf available:\nGeobukseon Force Limit: §G+0.01%§!"
+ string_np_progress_1:0 "Light Ship Cost: §G-14.6%§!\nNational Sailors Modifier: §G+14.6%§!\nHeavy Ship Combat Ability: §G+0.1%§!\nGalley Combat Ability: §G+0.1%§!\nBlockade Efficiency: §G+0.2%§!\nMarines Force Limit: §G+0.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.1%§!\nMan Of War Force Limit: §G+0.1%§!\nGalleon Force Limit: §G+0.1%§!\nGalleass Force Limit: §G+0.1%§!\nCaravel Force Limit: §G+0.1%§!\nVOC Indiamen Force Limit: §G+0.1%§!"
 # 2%
- string_np_progress_2:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_2:0 "Light Ship Cost: §G-14.3%§!\nNational Sailors Modifier: §G+14.3%§!\nHeavy Ship Combat Ability: §G+0.2%§!\nGalley Combat Ability: §G+0.2%§!\nBlockade Efficiency: §G+0.4%§!\nMarines Force Limit: §G+0.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.2%§!\nMan Of War Force Limit: §G+0.2%§!\nGalleon Force Limit: §G+0.2%§!\nGalleass Force Limit: §G+0.2%§!\nCaravel Force Limit: §G+0.2%§!\nVOC Indiamen Force Limit: §G+0.2%§!"
 # 3%
- string_np_progress_3:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_3:0 "Light Ship Cost: §G-14.0%§!\nNational Sailors Modifier: §G+14.0%§!\nHeavy Ship Combat Ability: §G+0.3%§!\nGalley Combat Ability: §G+0.3%§!\nBlockade Efficiency: §G+0.6%§!\nMarines Force Limit: §G+0.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.3%§!\nMan Of War Force Limit: §G+0.3%§!\nGalleon Force Limit: §G+0.3%§!\nGalleass Force Limit: §G+0.3%§!\nCaravel Force Limit: §G+0.3%§!\nVOC Indiamen Force Limit: §G+0.3%§!"
 # 4%
- string_np_progress_4:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_4:0 "Light Ship Cost: §G-13.7%§!\nNational Sailors Modifier: §G+13.7%§!\nHeavy Ship Combat Ability: §G+0.4%§!\nGalley Combat Ability: §G+0.4%§!\nBlockade Efficiency: §G+0.8%§!\nMarines Force Limit: §G+0.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.4%§!\nMan Of War Force Limit: §G+0.4%§!\nGalleon Force Limit: §G+0.4%§!\nGalleass Force Limit: §G+0.4%§!\nCaravel Force Limit: §G+0.4%§!\nVOC Indiamen Force Limit: §G+0.4%§!"
 # 5%
- string_np_progress_5:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_5:0 "Light Ship Cost: §G-13.4%§!\nNational Sailors Modifier: §G+13.4%§!\nHeavy Ship Combat Ability: §G+0.5%§!\nGalley Combat Ability: §G+0.5%§!\nBlockade Efficiency: §G+1.0%§!\nMarines Force Limit: §G+0.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.5%§!\nMan Of War Force Limit: §G+0.5%§!\nGalleon Force Limit: §G+0.5%§!\nGalleass Force Limit: §G+0.5%§!\nCaravel Force Limit: §G+0.5%§!\nVOC Indiamen Force Limit: §G+0.5%§!"
 # 6%
- string_np_progress_6:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_6:0 "Light Ship Cost: §G-13.1%§!\nNational Sailors Modifier: §G+13.1%§!\nHeavy Ship Combat Ability: §G+0.6%§!\nGalley Combat Ability: §G+0.6%§!\nBlockade Efficiency: §G+1.2%§!\nMarines Force Limit: §G+0.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.6%§!\nMan Of War Force Limit: §G+0.6%§!\nGalleon Force Limit: §G+0.6%§!\nGalleass Force Limit: §G+0.6%§!\nCaravel Force Limit: §G+0.6%§!\nVOC Indiamen Force Limit: §G+0.6%§!"
 # 7%
- string_np_progress_7:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_7:0 "Light Ship Cost: §G-12.8%§!\nNational Sailors Modifier: §G+12.8%§!\nHeavy Ship Combat Ability: §G+0.7%§!\nGalley Combat Ability: §G+0.7%§!\nBlockade Efficiency: §G+1.4%§!\nMarines Force Limit: §G+0.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.7%§!\nMan Of War Force Limit: §G+0.7%§!\nGalleon Force Limit: §G+0.7%§!\nGalleass Force Limit: §G+0.7%§!\nCaravel Force Limit: §G+0.7%§!\nVOC Indiamen Force Limit: §G+0.7%§!"
 # 8%
- string_np_progress_8:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_8:0 "Light Ship Cost: §G-12.5%§!\nNational Sailors Modifier: §G+12.5%§!\nHeavy Ship Combat Ability: §G+0.8%§!\nGalley Combat Ability: §G+0.8%§!\nBlockade Efficiency: §G+1.6%§!\nMarines Force Limit: §G+0.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.8%§!\nMan Of War Force Limit: §G+0.8%§!\nGalleon Force Limit: §G+0.8%§!\nGalleass Force Limit: §G+0.8%§!\nCaravel Force Limit: §G+0.8%§!\nVOC Indiamen Force Limit: §G+0.8%§!"
 # 9%
- string_np_progress_9:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_9:0 "Light Ship Cost: §G-12.2%§!\nNational Sailors Modifier: §G+12.2%§!\nHeavy Ship Combat Ability: §G+0.9%§!\nGalley Combat Ability: §G+0.9%§!\nBlockade Efficiency: §G+1.8%§!\nMarines Force Limit: §G+0.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+0.9%§!\nMan Of War Force Limit: §G+0.9%§!\nGalleon Force Limit: §G+0.9%§!\nGalleass Force Limit: §G+0.9%§!\nCaravel Force Limit: §G+0.9%§!\nVOC Indiamen Force Limit: §G+0.9%§!"
 # 10%
- string_np_progress_10:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_10:0 "Light Ship Cost: §G-11.9%§!\nNational Sailors Modifier: §G+11.9%§!\nHeavy Ship Combat Ability: §G+1.0%§!\nGalley Combat Ability: §G+1.0%§!\nBlockade Efficiency: §G+2.0%§!\nMarines Force Limit: §G+1.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.0%§!\nMan Of War Force Limit: §G+1.0%§!\nGalleon Force Limit: §G+1.0%§!\nGalleass Force Limit: §G+1.0%§!\nCaravel Force Limit: §G+1.0%§!\nVOC Indiamen Force Limit: §G+1.0%§!"
 # 11%
- string_np_progress_11:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_11:0 "Light Ship Cost: §G-11.6%§!\nNational Sailors Modifier: §G+11.6%§!\nHeavy Ship Combat Ability: §G+1.1%§!\nGalley Combat Ability: §G+1.1%§!\nBlockade Efficiency: §G+2.2%§!\nMarines Force Limit: §G+1.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.1%§!\nMan Of War Force Limit: §G+1.1%§!\nGalleon Force Limit: §G+1.1%§!\nGalleass Force Limit: §G+1.1%§!\nCaravel Force Limit: §G+1.1%§!\nVOC Indiamen Force Limit: §G+1.1%§!"
 # 12%
- string_np_progress_12:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_12:0 "Light Ship Cost: §G-11.3%§!\nNational Sailors Modifier: §G+11.3%§!\nHeavy Ship Combat Ability: §G+1.2%§!\nGalley Combat Ability: §G+1.2%§!\nBlockade Efficiency: §G+2.4%§!\nMarines Force Limit: §G+1.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.2%§!\nMan Of War Force Limit: §G+1.2%§!\nGalleon Force Limit: §G+1.2%§!\nGalleass Force Limit: §G+1.2%§!\nCaravel Force Limit: §G+1.2%§!\nVOC Indiamen Force Limit: §G+1.2%§!"
 # 13%
- string_np_progress_13:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_13:0 "Light Ship Cost: §G-11.0%§!\nNational Sailors Modifier: §G+11.0%§!\nHeavy Ship Combat Ability: §G+1.3%§!\nGalley Combat Ability: §G+1.3%§!\nBlockade Efficiency: §G+2.6%§!\nMarines Force Limit: §G+1.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.3%§!\nMan Of War Force Limit: §G+1.3%§!\nGalleon Force Limit: §G+1.3%§!\nGalleass Force Limit: §G+1.3%§!\nCaravel Force Limit: §G+1.3%§!\nVOC Indiamen Force Limit: §G+1.3%§!"
 # 14%
- string_np_progress_14:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_14:0 "Light Ship Cost: §G-10.7%§!\nNational Sailors Modifier: §G+10.7%§!\nHeavy Ship Combat Ability: §G+1.4%§!\nGalley Combat Ability: §G+1.4%§!\nBlockade Efficiency: §G+2.8%§!\nMarines Force Limit: §G+1.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.4%§!\nMan Of War Force Limit: §G+1.4%§!\nGalleon Force Limit: §G+1.4%§!\nGalleass Force Limit: §G+1.4%§!\nCaravel Force Limit: §G+1.4%§!\nVOC Indiamen Force Limit: §G+1.4%§!"
 # 15%
- string_np_progress_15:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_15:0 "Light Ship Cost: §G-10.4%§!\nNational Sailors Modifier: §G+10.4%§!\nHeavy Ship Combat Ability: §G+1.5%§!\nGalley Combat Ability: §G+1.5%§!\nBlockade Efficiency: §G+3.0%§!\nMarines Force Limit: §G+1.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.5%§!\nMan Of War Force Limit: §G+1.5%§!\nGalleon Force Limit: §G+1.5%§!\nGalleass Force Limit: §G+1.5%§!\nCaravel Force Limit: §G+1.5%§!\nVOC Indiamen Force Limit: §G+1.5%§!"
 # 16%
- string_np_progress_16:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_16:0 "Light Ship Cost: §G-10.1%§!\nNational Sailors Modifier: §G+10.1%§!\nHeavy Ship Combat Ability: §G+1.6%§!\nGalley Combat Ability: §G+1.6%§!\nBlockade Efficiency: §G+3.2%§!\nMarines Force Limit: §G+1.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.6%§!\nMan Of War Force Limit: §G+1.6%§!\nGalleon Force Limit: §G+1.6%§!\nGalleass Force Limit: §G+1.6%§!\nCaravel Force Limit: §G+1.6%§!\nVOC Indiamen Force Limit: §G+1.6%§!"
 # 17%
- string_np_progress_17:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_17:0 "Light Ship Cost: §G-9.8%§!\nNational Sailors Modifier: §G+9.8%§!\nHeavy Ship Combat Ability: §G+1.7%§!\nGalley Combat Ability: §G+1.7%§!\nBlockade Efficiency: §G+3.4%§!\nMarines Force Limit: §G+1.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.7%§!\nMan Of War Force Limit: §G+1.7%§!\nGalleon Force Limit: §G+1.7%§!\nGalleass Force Limit: §G+1.7%§!\nCaravel Force Limit: §G+1.7%§!\nVOC Indiamen Force Limit: §G+1.7%§!"
 # 18%
- string_np_progress_18:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_18:0 "Light Ship Cost: §G-9.5%§!\nNational Sailors Modifier: §G+9.5%§!\nHeavy Ship Combat Ability: §G+1.8%§!\nGalley Combat Ability: §G+1.8%§!\nBlockade Efficiency: §G+3.6%§!\nMarines Force Limit: §G+1.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.8%§!\nMan Of War Force Limit: §G+1.8%§!\nGalleon Force Limit: §G+1.8%§!\nGalleass Force Limit: §G+1.8%§!\nCaravel Force Limit: §G+1.8%§!\nVOC Indiamen Force Limit: §G+1.8%§!"
 # 19%
- string_np_progress_19:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_19:0 "Light Ship Cost: §G-9.2%§!\nNational Sailors Modifier: §G+9.2%§!\nHeavy Ship Combat Ability: §G+1.9%§!\nGalley Combat Ability: §G+1.9%§!\nBlockade Efficiency: §G+3.8%§!\nMarines Force Limit: §G+1.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+1.9%§!\nMan Of War Force Limit: §G+1.9%§!\nGalleon Force Limit: §G+1.9%§!\nGalleass Force Limit: §G+1.9%§!\nCaravel Force Limit: §G+1.9%§!\nVOC Indiamen Force Limit: §G+1.9%§!"
 # 20% - Rank 1
- string_np_progress_20:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_20:0 "Light Ship Cost: §G-8.9%§!\nNational Sailors Modifier: §G+8.9%§!\nHeavy Ship Combat Ability: §G+2.0%§!\nGalley Combat Ability: §G+2.0%§!\nBlockade Efficiency: §G+4.0%§!\nMarines Force Limit: §G+2.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.0%§!\nMan Of War Force Limit: §G+2.0%§!\nGalleon Force Limit: §G+2.0%§!\nGalleass Force Limit: §G+2.0%§!\nCaravel Force Limit: §G+2.0%§!\nVOC Indiamen Force Limit: §G+2.0%§!"
 # 21%
- string_np_progress_21:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_21:0 "Light Ship Cost: §G-8.6%§!\nNational Sailors Modifier: §G+8.6%§!\nHeavy Ship Combat Ability: §G+2.1%§!\nGalley Combat Ability: §G+2.1%§!\nBlockade Efficiency: §G+4.2%§!\nMarines Force Limit: §G+2.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.1%§!\nMan Of War Force Limit: §G+2.1%§!\nGalleon Force Limit: §G+2.1%§!\nGalleass Force Limit: §G+2.1%§!\nCaravel Force Limit: §G+2.1%§!\nVOC Indiamen Force Limit: §G+2.1%§!"
 # 22%
- string_np_progress_22:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_22:0 "Light Ship Cost: §G-8.3%§!\nNational Sailors Modifier: §G+8.3%§!\nHeavy Ship Combat Ability: §G+2.2%§!\nGalley Combat Ability: §G+2.2%§!\nBlockade Efficiency: §G+4.4%§!\nMarines Force Limit: §G+2.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.2%§!\nMan Of War Force Limit: §G+2.2%§!\nGalleon Force Limit: §G+2.2%§!\nGalleass Force Limit: §G+2.2%§!\nCaravel Force Limit: §G+2.2%§!\nVOC Indiamen Force Limit: §G+2.2%§!"
 # 23%
- string_np_progress_23:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_23:0 "Light Ship Cost: §G-8.0%§!\nNational Sailors Modifier: §G+8.0%§!\nHeavy Ship Combat Ability: §G+2.3%§!\nGalley Combat Ability: §G+2.3%§!\nBlockade Efficiency: §G+4.6%§!\nMarines Force Limit: §G+2.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.3%§!\nMan Of War Force Limit: §G+2.3%§!\nGalleon Force Limit: §G+2.3%§!\nGalleass Force Limit: §G+2.3%§!\nCaravel Force Limit: §G+2.3%§!\nVOC Indiamen Force Limit: §G+2.3%§!"
 # 24%
- string_np_progress_24:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_24:0 "Light Ship Cost: §G-7.7%§!\nNational Sailors Modifier: §G+7.7%§!\nHeavy Ship Combat Ability: §G+2.4%§!\nGalley Combat Ability: §G+2.4%§!\nBlockade Efficiency: §G+4.8%§!\nMarines Force Limit: §G+2.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.4%§!\nMan Of War Force Limit: §G+2.4%§!\nGalleon Force Limit: §G+2.4%§!\nGalleass Force Limit: §G+2.4%§!\nCaravel Force Limit: §G+2.4%§!\nVOC Indiamen Force Limit: §G+2.4%§!"
 # 25%
- string_np_progress_25:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_25:0 "Light Ship Cost: §G-7.4%§!\nNational Sailors Modifier: §G+7.4%§!\nHeavy Ship Combat Ability: §G+2.5%§!\nGalley Combat Ability: §G+2.5%§!\nBlockade Efficiency: §G+5.0%§!\nMarines Force Limit: §G+2.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.5%§!\nMan Of War Force Limit: §G+2.5%§!\nGalleon Force Limit: §G+2.5%§!\nGalleass Force Limit: §G+2.5%§!\nCaravel Force Limit: §G+2.5%§!\nVOC Indiamen Force Limit: §G+2.5%§!"
 # 26%
- string_np_progress_26:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_26:0 "Light Ship Cost: §G-7.1%§!\nNational Sailors Modifier: §G+7.1%§!\nHeavy Ship Combat Ability: §G+2.6%§!\nGalley Combat Ability: §G+2.6%§!\nBlockade Efficiency: §G+5.2%§!\nMarines Force Limit: §G+2.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.6%§!\nMan Of War Force Limit: §G+2.6%§!\nGalleon Force Limit: §G+2.6%§!\nGalleass Force Limit: §G+2.6%§!\nCaravel Force Limit: §G+2.6%§!\nVOC Indiamen Force Limit: §G+2.6%§!"
 # 27%
- string_np_progress_27:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_27:0 "Light Ship Cost: §G-6.8%§!\nNational Sailors Modifier: §G+6.8%§!\nHeavy Ship Combat Ability: §G+2.7%§!\nGalley Combat Ability: §G+2.7%§!\nBlockade Efficiency: §G+5.4%§!\nMarines Force Limit: §G+2.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.7%§!\nMan Of War Force Limit: §G+2.7%§!\nGalleon Force Limit: §G+2.7%§!\nGalleass Force Limit: §G+2.7%§!\nCaravel Force Limit: §G+2.7%§!\nVOC Indiamen Force Limit: §G+2.7%§!"
 # 28%
- string_np_progress_28:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_28:0 "Light Ship Cost: §G-6.5%§!\nNational Sailors Modifier: §G+6.5%§!\nHeavy Ship Combat Ability: §G+2.8%§!\nGalley Combat Ability: §G+2.8%§!\nBlockade Efficiency: §G+5.6%§!\nMarines Force Limit: §G+2.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.8%§!\nMan Of War Force Limit: §G+2.8%§!\nGalleon Force Limit: §G+2.8%§!\nGalleass Force Limit: §G+2.8%§!\nCaravel Force Limit: §G+2.8%§!\nVOC Indiamen Force Limit: §G+2.8%§!"
 # 29%
- string_np_progress_29:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_29:0 "Light Ship Cost: §G-6.2%§!\nNational Sailors Modifier: §G+6.2%§!\nHeavy Ship Combat Ability: §G+2.9%§!\nGalley Combat Ability: §G+2.9%§!\nBlockade Efficiency: §G+5.8%§!\nMarines Force Limit: §G+2.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+2.9%§!\nMan Of War Force Limit: §G+2.9%§!\nGalleon Force Limit: §G+2.9%§!\nGalleass Force Limit: §G+2.9%§!\nCaravel Force Limit: §G+2.9%§!\nVOC Indiamen Force Limit: §G+2.9%§!"
 # 30%
- string_np_progress_30:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_30:0 "Light Ship Cost: §G-5.9%§!\nNational Sailors Modifier: §G+5.9%§!\nHeavy Ship Combat Ability: §G+3.0%§!\nGalley Combat Ability: §G+3.0%§!\nBlockade Efficiency: §G+6.0%§!\nMarines Force Limit: §G+3.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.0%§!\nMan Of War Force Limit: §G+3.0%§!\nGalleon Force Limit: §G+3.0%§!\nGalleass Force Limit: §G+3.0%§!\nCaravel Force Limit: §G+3.0%§!\nVOC Indiamen Force Limit: §G+3.0%§!"
 # 31%
- string_np_progress_31:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_31:0 "Light Ship Cost: §G-5.6%§!\nNational Sailors Modifier: §G+5.6%§!\nHeavy Ship Combat Ability: §G+3.1%§!\nGalley Combat Ability: §G+3.1%§!\nBlockade Efficiency: §G+6.2%§!\nMarines Force Limit: §G+3.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.1%§!\nMan Of War Force Limit: §G+3.1%§!\nGalleon Force Limit: §G+3.1%§!\nGalleass Force Limit: §G+3.1%§!\nCaravel Force Limit: §G+3.1%§!\nVOC Indiamen Force Limit: §G+3.1%§!"
 # 32%
- string_np_progress_32:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_32:0 "Light Ship Cost: §G-5.3%§!\nNational Sailors Modifier: §G+5.3%§!\nHeavy Ship Combat Ability: §G+3.2%§!\nGalley Combat Ability: §G+3.2%§!\nBlockade Efficiency: §G+6.4%§!\nMarines Force Limit: §G+3.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.2%§!\nMan Of War Force Limit: §G+3.2%§!\nGalleon Force Limit: §G+3.2%§!\nGalleass Force Limit: §G+3.2%§!\nCaravel Force Limit: §G+3.2%§!\nVOC Indiamen Force Limit: §G+3.2%§!"
 # 33%
- string_np_progress_33:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_33:0 "Light Ship Cost: §G-5.0%§!\nNational Sailors Modifier: §G+5.0%§!\nHeavy Ship Combat Ability: §G+3.3%§!\nGalley Combat Ability: §G+3.3%§!\nBlockade Efficiency: §G+6.6%§!\nMarines Force Limit: §G+3.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.3%§!\nMan Of War Force Limit: §G+3.3%§!\nGalleon Force Limit: §G+3.3%§!\nGalleass Force Limit: §G+3.3%§!\nCaravel Force Limit: §G+3.3%§!\nVOC Indiamen Force Limit: §G+3.3%§!"
 # 34%
- string_np_progress_34:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_34:0 "Light Ship Cost: §G-4.7%§!\nNational Sailors Modifier: §G+4.7%§!\nHeavy Ship Combat Ability: §G+3.4%§!\nGalley Combat Ability: §G+3.4%§!\nBlockade Efficiency: §G+6.8%§!\nMarines Force Limit: §G+3.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.4%§!\nMan Of War Force Limit: §G+3.4%§!\nGalleon Force Limit: §G+3.4%§!\nGalleass Force Limit: §G+3.4%§!\nCaravel Force Limit: §G+3.4%§!\nVOC Indiamen Force Limit: §G+3.4%§!"
 # 35%
- string_np_progress_35:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_35:0 "Light Ship Cost: §G-4.4%§!\nNational Sailors Modifier: §G+4.4%§!\nHeavy Ship Combat Ability: §G+3.5%§!\nGalley Combat Ability: §G+3.5%§!\nBlockade Efficiency: §G+7.0%§!\nMarines Force Limit: §G+3.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.5%§!\nMan Of War Force Limit: §G+3.5%§!\nGalleon Force Limit: §G+3.5%§!\nGalleass Force Limit: §G+3.5%§!\nCaravel Force Limit: §G+3.5%§!\nVOC Indiamen Force Limit: §G+3.5%§!"
 # 36%
- string_np_progress_36:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_36:0 "Light Ship Cost: §G-4.1%§!\nNational Sailors Modifier: §G+4.1%§!\nHeavy Ship Combat Ability: §G+3.6%§!\nGalley Combat Ability: §G+3.6%§!\nBlockade Efficiency: §G+7.2%§!\nMarines Force Limit: §G+3.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.6%§!\nMan Of War Force Limit: §G+3.6%§!\nGalleon Force Limit: §G+3.6%§!\nGalleass Force Limit: §G+3.6%§!\nCaravel Force Limit: §G+3.6%§!\nVOC Indiamen Force Limit: §G+3.6%§!"
 # 37%
- string_np_progress_37:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_37:0 "Light Ship Cost: §G-3.8%§!\nNational Sailors Modifier: §G+3.8%§!\nHeavy Ship Combat Ability: §G+3.7%§!\nGalley Combat Ability: §G+3.7%§!\nBlockade Efficiency: §G+7.4%§!\nMarines Force Limit: §G+3.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.7%§!\nMan Of War Force Limit: §G+3.7%§!\nGalleon Force Limit: §G+3.7%§!\nGalleass Force Limit: §G+3.7%§!\nCaravel Force Limit: §G+3.7%§!\nVOC Indiamen Force Limit: §G+3.7%§!"
 # 38%
- string_np_progress_38:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_38:0 "Light Ship Cost: §G-3.5%§!\nNational Sailors Modifier: §G+3.5%§!\nHeavy Ship Combat Ability: §G+3.8%§!\nGalley Combat Ability: §G+3.8%§!\nBlockade Efficiency: §G+7.6%§!\nMarines Force Limit: §G+3.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.8%§!\nMan Of War Force Limit: §G+3.8%§!\nGalleon Force Limit: §G+3.8%§!\nGalleass Force Limit: §G+3.8%§!\nCaravel Force Limit: §G+3.8%§!\nVOC Indiamen Force Limit: §G+3.8%§!"
 # 39%
- string_np_progress_39:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_39:0 "Light Ship Cost: §G-3.2%§!\nNational Sailors Modifier: §G+3.2%§!\nHeavy Ship Combat Ability: §G+3.9%§!\nGalley Combat Ability: §G+3.9%§!\nBlockade Efficiency: §G+7.8%§!\nMarines Force Limit: §G+3.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+3.9%§!\nMan Of War Force Limit: §G+3.9%§!\nGalleon Force Limit: §G+3.9%§!\nGalleass Force Limit: §G+3.9%§!\nCaravel Force Limit: §G+3.9%§!\nVOC Indiamen Force Limit: §G+3.9%§!"
 # 40% - Rank 2
- string_np_progress_40:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_40:0 "Light Ship Cost: §G-2.9%§!\nNational Sailors Modifier: §G+2.9%§!\nHeavy Ship Combat Ability: §G+4.0%§!\nGalley Combat Ability: §G+4.0%§!\nBlockade Efficiency: §G+8.0%§!\nMarines Force Limit: §G+4.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.0%§!\nMan Of War Force Limit: §G+4.0%§!\nGalleon Force Limit: §G+4.0%§!\nGalleass Force Limit: §G+4.0%§!\nCaravel Force Limit: §G+4.0%§!\nVOC Indiamen Force Limit: §G+4.0%§!"
 # 41%
- string_np_progress_41:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_41:0 "Light Ship Cost: §G-2.6%§!\nNational Sailors Modifier: §G+2.6%§!\nHeavy Ship Combat Ability: §G+4.1%§!\nGalley Combat Ability: §G+4.1%§!\nBlockade Efficiency: §G+8.2%§!\nMarines Force Limit: §G+4.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.1%§!\nMan Of War Force Limit: §G+4.1%§!\nGalleon Force Limit: §G+4.1%§!\nGalleass Force Limit: §G+4.1%§!\nCaravel Force Limit: §G+4.1%§!\nVOC Indiamen Force Limit: §G+4.1%§!"
 # 42%
- string_np_progress_42:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_42:0 "Light Ship Cost: §G-2.3%§!\nNational Sailors Modifier: §G+2.3%§!\nHeavy Ship Combat Ability: §G+4.2%§!\nGalley Combat Ability: §G+4.2%§!\nBlockade Efficiency: §G+8.4%§!\nMarines Force Limit: §G+4.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.2%§!\nMan Of War Force Limit: §G+4.2%§!\nGalleon Force Limit: §G+4.2%§!\nGalleass Force Limit: §G+4.2%§!\nCaravel Force Limit: §G+4.2%§!\nVOC Indiamen Force Limit: §G+4.2%§!"
 # 43%
- string_np_progress_43:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_43:0 "Light Ship Cost: §G-2.0%§!\nNational Sailors Modifier: §G+2.0%§!\nHeavy Ship Combat Ability: §G+4.3%§!\nGalley Combat Ability: §G+4.3%§!\nBlockade Efficiency: §G+8.6%§!\nMarines Force Limit: §G+4.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.3%§!\nMan Of War Force Limit: §G+4.3%§!\nGalleon Force Limit: §G+4.3%§!\nGalleass Force Limit: §G+4.3%§!\nCaravel Force Limit: §G+4.3%§!\nVOC Indiamen Force Limit: §G+4.3%§!"
 # 44%
- string_np_progress_44:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_44:0 "Light Ship Cost: §G-1.7%§!\nNational Sailors Modifier: §G+1.7%§!\nHeavy Ship Combat Ability: §G+4.4%§!\nGalley Combat Ability: §G+4.4%§!\nBlockade Efficiency: §G+8.8%§!\nMarines Force Limit: §G+4.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.4%§!\nMan Of War Force Limit: §G+4.4%§!\nGalleon Force Limit: §G+4.4%§!\nGalleass Force Limit: §G+4.4%§!\nCaravel Force Limit: §G+4.4%§!\nVOC Indiamen Force Limit: §G+4.4%§!"
 # 45%
- string_np_progress_45:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_45:0 "Light Ship Cost: §G-1.4%§!\nNational Sailors Modifier: §G+1.4%§!\nHeavy Ship Combat Ability: §G+4.5%§!\nGalley Combat Ability: §G+4.5%§!\nBlockade Efficiency: §G+9.0%§!\nMarines Force Limit: §G+4.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.5%§!\nMan Of War Force Limit: §G+4.5%§!\nGalleon Force Limit: §G+4.5%§!\nGalleass Force Limit: §G+4.5%§!\nCaravel Force Limit: §G+4.5%§!\nVOC Indiamen Force Limit: §G+4.5%§!"
 # 46%
- string_np_progress_46:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_46:0 "Light Ship Cost: §G-1.1%§!\nNational Sailors Modifier: §G+1.1%§!\nHeavy Ship Combat Ability: §G+4.6%§!\nGalley Combat Ability: §G+4.6%§!\nBlockade Efficiency: §G+9.2%§!\nMarines Force Limit: §G+4.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.6%§!\nMan Of War Force Limit: §G+4.6%§!\nGalleon Force Limit: §G+4.6%§!\nGalleass Force Limit: §G+4.6%§!\nCaravel Force Limit: §G+4.6%§!\nVOC Indiamen Force Limit: §G+4.6%§!"
 # 47%
- string_np_progress_47:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_47:0 "Light Ship Cost: §G-0.8%§!\nNational Sailors Modifier: §G+0.8%§!\nHeavy Ship Combat Ability: §G+4.7%§!\nGalley Combat Ability: §G+4.7%§!\nBlockade Efficiency: §G+9.4%§!\nMarines Force Limit: §G+4.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.7%§!\nMan Of War Force Limit: §G+4.7%§!\nGalleon Force Limit: §G+4.7%§!\nGalleass Force Limit: §G+4.7%§!\nCaravel Force Limit: §G+4.7%§!\nVOC Indiamen Force Limit: §G+4.7%§!"
 # 48%
- string_np_progress_48:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_48:0 "Light Ship Cost: §G-0.5%§!\nNational Sailors Modifier: §G+0.5%§!\nHeavy Ship Combat Ability: §G+4.8%§!\nGalley Combat Ability: §G+4.8%§!\nBlockade Efficiency: §G+9.6%§!\nMarines Force Limit: §G+4.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.8%§!\nMan Of War Force Limit: §G+4.8%§!\nGalleon Force Limit: §G+4.8%§!\nGalleass Force Limit: §G+4.8%§!\nCaravel Force Limit: §G+4.8%§!\nVOC Indiamen Force Limit: §G+4.8%§!"
 # 49%
- string_np_progress_49:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_49:0 "Light Ship Cost: §G-0.2%§!\nNational Sailors Modifier: §G+0.2%§!\nHeavy Ship Combat Ability: §G+4.9%§!\nGalley Combat Ability: §G+4.9%§!\nBlockade Efficiency: §G+9.8%§!\nMarines Force Limit: §G+4.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+4.9%§!\nMan Of War Force Limit: §G+4.9%§!\nGalleon Force Limit: §G+4.9%§!\nGalleass Force Limit: §G+4.9%§!\nCaravel Force Limit: §G+4.9%§!\nVOC Indiamen Force Limit: §G+4.9%§!"
 # 50%
- string_np_progress_50:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_50:0 "Heavy Ship Combat Ability: §G+5.0%§!\nGalley Combat Ability: §G+5.0%§!\nBlockade Efficiency: §G+10.0%§!\nMarines Force Limit: §G+5.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.0%§!\nMan Of War Force Limit: §G+5.0%§!\nGalleon Force Limit: §G+5.0%§!\nGalleass Force Limit: §G+5.0%§!\nCaravel Force Limit: §G+5.0%§!\nVOC Indiamen Force Limit: §G+5.0%§!"
 # 51%
- string_np_progress_51:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_51:0 "Heavy Ship Combat Ability: §G+5.1%§!\nGalley Combat Ability: §G+5.1%§!\nBlockade Efficiency: §G+10.2%§!\nMarines Force Limit: §G+5.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.1%§!\nMan Of War Force Limit: §G+5.1%§!\nGalleon Force Limit: §G+5.1%§!\nGalleass Force Limit: §G+5.1%§!\nCaravel Force Limit: §G+5.1%§!\nVOC Indiamen Force Limit: §G+5.1%§!"
 # 52%
- string_np_progress_52:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_52:0 "Heavy Ship Combat Ability: §G+5.2%§!\nGalley Combat Ability: §G+5.2%§!\nBlockade Efficiency: §G+10.4%§!\nMarines Force Limit: §G+5.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.2%§!\nMan Of War Force Limit: §G+5.2%§!\nGalleon Force Limit: §G+5.2%§!\nGalleass Force Limit: §G+5.2%§!\nCaravel Force Limit: §G+5.2%§!\nVOC Indiamen Force Limit: §G+5.2%§!"
 # 53%
- string_np_progress_53:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_53:0 "Heavy Ship Combat Ability: §G+5.3%§!\nGalley Combat Ability: §G+5.3%§!\nBlockade Efficiency: §G+10.6%§!\nMarines Force Limit: §G+5.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.3%§!\nMan Of War Force Limit: §G+5.3%§!\nGalleon Force Limit: §G+5.3%§!\nGalleass Force Limit: §G+5.3%§!\nCaravel Force Limit: §G+5.3%§!\nVOC Indiamen Force Limit: §G+5.3%§!"
 # 54%
- string_np_progress_54:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_54:0 "Heavy Ship Combat Ability: §G+5.4%§!\nGalley Combat Ability: §G+5.4%§!\nBlockade Efficiency: §G+10.8%§!\nMarines Force Limit: §G+5.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.4%§!\nMan Of War Force Limit: §G+5.4%§!\nGalleon Force Limit: §G+5.4%§!\nGalleass Force Limit: §G+5.4%§!\nCaravel Force Limit: §G+5.4%§!\nVOC Indiamen Force Limit: §G+5.4%§!"
 # 55%
- string_np_progress_55:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_55:0 "Heavy Ship Combat Ability: §G+5.5%§!\nGalley Combat Ability: §G+5.5%§!\nBlockade Efficiency: §G+11.0%§!\nMarines Force Limit: §G+5.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.5%§!\nMan Of War Force Limit: §G+5.5%§!\nGalleon Force Limit: §G+5.5%§!\nGalleass Force Limit: §G+5.5%§!\nCaravel Force Limit: §G+5.5%§!\nVOC Indiamen Force Limit: §G+5.5%§!"
 # 56%
- string_np_progress_56:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_56:0 "Heavy Ship Combat Ability: §G+5.6%§!\nGalley Combat Ability: §G+5.6%§!\nBlockade Efficiency: §G+11.2%§!\nMarines Force Limit: §G+5.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.6%§!\nMan Of War Force Limit: §G+5.6%§!\nGalleon Force Limit: §G+5.6%§!\nGalleass Force Limit: §G+5.6%§!\nCaravel Force Limit: §G+5.6%§!\nVOC Indiamen Force Limit: §G+5.6%§!"
 # 57%
- string_np_progress_57:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_57:0 "Heavy Ship Combat Ability: §G+5.7%§!\nGalley Combat Ability: §G+5.7%§!\nBlockade Efficiency: §G+11.4%§!\nMarines Force Limit: §G+5.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.7%§!\nMan Of War Force Limit: §G+5.7%§!\nGalleon Force Limit: §G+5.7%§!\nGalleass Force Limit: §G+5.7%§!\nCaravel Force Limit: §G+5.7%§!\nVOC Indiamen Force Limit: §G+5.7%§!"
 # 58%
- string_np_progress_58:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_58:0 "Heavy Ship Combat Ability: §G+5.8%§!\nGalley Combat Ability: §G+5.8%§!\nBlockade Efficiency: §G+11.6%§!\nMarines Force Limit: §G+5.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.8%§!\nMan Of War Force Limit: §G+5.8%§!\nGalleon Force Limit: §G+5.8%§!\nGalleass Force Limit: §G+5.8%§!\nCaravel Force Limit: §G+5.8%§!\nVOC Indiamen Force Limit: §G+5.8%§!"
 # 59%
- string_np_progress_59:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_59:0 "Heavy Ship Combat Ability: §G+5.9%§!\nGalley Combat Ability: §G+5.9%§!\nBlockade Efficiency: §G+11.8%§!\nMarines Force Limit: §G+5.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+5.9%§!\nMan Of War Force Limit: §G+5.9%§!\nGalleon Force Limit: §G+5.9%§!\nGalleass Force Limit: §G+5.9%§!\nCaravel Force Limit: §G+5.9%§!\nVOC Indiamen Force Limit: §G+5.9%§!"
 # 60% - Rank 3
- string_np_progress_60:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_60:0 "Heavy Ship Combat Ability: §G+6.0%§!\nGalley Combat Ability: §G+6.0%§!\nBlockade Efficiency: §G+12.0%§!\nMarines Force Limit: §G+6.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.0%§!\nMan Of War Force Limit: §G+6.0%§!\nGalleon Force Limit: §G+6.0%§!\nGalleass Force Limit: §G+6.0%§!\nCaravel Force Limit: §G+6.0%§!\nVOC Indiamen Force Limit: §G+6.0%§!"
 # 61%
- string_np_progress_61:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_61:0 "Heavy Ship Combat Ability: §G+6.1%§!\nGalley Combat Ability: §G+6.1%§!\nBlockade Efficiency: §G+12.2%§!\nMarines Force Limit: §G+6.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.1%§!\nMan Of War Force Limit: §G+6.1%§!\nGalleon Force Limit: §G+6.1%§!\nGalleass Force Limit: §G+6.1%§!\nCaravel Force Limit: §G+6.1%§!\nVOC Indiamen Force Limit: §G+6.1%§!"
 # 62%
- string_np_progress_62:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_62:0 "Heavy Ship Combat Ability: §G+6.2%§!\nGalley Combat Ability: §G+6.2%§!\nBlockade Efficiency: §G+12.4%§!\nMarines Force Limit: §G+6.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.2%§!\nMan Of War Force Limit: §G+6.2%§!\nGalleon Force Limit: §G+6.2%§!\nGalleass Force Limit: §G+6.2%§!\nCaravel Force Limit: §G+6.2%§!\nVOC Indiamen Force Limit: §G+6.2%§!"
 # 63%
- string_np_progress_63:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_63:0 "Heavy Ship Combat Ability: §G+6.3%§!\nGalley Combat Ability: §G+6.3%§!\nBlockade Efficiency: §G+12.6%§!\nMarines Force Limit: §G+6.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.3%§!\nMan Of War Force Limit: §G+6.3%§!\nGalleon Force Limit: §G+6.3%§!\nGalleass Force Limit: §G+6.3%§!\nCaravel Force Limit: §G+6.3%§!\nVOC Indiamen Force Limit: §G+6.3%§!"
 # 64%
- string_np_progress_64:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_64:0 "Heavy Ship Combat Ability: §G+6.4%§!\nGalley Combat Ability: §G+6.4%§!\nBlockade Efficiency: §G+12.8%§!\nMarines Force Limit: §G+6.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.4%§!\nMan Of War Force Limit: §G+6.4%§!\nGalleon Force Limit: §G+6.4%§!\nGalleass Force Limit: §G+6.4%§!\nCaravel Force Limit: §G+6.4%§!\nVOC Indiamen Force Limit: §G+6.4%§!"
 # 65%
- string_np_progress_65:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_65:0 "Heavy Ship Combat Ability: §G+6.5%§!\nGalley Combat Ability: §G+6.5%§!\nBlockade Efficiency: §G+13.0%§!\nMarines Force Limit: §G+6.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.5%§!\nMan Of War Force Limit: §G+6.5%§!\nGalleon Force Limit: §G+6.5%§!\nGalleass Force Limit: §G+6.5%§!\nCaravel Force Limit: §G+6.5%§!\nVOC Indiamen Force Limit: §G+6.5%§!"
 # 66%
- string_np_progress_66:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_66:0 "Heavy Ship Combat Ability: §G+6.6%§!\nGalley Combat Ability: §G+6.6%§!\nBlockade Efficiency: §G+13.2%§!\nMarines Force Limit: §G+6.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.6%§!\nMan Of War Force Limit: §G+6.6%§!\nGalleon Force Limit: §G+6.6%§!\nGalleass Force Limit: §G+6.6%§!\nCaravel Force Limit: §G+6.6%§!\nVOC Indiamen Force Limit: §G+6.6%§!"
 # 67%
- string_np_progress_67:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_67:0 "Heavy Ship Combat Ability: §G+6.7%§!\nGalley Combat Ability: §G+6.7%§!\nBlockade Efficiency: §G+13.4%§!\nMarines Force Limit: §G+6.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.7%§!\nMan Of War Force Limit: §G+6.7%§!\nGalleon Force Limit: §G+6.7%§!\nGalleass Force Limit: §G+6.7%§!\nCaravel Force Limit: §G+6.7%§!\nVOC Indiamen Force Limit: §G+6.7%§!"
 # 68%
- string_np_progress_68:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_68:0 "Heavy Ship Combat Ability: §G+6.8%§!\nGalley Combat Ability: §G+6.8%§!\nBlockade Efficiency: §G+13.6%§!\nMarines Force Limit: §G+6.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.8%§!\nMan Of War Force Limit: §G+6.8%§!\nGalleon Force Limit: §G+6.8%§!\nGalleass Force Limit: §G+6.8%§!\nCaravel Force Limit: §G+6.8%§!\nVOC Indiamen Force Limit: §G+6.8%§!"
 # 69%
- string_np_progress_69:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_69:0 "Heavy Ship Combat Ability: §G+6.9%§!\nGalley Combat Ability: §G+6.9%§!\nBlockade Efficiency: §G+13.8%§!\nMarines Force Limit: §G+6.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+6.9%§!\nMan Of War Force Limit: §G+6.9%§!\nGalleon Force Limit: §G+6.9%§!\nGalleass Force Limit: §G+6.9%§!\nCaravel Force Limit: §G+6.9%§!\nVOC Indiamen Force Limit: §G+6.9%§!"
 # 70%
- string_np_progress_70:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_70:0 "Heavy Ship Combat Ability: §G+7.0%§!\nGalley Combat Ability: §G+7.0%§!\nBlockade Efficiency: §G+14.0%§!\nMarines Force Limit: §G+7.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.0%§!\nMan Of War Force Limit: §G+7.0%§!\nGalleon Force Limit: §G+7.0%§!\nGalleass Force Limit: §G+7.0%§!\nCaravel Force Limit: §G+7.0%§!\nVOC Indiamen Force Limit: §G+7.0%§!"
 # 71%
- string_np_progress_71:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_71:0 "Heavy Ship Combat Ability: §G+7.1%§!\nGalley Combat Ability: §G+7.1%§!\nBlockade Efficiency: §G+14.2%§!\nMarines Force Limit: §G+7.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.1%§!\nMan Of War Force Limit: §G+7.1%§!\nGalleon Force Limit: §G+7.1%§!\nGalleass Force Limit: §G+7.1%§!\nCaravel Force Limit: §G+7.1%§!\nVOC Indiamen Force Limit: §G+7.1%§!"
 # 72%
- string_np_progress_72:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_72:0 "Heavy Ship Combat Ability: §G+7.2%§!\nGalley Combat Ability: §G+7.2%§!\nBlockade Efficiency: §G+14.4%§!\nMarines Force Limit: §G+7.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.2%§!\nMan Of War Force Limit: §G+7.2%§!\nGalleon Force Limit: §G+7.2%§!\nGalleass Force Limit: §G+7.2%§!\nCaravel Force Limit: §G+7.2%§!\nVOC Indiamen Force Limit: §G+7.2%§!"
 # 73%
- string_np_progress_73:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_73:0 "Heavy Ship Combat Ability: §G+7.3%§!\nGalley Combat Ability: §G+7.3%§!\nBlockade Efficiency: §G+14.6%§!\nMarines Force Limit: §G+7.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.3%§!\nMan Of War Force Limit: §G+7.3%§!\nGalleon Force Limit: §G+7.3%§!\nGalleass Force Limit: §G+7.3%§!\nCaravel Force Limit: §G+7.3%§!\nVOC Indiamen Force Limit: §G+7.3%§!"
 # 74%
- string_np_progress_74:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_74:0 "Heavy Ship Combat Ability: §G+7.4%§!\nGalley Combat Ability: §G+7.4%§!\nBlockade Efficiency: §G+14.8%§!\nMarines Force Limit: §G+7.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.4%§!\nMan Of War Force Limit: §G+7.4%§!\nGalleon Force Limit: §G+7.4%§!\nGalleass Force Limit: §G+7.4%§!\nCaravel Force Limit: §G+7.4%§!\nVOC Indiamen Force Limit: §G+7.4%§!"
 # 75%
- string_np_progress_75:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_75:0 "Heavy Ship Combat Ability: §G+7.5%§!\nGalley Combat Ability: §G+7.5%§!\nBlockade Efficiency: §G+15.0%§!\nMarines Force Limit: §G+7.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.5%§!\nMan Of War Force Limit: §G+7.5%§!\nGalleon Force Limit: §G+7.5%§!\nGalleass Force Limit: §G+7.5%§!\nCaravel Force Limit: §G+7.5%§!\nVOC Indiamen Force Limit: §G+7.5%§!"
 # 76%
- string_np_progress_76:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_76:0 "Heavy Ship Combat Ability: §G+7.6%§!\nGalley Combat Ability: §G+7.6%§!\nBlockade Efficiency: §G+15.2%§!\nMarines Force Limit: §G+7.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.6%§!\nMan Of War Force Limit: §G+7.6%§!\nGalleon Force Limit: §G+7.6%§!\nGalleass Force Limit: §G+7.6%§!\nCaravel Force Limit: §G+7.6%§!\nVOC Indiamen Force Limit: §G+7.6%§!"
 # 77%
- string_np_progress_77:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_77:0 "Heavy Ship Combat Ability: §G+7.7%§!\nGalley Combat Ability: §G+7.7%§!\nBlockade Efficiency: §G+15.4%§!\nMarines Force Limit: §G+7.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.7%§!\nMan Of War Force Limit: §G+7.7%§!\nGalleon Force Limit: §G+7.7%§!\nGalleass Force Limit: §G+7.7%§!\nCaravel Force Limit: §G+7.7%§!\nVOC Indiamen Force Limit: §G+7.7%§!"
 # 78%
- string_np_progress_78:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_78:0 "Heavy Ship Combat Ability: §G+7.8%§!\nGalley Combat Ability: §G+7.8%§!\nBlockade Efficiency: §G+15.6%§!\nMarines Force Limit: §G+7.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.8%§!\nMan Of War Force Limit: §G+7.8%§!\nGalleon Force Limit: §G+7.8%§!\nGalleass Force Limit: §G+7.8%§!\nCaravel Force Limit: §G+7.8%§!\nVOC Indiamen Force Limit: §G+7.8%§!"
 # 79%
- string_np_progress_79:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_79:0 "Heavy Ship Combat Ability: §G+7.9%§!\nGalley Combat Ability: §G+7.9%§!\nBlockade Efficiency: §G+15.8%§!\nMarines Force Limit: §G+7.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+7.9%§!\nMan Of War Force Limit: §G+7.9%§!\nGalleon Force Limit: §G+7.9%§!\nGalleass Force Limit: §G+7.9%§!\nCaravel Force Limit: §G+7.9%§!\nVOC Indiamen Force Limit: §G+7.9%§!"
 # 80% - Rank 4
- string_np_progress_80:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_80:0 "Heavy Ship Combat Ability: §G+8.0%§!\nGalley Combat Ability: §G+8.0%§!\nBlockade Efficiency: §G+16.0%§!\nMarines Force Limit: §G+8.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.0%§!\nMan Of War Force Limit: §G+8.0%§!\nGalleon Force Limit: §G+8.0%§!\nGalleass Force Limit: §G+8.0%§!\nCaravel Force Limit: §G+8.0%§!\nVOC Indiamen Force Limit: §G+8.0%§!"
 # 81%
- string_np_progress_81:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_81:0 "Heavy Ship Combat Ability: §G+8.1%§!\nGalley Combat Ability: §G+8.1%§!\nBlockade Efficiency: §G+16.2%§!\nMarines Force Limit: §G+8.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.1%§!\nMan Of War Force Limit: §G+8.1%§!\nGalleon Force Limit: §G+8.1%§!\nGalleass Force Limit: §G+8.1%§!\nCaravel Force Limit: §G+8.1%§!\nVOC Indiamen Force Limit: §G+8.1%§!"
 # 82%
- string_np_progress_82:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_82:0 "Heavy Ship Combat Ability: §G+8.2%§!\nGalley Combat Ability: §G+8.2%§!\nBlockade Efficiency: §G+16.4%§!\nMarines Force Limit: §G+8.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.2%§!\nMan Of War Force Limit: §G+8.2%§!\nGalleon Force Limit: §G+8.2%§!\nGalleass Force Limit: §G+8.2%§!\nCaravel Force Limit: §G+8.2%§!\nVOC Indiamen Force Limit: §G+8.2%§!"
 # 83%
- string_np_progress_83:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_83:0 "Heavy Ship Combat Ability: §G+8.3%§!\nGalley Combat Ability: §G+8.3%§!\nBlockade Efficiency: §G+16.6%§!\nMarines Force Limit: §G+8.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.3%§!\nMan Of War Force Limit: §G+8.3%§!\nGalleon Force Limit: §G+8.3%§!\nGalleass Force Limit: §G+8.3%§!\nCaravel Force Limit: §G+8.3%§!\nVOC Indiamen Force Limit: §G+8.3%§!"
 # 84%
- string_np_progress_84:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_84:0 "Heavy Ship Combat Ability: §G+8.4%§!\nGalley Combat Ability: §G+8.4%§!\nBlockade Efficiency: §G+16.8%§!\nMarines Force Limit: §G+8.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.4%§!\nMan Of War Force Limit: §G+8.4%§!\nGalleon Force Limit: §G+8.4%§!\nGalleass Force Limit: §G+8.4%§!\nCaravel Force Limit: §G+8.4%§!\nVOC Indiamen Force Limit: §G+8.4%§!"
 # 85%
- string_np_progress_85:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_85:0 "Heavy Ship Combat Ability: §G+8.5%§!\nGalley Combat Ability: §G+8.5%§!\nBlockade Efficiency: §G+17.0%§!\nMarines Force Limit: §G+8.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.5%§!\nMan Of War Force Limit: §G+8.5%§!\nGalleon Force Limit: §G+8.5%§!\nGalleass Force Limit: §G+8.5%§!\nCaravel Force Limit: §G+8.5%§!\nVOC Indiamen Force Limit: §G+8.5%§!"
 # 86%
- string_np_progress_86:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_86:0 "Heavy Ship Combat Ability: §G+8.6%§!\nGalley Combat Ability: §G+8.6%§!\nBlockade Efficiency: §G+17.2%§!\nMarines Force Limit: §G+8.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.6%§!\nMan Of War Force Limit: §G+8.6%§!\nGalleon Force Limit: §G+8.6%§!\nGalleass Force Limit: §G+8.6%§!\nCaravel Force Limit: §G+8.6%§!\nVOC Indiamen Force Limit: §G+8.6%§!"
 # 87%
- string_np_progress_87:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_87:0 "Heavy Ship Combat Ability: §G+8.7%§!\nGalley Combat Ability: §G+8.7%§!\nBlockade Efficiency: §G+17.4%§!\nMarines Force Limit: §G+8.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.7%§!\nMan Of War Force Limit: §G+8.7%§!\nGalleon Force Limit: §G+8.7%§!\nGalleass Force Limit: §G+8.7%§!\nCaravel Force Limit: §G+8.7%§!\nVOC Indiamen Force Limit: §G+8.7%§!"
 # 88%
- string_np_progress_88:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_88:0 "Heavy Ship Combat Ability: §G+8.8%§!\nGalley Combat Ability: §G+8.8%§!\nBlockade Efficiency: §G+17.6%§!\nMarines Force Limit: §G+8.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.8%§!\nMan Of War Force Limit: §G+8.8%§!\nGalleon Force Limit: §G+8.8%§!\nGalleass Force Limit: §G+8.8%§!\nCaravel Force Limit: §G+8.8%§!\nVOC Indiamen Force Limit: §G+8.8%§!"
 # 89%
- string_np_progress_89:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_89:0 "Heavy Ship Combat Ability: §G+8.9%§!\nGalley Combat Ability: §G+8.9%§!\nBlockade Efficiency: §G+17.8%§!\nMarines Force Limit: §G+8.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+8.9%§!\nMan Of War Force Limit: §G+8.9%§!\nGalleon Force Limit: §G+8.9%§!\nGalleass Force Limit: §G+8.9%§!\nCaravel Force Limit: §G+8.9%§!\nVOC Indiamen Force Limit: §G+8.9%§!"
 # 90%
- string_np_progress_90:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_90:0 "Heavy Ship Combat Ability: §G+9.0%§!\nGalley Combat Ability: §G+9.0%§!\nBlockade Efficiency: §G+18.0%§!\nMarines Force Limit: §G+9.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.0%§!\nMan Of War Force Limit: §G+9.0%§!\nGalleon Force Limit: §G+9.0%§!\nGalleass Force Limit: §G+9.0%§!\nCaravel Force Limit: §G+9.0%§!\nVOC Indiamen Force Limit: §G+9.0%§!"
 # 91%
- string_np_progress_91:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_91:0 "Heavy Ship Combat Ability: §G+9.1%§!\nGalley Combat Ability: §G+9.1%§!\nBlockade Efficiency: §G+18.2%§!\nMarines Force Limit: §G+9.1%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.1%§!\nMan Of War Force Limit: §G+9.1%§!\nGalleon Force Limit: §G+9.1%§!\nGalleass Force Limit: §G+9.1%§!\nCaravel Force Limit: §G+9.1%§!\nVOC Indiamen Force Limit: §G+9.1%§!"
 # 92%
- string_np_progress_92:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_92:0 "Heavy Ship Combat Ability: §G+9.2%§!\nGalley Combat Ability: §G+9.2%§!\nBlockade Efficiency: §G+18.4%§!\nMarines Force Limit: §G+9.2%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.2%§!\nMan Of War Force Limit: §G+9.2%§!\nGalleon Force Limit: §G+9.2%§!\nGalleass Force Limit: §G+9.2%§!\nCaravel Force Limit: §G+9.2%§!\nVOC Indiamen Force Limit: §G+9.2%§!"
 # 93%
- string_np_progress_93:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_93:0 "Heavy Ship Combat Ability: §G+9.3%§!\nGalley Combat Ability: §G+9.3%§!\nBlockade Efficiency: §G+18.6%§!\nMarines Force Limit: §G+9.3%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.3%§!\nMan Of War Force Limit: §G+9.3%§!\nGalleon Force Limit: §G+9.3%§!\nGalleass Force Limit: §G+9.3%§!\nCaravel Force Limit: §G+9.3%§!\nVOC Indiamen Force Limit: §G+9.3%§!"
 # 94%
- string_np_progress_94:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_94:0 "Heavy Ship Combat Ability: §G+9.4%§!\nGalley Combat Ability: §G+9.4%§!\nBlockade Efficiency: §G+18.8%§!\nMarines Force Limit: §G+9.4%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.4%§!\nMan Of War Force Limit: §G+9.4%§!\nGalleon Force Limit: §G+9.4%§!\nGalleass Force Limit: §G+9.4%§!\nCaravel Force Limit: §G+9.4%§!\nVOC Indiamen Force Limit: §G+9.4%§!"
 # 95%
- string_np_progress_95:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_95:0 "Heavy Ship Combat Ability: §G+9.5%§!\nGalley Combat Ability: §G+9.5%§!\nBlockade Efficiency: §G+19.0%§!\nMarines Force Limit: §G+9.5%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.5%§!\nMan Of War Force Limit: §G+9.5%§!\nGalleon Force Limit: §G+9.5%§!\nGalleass Force Limit: §G+9.5%§!\nCaravel Force Limit: §G+9.5%§!\nVOC Indiamen Force Limit: §G+9.5%§!"
 # 96%
- string_np_progress_96:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_96:0 "Heavy Ship Combat Ability: §G+9.6%§!\nGalley Combat Ability: §G+9.6%§!\nBlockade Efficiency: §G+19.2%§!\nMarines Force Limit: §G+9.6%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.6%§!\nMan Of War Force Limit: §G+9.6%§!\nGalleon Force Limit: §G+9.6%§!\nGalleass Force Limit: §G+9.6%§!\nCaravel Force Limit: §G+9.6%§!\nVOC Indiamen Force Limit: §G+9.6%§!"
 # 97%
- string_np_progress_97:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_97:0 "Heavy Ship Combat Ability: §G+9.7%§!\nGalley Combat Ability: §G+9.7%§!\nBlockade Efficiency: §G+19.4%§!\nMarines Force Limit: §G+9.7%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.7%§!\nMan Of War Force Limit: §G+9.7%§!\nGalleon Force Limit: §G+9.7%§!\nGalleass Force Limit: §G+9.7%§!\nCaravel Force Limit: §G+9.7%§!\nVOC Indiamen Force Limit: §G+9.7%§!"
 # 98%
- string_np_progress_98:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_98:0 "Heavy Ship Combat Ability: §G+9.8%§!\nGalley Combat Ability: §G+9.8%§!\nBlockade Efficiency: §G+19.6%§!\nMarines Force Limit: §G+9.8%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.8%§!\nMan Of War Force Limit: §G+9.8%§!\nGalleon Force Limit: §G+9.8%§!\nGalleass Force Limit: §G+9.8%§!\nCaravel Force Limit: §G+9.8%§!\nVOC Indiamen Force Limit: §G+9.8%§!"
 # 99%
- string_np_progress_99:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_99:0 "Heavy Ship Combat Ability: §G+9.9%§!\nGalley Combat Ability: §G+9.9%§!\nBlockade Efficiency: §G+19.8%§!\nMarines Force Limit: §G+9.9%§!\n\nIf Available:\nGeobukseon Force Limit: §G+9.9%§!\nMan Of War Force Limit: §G+9.9%§!\nGalleon Force Limit: §G+9.9%§!\nGalleass Force Limit: §G+9.9%§!\nCaravel Force Limit: §G+9.9%§!\nVOC Indiamen Force Limit: §G+9.9%§!"
 # 100% - Rank 5
- string_np_progress_100:0 "[Root.navalProfessionalismVariable.GetName]: §Y[Root.navalProfessionalismVariable.GetValue]%§!\n--------------\nEffect_name: §GModifier§!"
+ string_np_progress_100:0 "Heavy Ship Combat Ability: §G+10.0%§!\nGalley Combat Ability: §G+10.0%§!\nBlockade Efficiency: §G+20.0%§!\nMarines Force Limit: §G+10.0%§!\n\nIf Available:\nGeobukseon Force Limit: §G+10.0%§!\nMan Of War Force Limit: §G+10.0%§!\nGalleon Force Limit: §G+10.0%§!\nGalleass Force Limit: §G+10.0%§!\nCaravel Force Limit: §G+10.0%§!\nVOC Indiamen Force Limit: §G+10.0%§!"
