@@ -223,23 +223,1223 @@
 # Geobukseon
 # 0%
  string_np_dlc_geobukseon_0:0 ""
+# 1%
+ string_np_dlc_geobukseon_1:0 "\nGeobukseon Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_geobukseon_2:0 "\nGeobukseon Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_geobukseon_3:0 "\nGeobukseon Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_geobukseon_4:0 "\nGeobukseon Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_geobukseon_5:0 "\nGeobukseon Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_geobukseon_6:0 "\nGeobukseon Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_geobukseon_7:0 "\nGeobukseon Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_geobukseon_8:0 "\nGeobukseon Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_geobukseon_9:0 "\nGeobukseon Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_geobukseon_10:0 "\nGeobukseon Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_geobukseon_11:0 "\nGeobukseon Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_geobukseon_12:0 "\nGeobukseon Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_geobukseon_13:0 "\nGeobukseon Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_geobukseon_14:0 "\nGeobukseon Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_geobukseon_15:0 "\nGeobukseon Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_geobukseon_16:0 "\nGeobukseon Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_geobukseon_17:0 "\nGeobukseon Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_geobukseon_18:0 "\nGeobukseon Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_geobukseon_19:0 "\nGeobukseon Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_geobukseon_20:0 "\nGeobukseon Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_geobukseon_21:0 "\nGeobukseon Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_geobukseon_22:0 "\nGeobukseon Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_geobukseon_23:0 "\nGeobukseon Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_geobukseon_24:0 "\nGeobukseon Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_geobukseon_25:0 "\nGeobukseon Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_geobukseon_26:0 "\nGeobukseon Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_geobukseon_27:0 "\nGeobukseon Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_geobukseon_28:0 "\nGeobukseon Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_geobukseon_29:0 "\nGeobukseon Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_geobukseon_30:0 "\nGeobukseon Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_geobukseon_31:0 "\nGeobukseon Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_geobukseon_32:0 "\nGeobukseon Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_geobukseon_33:0 "\nGeobukseon Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_geobukseon_34:0 "\nGeobukseon Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_geobukseon_35:0 "\nGeobukseon Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_geobukseon_36:0 "\nGeobukseon Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_geobukseon_37:0 "\nGeobukseon Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_geobukseon_38:0 "\nGeobukseon Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_geobukseon_39:0 "\nGeobukseon Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_geobukseon_40:0 "\nGeobukseon Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_geobukseon_41:0 "\nGeobukseon Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_geobukseon_42:0 "\nGeobukseon Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_geobukseon_43:0 "\nGeobukseon Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_geobukseon_44:0 "\nGeobukseon Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_geobukseon_45:0 "\nGeobukseon Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_geobukseon_46:0 "\nGeobukseon Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_geobukseon_47:0 "\nGeobukseon Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_geobukseon_48:0 "\nGeobukseon Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_geobukseon_49:0 "\nGeobukseon Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_geobukseon_50:0 "\nGeobukseon Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_geobukseon_51:0 "\nGeobukseon Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_geobukseon_52:0 "\nGeobukseon Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_geobukseon_53:0 "\nGeobukseon Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_geobukseon_54:0 "\nGeobukseon Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_geobukseon_55:0 "\nGeobukseon Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_geobukseon_56:0 "\nGeobukseon Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_geobukseon_57:0 "\nGeobukseon Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_geobukseon_58:0 "\nGeobukseon Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_geobukseon_59:0 "\nGeobukseon Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_geobukseon_60:0 "\nGeobukseon Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_geobukseon_61:0 "\nGeobukseon Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_geobukseon_62:0 "\nGeobukseon Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_geobukseon_63:0 "\nGeobukseon Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_geobukseon_64:0 "\nGeobukseon Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_geobukseon_65:0 "\nGeobukseon Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_geobukseon_66:0 "\nGeobukseon Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_geobukseon_67:0 "\nGeobukseon Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_geobukseon_68:0 "\nGeobukseon Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_geobukseon_69:0 "\nGeobukseon Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_geobukseon_70:0 "\nGeobukseon Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_geobukseon_71:0 "\nGeobukseon Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_geobukseon_72:0 "\nGeobukseon Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_geobukseon_73:0 "\nGeobukseon Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_geobukseon_74:0 "\nGeobukseon Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_geobukseon_75:0 "\nGeobukseon Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_geobukseon_76:0 "\nGeobukseon Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_geobukseon_77:0 "\nGeobukseon Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_geobukseon_78:0 "\nGeobukseon Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_geobukseon_79:0 "\nGeobukseon Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_geobukseon_80:0 "\nGeobukseon Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_geobukseon_81:0 "\nGeobukseon Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_geobukseon_82:0 "\nGeobukseon Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_geobukseon_83:0 "\nGeobukseon Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_geobukseon_84:0 "\nGeobukseon Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_geobukseon_85:0 "\nGeobukseon Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_geobukseon_86:0 "\nGeobukseon Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_geobukseon_87:0 "\nGeobukseon Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_geobukseon_88:0 "\nGeobukseon Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_geobukseon_89:0 "\nGeobukseon Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_geobukseon_90:0 "\nGeobukseon Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_geobukseon_91:0 "\nGeobukseon Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_geobukseon_92:0 "\nGeobukseon Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_geobukseon_93:0 "\nGeobukseon Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_geobukseon_94:0 "\nGeobukseon Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_geobukseon_95:0 "\nGeobukseon Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_geobukseon_96:0 "\nGeobukseon Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_geobukseon_97:0 "\nGeobukseon Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_geobukseon_98:0 "\nGeobukseon Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_geobukseon_99:0 "\nGeobukseon Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_geobukseon_100:0 "\nGeobukseon Force Limit: §G+10.0%§!"
 
 # Man Of War
 # 0%
  string_np_dlc_man_of_war_0:0 ""
+# 1%
+ string_np_dlc_man_of_war_1:0 "\nMan of War Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_man_of_war_2:0 "\nMan of War Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_man_of_war_3:0 "\nMan of War Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_man_of_war_4:0 "\nMan of War Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_man_of_war_5:0 "\nMan of War Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_man_of_war_6:0 "\nMan of War Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_man_of_war_7:0 "\nMan of War Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_man_of_war_8:0 "\nMan of War Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_man_of_war_9:0 "\nMan of War Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_man_of_war_10:0 "\nMan of War Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_man_of_war_11:0 "\nMan of War Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_man_of_war_12:0 "\nMan of War Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_man_of_war_13:0 "\nMan of War Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_man_of_war_14:0 "\nMan of War Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_man_of_war_15:0 "\nMan of War Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_man_of_war_16:0 "\nMan of War Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_man_of_war_17:0 "\nMan of War Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_man_of_war_18:0 "\nMan of War Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_man_of_war_19:0 "\nMan of War Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_man_of_war_20:0 "\nMan of War Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_man_of_war_21:0 "\nMan of War Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_man_of_war_22:0 "\nMan of War Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_man_of_war_23:0 "\nMan of War Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_man_of_war_24:0 "\nMan of War Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_man_of_war_25:0 "\nMan of War Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_man_of_war_26:0 "\nMan of War Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_man_of_war_27:0 "\nMan of War Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_man_of_war_28:0 "\nMan of War Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_man_of_war_29:0 "\nMan of War Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_man_of_war_30:0 "\nMan of War Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_man_of_war_31:0 "\nMan of War Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_man_of_war_32:0 "\nMan of War Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_man_of_war_33:0 "\nMan of War Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_man_of_war_34:0 "\nMan of War Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_man_of_war_35:0 "\nMan of War Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_man_of_war_36:0 "\nMan of War Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_man_of_war_37:0 "\nMan of War Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_man_of_war_38:0 "\nMan of War Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_man_of_war_39:0 "\nMan of War Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_man_of_war_40:0 "\nMan of War Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_man_of_war_41:0 "\nMan of War Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_man_of_war_42:0 "\nMan of War Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_man_of_war_43:0 "\nMan of War Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_man_of_war_44:0 "\nMan of War Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_man_of_war_45:0 "\nMan of War Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_man_of_war_46:0 "\nMan of War Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_man_of_war_47:0 "\nMan of War Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_man_of_war_48:0 "\nMan of War Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_man_of_war_49:0 "\nMan of War Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_man_of_war_50:0 "\nMan of War Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_man_of_war_51:0 "\nMan of War Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_man_of_war_52:0 "\nMan of War Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_man_of_war_53:0 "\nMan of War Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_man_of_war_54:0 "\nMan of War Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_man_of_war_55:0 "\nMan of War Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_man_of_war_56:0 "\nMan of War Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_man_of_war_57:0 "\nMan of War Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_man_of_war_58:0 "\nMan of War Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_man_of_war_59:0 "\nMan of War Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_man_of_war_60:0 "\nMan of War Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_man_of_war_61:0 "\nMan of War Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_man_of_war_62:0 "\nMan of War Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_man_of_war_63:0 "\nMan of War Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_man_of_war_64:0 "\nMan of War Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_man_of_war_65:0 "\nMan of War Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_man_of_war_66:0 "\nMan of War Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_man_of_war_67:0 "\nMan of War Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_man_of_war_68:0 "\nMan of War Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_man_of_war_69:0 "\nMan of War Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_man_of_war_70:0 "\nMan of War Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_man_of_war_71:0 "\nMan of War Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_man_of_war_72:0 "\nMan of War Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_man_of_war_73:0 "\nMan of War Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_man_of_war_74:0 "\nMan of War Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_man_of_war_75:0 "\nMan of War Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_man_of_war_76:0 "\nMan of War Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_man_of_war_77:0 "\nMan of War Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_man_of_war_78:0 "\nMan of War Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_man_of_war_79:0 "\nMan of War Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_man_of_war_80:0 "\nMan of War Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_man_of_war_81:0 "\nMan of War Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_man_of_war_82:0 "\nMan of War Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_man_of_war_83:0 "\nMan of War Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_man_of_war_84:0 "\nMan of War Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_man_of_war_85:0 "\nMan of War Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_man_of_war_86:0 "\nMan of War Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_man_of_war_87:0 "\nMan of War Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_man_of_war_88:0 "\nMan of War Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_man_of_war_89:0 "\nMan of War Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_man_of_war_90:0 "\nMan of War Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_man_of_war_91:0 "\nMan of War Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_man_of_war_92:0 "\nMan of War Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_man_of_war_93:0 "\nMan of War Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_man_of_war_94:0 "\nMan of War Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_man_of_war_95:0 "\nMan of War Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_man_of_war_96:0 "\nMan of War Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_man_of_war_97:0 "\nMan of War Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_man_of_war_98:0 "\nMan of War Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_man_of_war_99:0 "\nMan of War Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_man_of_war_100:0 "\nMan of War Force Limit: §G+10.0%§!"
 
 # Galleon
 # 0%
  string_np_dlc_galleon_0:0 ""
+# 1%
+ string_np_dlc_galleon_1:0 "\nGalleon Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_galleon_2:0 "\nGalleon Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_galleon_3:0 "\nGalleon Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_galleon_4:0 "\nGalleon Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_galleon_5:0 "\nGalleon Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_galleon_6:0 "\nGalleon Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_galleon_7:0 "\nGalleon Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_galleon_8:0 "\nGalleon Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_galleon_9:0 "\nGalleon Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_galleon_10:0 "\nGalleon Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_galleon_11:0 "\nGalleon Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_galleon_12:0 "\nGalleon Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_galleon_13:0 "\nGalleon Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_galleon_14:0 "\nGalleon Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_galleon_15:0 "\nGalleon Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_galleon_16:0 "\nGalleon Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_galleon_17:0 "\nGalleon Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_galleon_18:0 "\nGalleon Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_galleon_19:0 "\nGalleon Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_galleon_20:0 "\nGalleon Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_galleon_21:0 "\nGalleon Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_galleon_22:0 "\nGalleon Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_galleon_23:0 "\nGalleon Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_galleon_24:0 "\nGalleon Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_galleon_25:0 "\nGalleon Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_galleon_26:0 "\nGalleon Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_galleon_27:0 "\nGalleon Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_galleon_28:0 "\nGalleon Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_galleon_29:0 "\nGalleon Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_galleon_30:0 "\nGalleon Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_galleon_31:0 "\nGalleon Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_galleon_32:0 "\nGalleon Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_galleon_33:0 "\nGalleon Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_galleon_34:0 "\nGalleon Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_galleon_35:0 "\nGalleon Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_galleon_36:0 "\nGalleon Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_galleon_37:0 "\nGalleon Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_galleon_38:0 "\nGalleon Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_galleon_39:0 "\nGalleon Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_galleon_40:0 "\nGalleon Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_galleon_41:0 "\nGalleon Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_galleon_42:0 "\nGalleon Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_galleon_43:0 "\nGalleon Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_galleon_44:0 "\nGalleon Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_galleon_45:0 "\nGalleon Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_galleon_46:0 "\nGalleon Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_galleon_47:0 "\nGalleon Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_galleon_48:0 "\nGalleon Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_galleon_49:0 "\nGalleon Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_galleon_50:0 "\nGalleon Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_galleon_51:0 "\nGalleon Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_galleon_52:0 "\nGalleon Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_galleon_53:0 "\nGalleon Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_galleon_54:0 "\nGalleon Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_galleon_55:0 "\nGalleon Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_galleon_56:0 "\nGalleon Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_galleon_57:0 "\nGalleon Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_galleon_58:0 "\nGalleon Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_galleon_59:0 "\nGalleon Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_galleon_60:0 "\nGalleon Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_galleon_61:0 "\nGalleon Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_galleon_62:0 "\nGalleon Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_galleon_63:0 "\nGalleon Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_galleon_64:0 "\nGalleon Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_galleon_65:0 "\nGalleon Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_galleon_66:0 "\nGalleon Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_galleon_67:0 "\nGalleon Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_galleon_68:0 "\nGalleon Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_galleon_69:0 "\nGalleon Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_galleon_70:0 "\nGalleon Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_galleon_71:0 "\nGalleon Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_galleon_72:0 "\nGalleon Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_galleon_73:0 "\nGalleon Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_galleon_74:0 "\nGalleon Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_galleon_75:0 "\nGalleon Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_galleon_76:0 "\nGalleon Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_galleon_77:0 "\nGalleon Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_galleon_78:0 "\nGalleon Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_galleon_79:0 "\nGalleon Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_galleon_80:0 "\nGalleon Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_galleon_81:0 "\nGalleon Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_galleon_82:0 "\nGalleon Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_galleon_83:0 "\nGalleon Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_galleon_84:0 "\nGalleon Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_galleon_85:0 "\nGalleon Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_galleon_86:0 "\nGalleon Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_galleon_87:0 "\nGalleon Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_galleon_88:0 "\nGalleon Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_galleon_89:0 "\nGalleon Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_galleon_90:0 "\nGalleon Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_galleon_91:0 "\nGalleon Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_galleon_92:0 "\nGalleon Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_galleon_93:0 "\nGalleon Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_galleon_94:0 "\nGalleon Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_galleon_95:0 "\nGalleon Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_galleon_96:0 "\nGalleon Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_galleon_97:0 "\nGalleon Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_galleon_98:0 "\nGalleon Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_galleon_99:0 "\nGalleon Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_galleon_100:0 "\nGalleon Force Limit: §G+10.0%§!"
 
 # Galleass
 # 0%
  string_np_dlc_galleass_0:0 ""
+# 1%
+ string_np_dlc_galleass_1:0 "\nGalleass Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_galleass_2:0 "\nGalleass Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_galleass_3:0 "\nGalleass Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_galleass_4:0 "\nGalleass Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_galleass_5:0 "\nGalleass Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_galleass_6:0 "\nGalleass Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_galleass_7:0 "\nGalleass Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_galleass_8:0 "\nGalleass Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_galleass_9:0 "\nGalleass Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_galleass_10:0 "\nGalleass Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_galleass_11:0 "\nGalleass Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_galleass_12:0 "\nGalleass Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_galleass_13:0 "\nGalleass Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_galleass_14:0 "\nGalleass Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_galleass_15:0 "\nGalleass Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_galleass_16:0 "\nGalleass Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_galleass_17:0 "\nGalleass Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_galleass_18:0 "\nGalleass Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_galleass_19:0 "\nGalleass Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_galleass_20:0 "\nGalleass Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_galleass_21:0 "\nGalleass Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_galleass_22:0 "\nGalleass Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_galleass_23:0 "\nGalleass Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_galleass_24:0 "\nGalleass Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_galleass_25:0 "\nGalleass Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_galleass_26:0 "\nGalleass Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_galleass_27:0 "\nGalleass Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_galleass_28:0 "\nGalleass Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_galleass_29:0 "\nGalleass Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_galleass_30:0 "\nGalleass Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_galleass_31:0 "\nGalleass Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_galleass_32:0 "\nGalleass Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_galleass_33:0 "\nGalleass Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_galleass_34:0 "\nGalleass Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_galleass_35:0 "\nGalleass Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_galleass_36:0 "\nGalleass Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_galleass_37:0 "\nGalleass Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_galleass_38:0 "\nGalleass Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_galleass_39:0 "\nGalleass Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_galleass_40:0 "\nGalleass Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_galleass_41:0 "\nGalleass Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_galleass_42:0 "\nGalleass Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_galleass_43:0 "\nGalleass Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_galleass_44:0 "\nGalleass Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_galleass_45:0 "\nGalleass Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_galleass_46:0 "\nGalleass Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_galleass_47:0 "\nGalleass Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_galleass_48:0 "\nGalleass Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_galleass_49:0 "\nGalleass Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_galleass_50:0 "\nGalleass Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_galleass_51:0 "\nGalleass Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_galleass_52:0 "\nGalleass Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_galleass_53:0 "\nGalleass Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_galleass_54:0 "\nGalleass Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_galleass_55:0 "\nGalleass Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_galleass_56:0 "\nGalleass Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_galleass_57:0 "\nGalleass Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_galleass_58:0 "\nGalleass Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_galleass_59:0 "\nGalleass Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_galleass_60:0 "\nGalleass Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_galleass_61:0 "\nGalleass Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_galleass_62:0 "\nGalleass Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_galleass_63:0 "\nGalleass Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_galleass_64:0 "\nGalleass Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_galleass_65:0 "\nGalleass Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_galleass_66:0 "\nGalleass Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_galleass_67:0 "\nGalleass Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_galleass_68:0 "\nGalleass Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_galleass_69:0 "\nGalleass Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_galleass_70:0 "\nGalleass Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_galleass_71:0 "\nGalleass Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_galleass_72:0 "\nGalleass Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_galleass_73:0 "\nGalleass Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_galleass_74:0 "\nGalleass Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_galleass_75:0 "\nGalleass Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_galleass_76:0 "\nGalleass Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_galleass_77:0 "\nGalleass Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_galleass_78:0 "\nGalleass Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_galleass_79:0 "\nGalleass Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_galleass_80:0 "\nGalleass Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_galleass_81:0 "\nGalleass Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_galleass_82:0 "\nGalleass Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_galleass_83:0 "\nGalleass Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_galleass_84:0 "\nGalleass Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_galleass_85:0 "\nGalleass Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_galleass_86:0 "\nGalleass Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_galleass_87:0 "\nGalleass Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_galleass_88:0 "\nGalleass Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_galleass_89:0 "\nGalleass Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_galleass_90:0 "\nGalleass Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_galleass_91:0 "\nGalleass Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_galleass_92:0 "\nGalleass Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_galleass_93:0 "\nGalleass Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_galleass_94:0 "\nGalleass Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_galleass_95:0 "\nGalleass Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_galleass_96:0 "\nGalleass Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_galleass_97:0 "\nGalleass Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_galleass_98:0 "\nGalleass Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_galleass_99:0 "\nGalleass Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_galleass_100:0 "\nGalleass Force Limit: §G+10.0%§!"
 
 # Caravel
 # 0%
  string_np_dlc_caravel_0:0 ""
+# 1%
+ string_np_dlc_caravel_1:0 "\nCaravel Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_caravel_2:0 "\nCaravel Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_caravel_3:0 "\nCaravel Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_caravel_4:0 "\nCaravel Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_caravel_5:0 "\nCaravel Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_caravel_6:0 "\nCaravel Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_caravel_7:0 "\nCaravel Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_caravel_8:0 "\nCaravel Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_caravel_9:0 "\nCaravel Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_caravel_10:0 "\nCaravel Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_caravel_11:0 "\nCaravel Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_caravel_12:0 "\nCaravel Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_caravel_13:0 "\nCaravel Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_caravel_14:0 "\nCaravel Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_caravel_15:0 "\nCaravel Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_caravel_16:0 "\nCaravel Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_caravel_17:0 "\nCaravel Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_caravel_18:0 "\nCaravel Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_caravel_19:0 "\nCaravel Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_caravel_20:0 "\nCaravel Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_caravel_21:0 "\nCaravel Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_caravel_22:0 "\nCaravel Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_caravel_23:0 "\nCaravel Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_caravel_24:0 "\nCaravel Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_caravel_25:0 "\nCaravel Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_caravel_26:0 "\nCaravel Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_caravel_27:0 "\nCaravel Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_caravel_28:0 "\nCaravel Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_caravel_29:0 "\nCaravel Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_caravel_30:0 "\nCaravel Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_caravel_31:0 "\nCaravel Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_caravel_32:0 "\nCaravel Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_caravel_33:0 "\nCaravel Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_caravel_34:0 "\nCaravel Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_caravel_35:0 "\nCaravel Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_caravel_36:0 "\nCaravel Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_caravel_37:0 "\nCaravel Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_caravel_38:0 "\nCaravel Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_caravel_39:0 "\nCaravel Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_caravel_40:0 "\nCaravel Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_caravel_41:0 "\nCaravel Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_caravel_42:0 "\nCaravel Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_caravel_43:0 "\nCaravel Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_caravel_44:0 "\nCaravel Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_caravel_45:0 "\nCaravel Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_caravel_46:0 "\nCaravel Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_caravel_47:0 "\nCaravel Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_caravel_48:0 "\nCaravel Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_caravel_49:0 "\nCaravel Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_caravel_50:0 "\nCaravel Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_caravel_51:0 "\nCaravel Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_caravel_52:0 "\nCaravel Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_caravel_53:0 "\nCaravel Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_caravel_54:0 "\nCaravel Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_caravel_55:0 "\nCaravel Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_caravel_56:0 "\nCaravel Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_caravel_57:0 "\nCaravel Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_caravel_58:0 "\nCaravel Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_caravel_59:0 "\nCaravel Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_caravel_60:0 "\nCaravel Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_caravel_61:0 "\nCaravel Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_caravel_62:0 "\nCaravel Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_caravel_63:0 "\nCaravel Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_caravel_64:0 "\nCaravel Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_caravel_65:0 "\nCaravel Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_caravel_66:0 "\nCaravel Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_caravel_67:0 "\nCaravel Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_caravel_68:0 "\nCaravel Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_caravel_69:0 "\nCaravel Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_caravel_70:0 "\nCaravel Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_caravel_71:0 "\nCaravel Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_caravel_72:0 "\nCaravel Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_caravel_73:0 "\nCaravel Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_caravel_74:0 "\nCaravel Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_caravel_75:0 "\nCaravel Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_caravel_76:0 "\nCaravel Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_caravel_77:0 "\nCaravel Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_caravel_78:0 "\nCaravel Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_caravel_79:0 "\nCaravel Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_caravel_80:0 "\nCaravel Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_caravel_81:0 "\nCaravel Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_caravel_82:0 "\nCaravel Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_caravel_83:0 "\nCaravel Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_caravel_84:0 "\nCaravel Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_caravel_85:0 "\nCaravel Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_caravel_86:0 "\nCaravel Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_caravel_87:0 "\nCaravel Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_caravel_88:0 "\nCaravel Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_caravel_89:0 "\nCaravel Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_caravel_90:0 "\nCaravel Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_caravel_91:0 "\nCaravel Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_caravel_92:0 "\nCaravel Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_caravel_93:0 "\nCaravel Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_caravel_94:0 "\nCaravel Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_caravel_95:0 "\nCaravel Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_caravel_96:0 "\nCaravel Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_caravel_97:0 "\nCaravel Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_caravel_98:0 "\nCaravel Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_caravel_99:0 "\nCaravel Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_caravel_100:0 "\nCaravel Force Limit: §G+10.0%§!"
 
 # VOC Indiamen
 # 0%
  string_np_dlc_voc_indiamen_0:0 ""
+# 1%
+ string_np_dlc_voc_indiamen_1:0 "\nVOC Indiamen Force Limit: §G+0.1%§!"
+# 2%
+ string_np_dlc_voc_indiamen_2:0 "\nVOC Indiamen Force Limit: §G+0.2%§!"
+# 3%
+ string_np_dlc_voc_indiamen_3:0 "\nVOC Indiamen Force Limit: §G+0.3%§!"
+# 4%
+ string_np_dlc_voc_indiamen_4:0 "\nVOC Indiamen Force Limit: §G+0.4%§!"
+# 5%
+ string_np_dlc_voc_indiamen_5:0 "\nVOC Indiamen Force Limit: §G+0.5%§!"
+# 6%
+ string_np_dlc_voc_indiamen_6:0 "\nVOC Indiamen Force Limit: §G+0.6%§!"
+# 7%
+ string_np_dlc_voc_indiamen_7:0 "\nVOC Indiamen Force Limit: §G+0.7%§!"
+# 8%
+ string_np_dlc_voc_indiamen_8:0 "\nVOC Indiamen Force Limit: §G+0.8%§!"
+# 9%
+ string_np_dlc_voc_indiamen_9:0 "\nVOC Indiamen Force Limit: §G+0.9%§!"
+# 10%
+ string_np_dlc_voc_indiamen_10:0 "\nVOC Indiamen Force Limit: §G+1.0%§!"
+# 11%
+ string_np_dlc_voc_indiamen_11:0 "\nVOC Indiamen Force Limit: §G+1.1%§!"
+# 12%
+ string_np_dlc_voc_indiamen_12:0 "\nVOC Indiamen Force Limit: §G+1.2%§!"
+# 13%
+ string_np_dlc_voc_indiamen_13:0 "\nVOC Indiamen Force Limit: §G+1.3%§!"
+# 14%
+ string_np_dlc_voc_indiamen_14:0 "\nVOC Indiamen Force Limit: §G+1.4%§!"
+# 15%
+ string_np_dlc_voc_indiamen_15:0 "\nVOC Indiamen Force Limit: §G+1.5%§!"
+# 16%
+ string_np_dlc_voc_indiamen_16:0 "\nVOC Indiamen Force Limit: §G+1.6%§!"
+# 17%
+ string_np_dlc_voc_indiamen_17:0 "\nVOC Indiamen Force Limit: §G+1.7%§!"
+# 18%
+ string_np_dlc_voc_indiamen_18:0 "\nVOC Indiamen Force Limit: §G+1.8%§!"
+# 19%
+ string_np_dlc_voc_indiamen_19:0 "\nVOC Indiamen Force Limit: §G+1.9%§!"
+# 20%
+ string_np_dlc_voc_indiamen_20:0 "\nVOC Indiamen Force Limit: §G+2.0%§!"
+# 21%
+ string_np_dlc_voc_indiamen_21:0 "\nVOC Indiamen Force Limit: §G+2.1%§!"
+# 22%
+ string_np_dlc_voc_indiamen_22:0 "\nVOC Indiamen Force Limit: §G+2.2%§!"
+# 23%
+ string_np_dlc_voc_indiamen_23:0 "\nVOC Indiamen Force Limit: §G+2.3%§!"
+# 24%
+ string_np_dlc_voc_indiamen_24:0 "\nVOC Indiamen Force Limit: §G+2.4%§!"
+# 25%
+ string_np_dlc_voc_indiamen_25:0 "\nVOC Indiamen Force Limit: §G+2.5%§!"
+# 26%
+ string_np_dlc_voc_indiamen_26:0 "\nVOC Indiamen Force Limit: §G+2.6%§!"
+# 27%
+ string_np_dlc_voc_indiamen_27:0 "\nVOC Indiamen Force Limit: §G+2.7%§!"
+# 28%
+ string_np_dlc_voc_indiamen_28:0 "\nVOC Indiamen Force Limit: §G+2.8%§!"
+# 29%
+ string_np_dlc_voc_indiamen_29:0 "\nVOC Indiamen Force Limit: §G+2.9%§!"
+# 30%
+ string_np_dlc_voc_indiamen_30:0 "\nVOC Indiamen Force Limit: §G+3.0%§!"
+# 31%
+ string_np_dlc_voc_indiamen_31:0 "\nVOC Indiamen Force Limit: §G+3.1%§!"
+# 32%
+ string_np_dlc_voc_indiamen_32:0 "\nVOC Indiamen Force Limit: §G+3.2%§!"
+# 33%
+ string_np_dlc_voc_indiamen_33:0 "\nVOC Indiamen Force Limit: §G+3.3%§!"
+# 34%
+ string_np_dlc_voc_indiamen_34:0 "\nVOC Indiamen Force Limit: §G+3.4%§!"
+# 35%
+ string_np_dlc_voc_indiamen_35:0 "\nVOC Indiamen Force Limit: §G+3.5%§!"
+# 36%
+ string_np_dlc_voc_indiamen_36:0 "\nVOC Indiamen Force Limit: §G+3.6%§!"
+# 37%
+ string_np_dlc_voc_indiamen_37:0 "\nVOC Indiamen Force Limit: §G+3.7%§!"
+# 38%
+ string_np_dlc_voc_indiamen_38:0 "\nVOC Indiamen Force Limit: §G+3.8%§!"
+# 39%
+ string_np_dlc_voc_indiamen_39:0 "\nVOC Indiamen Force Limit: §G+3.9%§!"
+# 40%
+ string_np_dlc_voc_indiamen_40:0 "\nVOC Indiamen Force Limit: §G+4.0%§!"
+# 41%
+ string_np_dlc_voc_indiamen_41:0 "\nVOC Indiamen Force Limit: §G+4.1%§!"
+# 42%
+ string_np_dlc_voc_indiamen_42:0 "\nVOC Indiamen Force Limit: §G+4.2%§!"
+# 43%
+ string_np_dlc_voc_indiamen_43:0 "\nVOC Indiamen Force Limit: §G+4.3%§!"
+# 44%
+ string_np_dlc_voc_indiamen_44:0 "\nVOC Indiamen Force Limit: §G+4.4%§!"
+# 45%
+ string_np_dlc_voc_indiamen_45:0 "\nVOC Indiamen Force Limit: §G+4.5%§!"
+# 46%
+ string_np_dlc_voc_indiamen_46:0 "\nVOC Indiamen Force Limit: §G+4.6%§!"
+# 47%
+ string_np_dlc_voc_indiamen_47:0 "\nVOC Indiamen Force Limit: §G+4.7%§!"
+# 48%
+ string_np_dlc_voc_indiamen_48:0 "\nVOC Indiamen Force Limit: §G+4.8%§!"
+# 49%
+ string_np_dlc_voc_indiamen_49:0 "\nVOC Indiamen Force Limit: §G+4.9%§!"
+# 50%
+ string_np_dlc_voc_indiamen_50:0 "\nVOC Indiamen Force Limit: §G+5.0%§!"
+# 51%
+ string_np_dlc_voc_indiamen_51:0 "\nVOC Indiamen Force Limit: §G+5.1%§!"
+# 52%
+ string_np_dlc_voc_indiamen_52:0 "\nVOC Indiamen Force Limit: §G+5.2%§!"
+# 53%
+ string_np_dlc_voc_indiamen_53:0 "\nVOC Indiamen Force Limit: §G+5.3%§!"
+# 54%
+ string_np_dlc_voc_indiamen_54:0 "\nVOC Indiamen Force Limit: §G+5.4%§!"
+# 55%
+ string_np_dlc_voc_indiamen_55:0 "\nVOC Indiamen Force Limit: §G+5.5%§!"
+# 56%
+ string_np_dlc_voc_indiamen_56:0 "\nVOC Indiamen Force Limit: §G+5.6%§!"
+# 57%
+ string_np_dlc_voc_indiamen_57:0 "\nVOC Indiamen Force Limit: §G+5.7%§!"
+# 58%
+ string_np_dlc_voc_indiamen_58:0 "\nVOC Indiamen Force Limit: §G+5.8%§!"
+# 59%
+ string_np_dlc_voc_indiamen_59:0 "\nVOC Indiamen Force Limit: §G+5.9%§!"
+# 60%
+ string_np_dlc_voc_indiamen_60:0 "\nVOC Indiamen Force Limit: §G+6.0%§!"
+# 61%
+ string_np_dlc_voc_indiamen_61:0 "\nVOC Indiamen Force Limit: §G+6.1%§!"
+# 62%
+ string_np_dlc_voc_indiamen_62:0 "\nVOC Indiamen Force Limit: §G+6.2%§!"
+# 63%
+ string_np_dlc_voc_indiamen_63:0 "\nVOC Indiamen Force Limit: §G+6.3%§!"
+# 64%
+ string_np_dlc_voc_indiamen_64:0 "\nVOC Indiamen Force Limit: §G+6.4%§!"
+# 65%
+ string_np_dlc_voc_indiamen_65:0 "\nVOC Indiamen Force Limit: §G+6.5%§!"
+# 66%
+ string_np_dlc_voc_indiamen_66:0 "\nVOC Indiamen Force Limit: §G+6.6%§!"
+# 67%
+ string_np_dlc_voc_indiamen_67:0 "\nVOC Indiamen Force Limit: §G+6.7%§!"
+# 68%
+ string_np_dlc_voc_indiamen_68:0 "\nVOC Indiamen Force Limit: §G+6.8%§!"
+# 69%
+ string_np_dlc_voc_indiamen_69:0 "\nVOC Indiamen Force Limit: §G+6.9%§!"
+# 70%
+ string_np_dlc_voc_indiamen_70:0 "\nVOC Indiamen Force Limit: §G+7.0%§!"
+# 71%
+ string_np_dlc_voc_indiamen_71:0 "\nVOC Indiamen Force Limit: §G+7.1%§!"
+# 72%
+ string_np_dlc_voc_indiamen_72:0 "\nVOC Indiamen Force Limit: §G+7.2%§!"
+# 73%
+ string_np_dlc_voc_indiamen_73:0 "\nVOC Indiamen Force Limit: §G+7.3%§!"
+# 74%
+ string_np_dlc_voc_indiamen_74:0 "\nVOC Indiamen Force Limit: §G+7.4%§!"
+# 75%
+ string_np_dlc_voc_indiamen_75:0 "\nVOC Indiamen Force Limit: §G+7.5%§!"
+# 76%
+ string_np_dlc_voc_indiamen_76:0 "\nVOC Indiamen Force Limit: §G+7.6%§!"
+# 77%
+ string_np_dlc_voc_indiamen_77:0 "\nVOC Indiamen Force Limit: §G+7.7%§!"
+# 78%
+ string_np_dlc_voc_indiamen_78:0 "\nVOC Indiamen Force Limit: §G+7.8%§!"
+# 79%
+ string_np_dlc_voc_indiamen_79:0 "\nVOC Indiamen Force Limit: §G+7.9%§!"
+# 80%
+ string_np_dlc_voc_indiamen_80:0 "\nVOC Indiamen Force Limit: §G+8.0%§!"
+# 81%
+ string_np_dlc_voc_indiamen_81:0 "\nVOC Indiamen Force Limit: §G+8.1%§!"
+# 82%
+ string_np_dlc_voc_indiamen_82:0 "\nVOC Indiamen Force Limit: §G+8.2%§!"
+# 83%
+ string_np_dlc_voc_indiamen_83:0 "\nVOC Indiamen Force Limit: §G+8.3%§!"
+# 84%
+ string_np_dlc_voc_indiamen_84:0 "\nVOC Indiamen Force Limit: §G+8.4%§!"
+# 85%
+ string_np_dlc_voc_indiamen_85:0 "\nVOC Indiamen Force Limit: §G+8.5%§!"
+# 86%
+ string_np_dlc_voc_indiamen_86:0 "\nVOC Indiamen Force Limit: §G+8.6%§!"
+# 87%
+ string_np_dlc_voc_indiamen_87:0 "\nVOC Indiamen Force Limit: §G+8.7%§!"
+# 88%
+ string_np_dlc_voc_indiamen_88:0 "\nVOC Indiamen Force Limit: §G+8.8%§!"
+# 89%
+ string_np_dlc_voc_indiamen_89:0 "\nVOC Indiamen Force Limit: §G+8.9%§!"
+# 90%
+ string_np_dlc_voc_indiamen_90:0 "\nVOC Indiamen Force Limit: §G+9.0%§!"
+# 91%
+ string_np_dlc_voc_indiamen_91:0 "\nVOC Indiamen Force Limit: §G+9.1%§!"
+# 92%
+ string_np_dlc_voc_indiamen_92:0 "\nVOC Indiamen Force Limit: §G+9.2%§!"
+# 93%
+ string_np_dlc_voc_indiamen_93:0 "\nVOC Indiamen Force Limit: §G+9.3%§!"
+# 94%
+ string_np_dlc_voc_indiamen_94:0 "\nVOC Indiamen Force Limit: §G+9.4%§!"
+# 95%
+ string_np_dlc_voc_indiamen_95:0 "\nVOC Indiamen Force Limit: §G+9.5%§!"
+# 96%
+ string_np_dlc_voc_indiamen_96:0 "\nVOC Indiamen Force Limit: §G+9.6%§!"
+# 97%
+ string_np_dlc_voc_indiamen_97:0 "\nVOC Indiamen Force Limit: §G+9.7%§!"
+# 98%
+ string_np_dlc_voc_indiamen_98:0 "\nVOC Indiamen Force Limit: §G+9.8%§!"
+# 99%
+ string_np_dlc_voc_indiamen_99:0 "\nVOC Indiamen Force Limit: §G+9.9%§!"
+# 100%
+ string_np_dlc_voc_indiamen_100:0 "\nVOC Indiamen Force Limit: §G+10.0%§!"

@@ -7975,11 +7975,2607 @@ defined_text = { # Galleass
 			}
 		}
 	}
+	text = {
+		localisation_key = string_np_dlc_galleass_1
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_2
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_3
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_4
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_5
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_6
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_7
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_8
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_9
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_10
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_11
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_12
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_13
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_14
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_15
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_16
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_17
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_18
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_19
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_20
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_21
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_22
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_23
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_24
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_25
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_26
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_27
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_28
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_29
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_30
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_31
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_32
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_33
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_34
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_35
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_36
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_37
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_38
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_39
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_40
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_41
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_42
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_43
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_44
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_45
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_46
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_47
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_48
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_49
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_50
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_51
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_52
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_53
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_54
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_55
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_56
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_57
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_58
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_59
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_60
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_61
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_62
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_63
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_64
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_65
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_66
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_67
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_68
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_69
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_70
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_71
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_72
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_73
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_74
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_75
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_76
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_77
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_78
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_79
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_80
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_81
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_82
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_83
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_84
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_85
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_86
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_87
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_88
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_89
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_90
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_91
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_92
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_93
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_94
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_95
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_96
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_97
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_98
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_99
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_galleass_100
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = merchant_arsenal_reform # Venician Government Reform
+				has_great_project = { # Great Project in Venice
+					type = venetian_arsenal_gp
+					tier = 3
+				}
+				has_country_modifier = ITA_allow_galleasses # Italy Mission
+				has_country_modifier = mam_ven_cooperation_modifier # Mamaluks Mission
+				has_country_modifier = BYZ_may_construct_galleass # Byzantine Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
 }
-
-
-
-
 
 defined_text = { # Caravel
 	name = naval_professionalism_dlc_caravel_cl
@@ -8004,12 +10600,2007 @@ defined_text = { # Caravel
 			}
 		}
 	}
+	text = {
+		localisation_key = string_np_dlc_caravel_1
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_2
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_3
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_4
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_5
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_6
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_7
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_8
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_9
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_10
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_11
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_12
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_13
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_14
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_15
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_16
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_17
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_18
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_19
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_20
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_21
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_22
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_23
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_24
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_25
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_26
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_27
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_28
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_29
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_30
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_31
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_32
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_33
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_34
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_35
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_36
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_37
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_38
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_39
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_40
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_41
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_42
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_43
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_44
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_45
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_46
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_47
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_48
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_49
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_50
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_51
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_52
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_53
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_54
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_55
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_56
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_57
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_58
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_59
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_60
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_61
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_62
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_63
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_64
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_65
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_66
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_67
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_68
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_69
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_70
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_71
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_72
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_73
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_74
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_75
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_76
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_77
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_78
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_79
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_80
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_81
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_82
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_83
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_84
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_85
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_86
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_87
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_88
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_89
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_90
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_91
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_92
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_93
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_94
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_95
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_96
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_97
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_98
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_99
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_caravel_100
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_country_modifier = spa_employ_galleon_modifier # Spanish Mission
+				has_country_modifier = por_reform_navy_1_modifier # Portugeuse Mission
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
+				}
+			}
+		}
+	}
 }
-
-
-
-
-
 
 defined_text = { # VOC Indiamen
 	name = naval_professionalism_dlc_voc_indiamen_cl
@@ -8034,6 +12625,2406 @@ defined_text = { # VOC Indiamen
 				check_variable = {
 					which = navalProfessionalismVariable
 					value = 1
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_1
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 2
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_2
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 3
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_3
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_4
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_5
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 6
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_6
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_7
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 8
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_8
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 9
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_9
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_10
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_11
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 12
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_12
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 13
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_13
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 14
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_14
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_15
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 16
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_16
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 17
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_17
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 18
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_18
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 19
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_19
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 20
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_20
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 21
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_21
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 22
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_22
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 23
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_23
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 24
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_24
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 25
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_25
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 26
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_26
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 27
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_27
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 28
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_28
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 29
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_29
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 30
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_30
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 31
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_31
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 32
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_32
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 33
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_33
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 34
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_34
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 35
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_35
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 36
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_36
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 37
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_37
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 38
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_38
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 39
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_39
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 40
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_40
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 41
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_41
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 42
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_42
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 43
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_43
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 44
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_44
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 45
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_45
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 46
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_46
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 47
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_47
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 48
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_48
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 49
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_49
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 50
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_50
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 51
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_51
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 52
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_52
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 53
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_53
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 54
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_54
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 55
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_55
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 56
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_56
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 57
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_57
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 58
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_58
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 59
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_59
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 60
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_60
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 61
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_61
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 62
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_62
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 63
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_63
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 64
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_64
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 65
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_65
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 66
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_66
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 67
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_67
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 68
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_68
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 69
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_69
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 70
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_70
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 71
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_71
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 72
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_72
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 73
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_73
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 74
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_74
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 75
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_75
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 76
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_76
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 77
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_77
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 78
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_78
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 79
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_79
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 80
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_80
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 81
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_81
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 82
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_82
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 83
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_83
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 84
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_84
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 85
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_85
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 86
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_86
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 87
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_87
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 88
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_88
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 89
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_89
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 90
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_90
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 91
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_91
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 92
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_92
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 93
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_93
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 94
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_94
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 95
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_95
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 96
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_96
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 97
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_97
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 97
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 98
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_98
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 99
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_99
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 99
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_dlc_voc_indiamen_100
+		trigger = {
+			has_dlc = "Domination"
+			OR = {
+				has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+				has_reform = dutch_republic # Dutch Government Reform
+				has_reform = dutch_theocracy_reform # Dutch Government Reform
+				any_owned_province = { # Dutch Mission
+					has_province_modifier = ned_fort_of_batavia
+				}
+			}
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 100
+			}
+			NOT = {
+				check_variable = {
+					which = navalProfessionalismVariable
+					value = 101
 				}
 			}
 		}

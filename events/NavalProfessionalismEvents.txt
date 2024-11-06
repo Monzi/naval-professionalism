@@ -1983,12 +1983,71 @@ country_event = {
 	id = naval_professionalism_events.0003
 	hidden = yes
 	trigger = {
-		light_ship_fraction = 0.75
+		OR = {
+			AND = {
+				light_ship_fraction = 0.75
+				NOT = { has_reform = stadthalter_monarchy_reform }
+				NOT = { has_reform = dutch_republic }
+				NOT = { has_reform = dutch_theocracy_reform }
+				NOT = {
+					any_owned_province = {
+						has_province_modifier = ned_fort_of_batavia
+					}
+				}
+			}
+			AND = {
+				NOT = { light_ship_fraction = 0.5 }
+				if = {
+					limit = { has_dlc = "Domination" }
+					OR = {
+						has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+						has_reform = dutch_republic # Dutch Government Reform
+						has_reform = dutch_theocracy_reform # Dutch Government Reform
+						any_owned_province = { # Dutch Mission
+							has_province_modifier = ned_fort_of_batavia
+						}
+					}
+				}
+			}
+		}
 		NOT = { has_country_modifier = 30_day_cooldown }
 	}
 	
 	immediate = {
-		subtract_tiny_np_progress = yes
+		if = {
+			limit = {
+				light_ship_fraction = 0.75
+				NOT = { has_reform = stadthalter_monarchy_reform }
+				NOT = { has_reform = dutch_republic }
+				NOT = { has_reform = dutch_theocracy_reform }
+				NOT = {
+					any_owned_province = {
+						has_province_modifier = ned_fort_of_batavia
+					}
+				}
+			}
+			subtract_tiny_np_progress = yes
+		}
+		else_if = {
+			limit = {
+				NOT = { light_ship_fraction = 0.5 }
+				if = {
+					limit = { has_dlc = "Domination" }
+					OR = {
+						has_reform = stadthalter_monarchy_reform # Dutch Government Reform
+						has_reform = dutch_republic # Dutch Government Reform
+						has_reform = dutch_theocracy_reform # Dutch Government Reform
+						any_owned_province = { # Dutch Mission
+							has_province_modifier = ned_fort_of_batavia
+						}
+					}
+				}
+			}
+			subtract_tiny_np_progress = yes
+		}
+		else = {
+			subtract_tiny_np_progress = yes
+		}
 		add_country_modifier = {
 			name = 30_day_cooldown
 			duration = 30
