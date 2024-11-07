@@ -1,5 +1,7 @@
 ﻿l_english:
 # Modifiers
+ np_studying:0 "Studying Naval Strategy"
+ desc_np_studying:0 "Officers are currently studying naval strategies to reform our navy."
 # 0% Progress
  0_naval_professionalism:0 "Naval Professionalism 0%"
  desc_0_naval_professionalism:0 ""

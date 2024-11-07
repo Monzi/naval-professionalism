@@ -82,4 +82,22 @@ spriteTypes = {
 		name = "GFX_np_rank_5"
 		texturefile = "gfx//interface//naval_professionalism//np_rank_5.dds"
 	}
+
+	# Buttons
+	spriteType = {
+		name = "GFX_np_study_btn"
+		texturefile = "gfx//interface//government_mechanics//naval_professionalism//naval_professionalism_button_1.dds"
+	}
+	spriteType = {
+		name = "GFX_np_study_yes"
+		texturefile = "gfx//interface//ledger_yes.dds"
+	}
+	spriteType = {
+		name = "GFX_np_ability1_btn"
+		texturefile = "gfx//interface//government_mechanics//naval_professionalism//naval_professionalism_button_3.dds"
+	}
+	spriteType = {
+		name = "GFX_np_ability2_btn"
+		texturefile = "gfx//interface//government_mechanics//naval_professionalism//naval_professionalism_button_2.dds"
+	}
 }

@@ -1,4 +1,7 @@
 [] Remove Debug code
+	Decisions
+	Events
+	Localisation
 
 # Requirements
 # Feature               # DLC

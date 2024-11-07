@@ -3,12 +3,15 @@
  navalProfessionalismVariable:0 "Naval Professionalism"
  navalProfessionalismControlVariable:0 "Naval Professionalism Control"
  naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
- naval_professionalism_study_btn:0 "Study"
- naval_professionalism_study_tooltip:0 "Study tooltip"
- naval_professionalism_ability1_btn:0 "Ability 1"
- naval_professionalism_ability1_tooltip:0 "Spend 5% to gain 2 years worth of Sailors"
- naval_professionalism_ability2_btn:0 "Ability 2"
- naval_professionalism_ability2_tooltip:0 "Spend 10% to gain 5 heavy ships"
+ naval_professionalism_study_tooltip:0 "[This.naval_professionalism_studying_cl]\nRequires Naval Maintenance to stay at 100%.\n§YAutomatically stops when at war§!"
+ STUDYING_CT:0 "Gain Monthly §G0.01%§! Naval Professionalism\nMorale of Navies: §R-100.0%§!\nNaval Maintenance Modifier: §R+15.0%§!"
+ naval_professionalism_ability1_tooltip:0 "§YSlacken Recruiting Standards§!"
+ SLACKEN_SAILORS:0 "We need at least §Y5§! Naval Professionalism"
+ naval_professionalism_ability2_tooltip:0 "§YDeal With the Merchants§!"
+ MERCHANTS_DEAL:0 "We need at least §Y10§! Naval Professionalism"
+
+ string_np_start_study:0 "§YStudy Naval Strategies§!"
+ string_np_stop_study:0 "§YStop Studying Naval Strategies§!"
 
 # Ranks
 # Rank Gui Elements

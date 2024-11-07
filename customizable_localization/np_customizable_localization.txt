@@ -71,3 +71,20 @@ defined_text = { # Icon Tooltip
 		}
 	}
 }
+
+defined_text = {
+	name = naval_professionalism_studying_cl
+
+	text = {
+		localisation_key = string_np_start_study
+		trigger = {
+			NOT = { has_country_flag = np_is_studying }
+		}
+	}
+	text = {
+		localisation_key = string_np_stop_study
+		trigger = {
+			has_country_flag = np_is_studying
+		}
+	}
+}

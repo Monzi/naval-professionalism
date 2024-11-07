@@ -1719,15 +1719,31 @@ guiTypes = {
 		}
 		# Naval Professionalism abilities
 		guiButtonType =	{
+			name = "naval_professionalism_study_btn"
+			quadTextureSprite= "GFX_np_study_btn"
+			position = { x=58 y =645 }
+			scale = 0.55
+			scripted = yes
+		}
+		iconType = {
+			name = "naval_professionalism_study_mark"
+			spriteType = "GFX_np_study_yes"
+			position = { x=80 y =668 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+		guiButtonType =	{
 			name = "naval_professionalism_ability1_btn"
-			quadTextureSprite= "GFX_slacken_button"
-			position = { x=155 y =551 }
+			quadTextureSprite= "GFX_np_ability1_btn"
+			position = { x=106 y =645 }
+			scale = 0.55
 			scripted = yes
 		}
 		guiButtonType =	{
 			name = "naval_professionalism_ability2_btn"
-			quadTextureSprite= "GFX_slacken_button"
-			position = { x=135 y =571 }
+			quadTextureSprite= "GFX_np_ability2_btn"
+			position = { x=155 y =645 }
+			scale = 0.55
 			scripted = yes
 		}
 		
@@ -1825,7 +1841,7 @@ guiTypes = {
 			min_height = 1048
 			position = { x=32 y =600 }
 			maxWidth = 164
-			maxHeight = 120
+			maxHeight = 44
 			}				
 			textureFile = ""
 			font = "vic_18"

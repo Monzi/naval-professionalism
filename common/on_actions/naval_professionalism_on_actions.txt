@@ -8,8 +8,31 @@ on_startup = {
 # country
 on_monthly_pulse = {
 	if = {
-		limit = { has_country_flag = np_is_studying }
+		limit = {
+			has_country_flag = np_is_studying
+			naval_maintenance = 1
+		}
 		add_tiny_np_progress = yes
+		add_country_modifier = {
+			name = np_studying
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			has_country_flag = np_is_studying
+			NOT= { naval_maintenance = 1 }
+		}
+		clr_country_flag = np_is_studying
+		remove_country_modifier = np_studying
+	}
+	if = {
+		limit = {
+			has_country_flag = np_is_studying
+			is_at_war = yes
+		}
+		clr_country_flag = np_is_studying
+		remove_country_modifier = np_studying
 	}
 	events = {
 		naval_professionalism_events.0002 # Sets / Updates modifiers based on level of Naval Professionalism
