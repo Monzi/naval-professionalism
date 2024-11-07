@@ -3,9 +3,7 @@
 custom_icon = {
 	name = naval_professionalism_icon
 	tooltip = naval_professionalism_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 # Naval Professionalism Progressbar
@@ -13,9 +11,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_progress
 	tooltip = naval_professionalism_progress_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 	frame_variable = "navalProfessionalismVariable"
 }
 
@@ -23,9 +19,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_progress_frame
 	tooltip = naval_professionalism_progress_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 # Naval Professionalism Ranks
@@ -33,9 +27,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_rank1_marker_base
 	tooltip = naval_professionalism_rank1_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 custom_icon = {
@@ -53,9 +45,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_rank2_marker_base
 	tooltip = naval_professionalism_rank2_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 custom_icon = {
@@ -73,9 +63,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_rank3_marker_base
 	tooltip = naval_professionalism_rank3_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 custom_icon = {
@@ -93,9 +81,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_rank4_marker_base
 	tooltip = naval_professionalism_rank4_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 custom_icon = {
@@ -113,9 +99,7 @@ custom_icon = {
 custom_icon = {
 	name = naval_professionalism_rank5_marker_base
 	tooltip = naval_professionalism_rank5_tooltip
-	potential = {
-		always = yes
-	}
+	potential = { always = yes }
 }
 
 custom_icon = {
@@ -125,6 +109,66 @@ custom_icon = {
 		check_variable = {
 			which = navalProfessionalismVariable
 			value = 100
+		}
+	}
+}
+
+custom_button = {
+	name = naval_professionalism_study_btn
+	tooltip = naval_professionalism_study_tooltip
+	potential = { always = yes }
+	trigger = {
+		naval_maintenance = 1
+		heavy_ship_fraction = 0.1
+	}
+	effect = {
+		if = {
+			limit = { NOT = { has_country_flag = np_is_studying } }
+			set_country_flag = np_is_studying
+		}
+		else_if = {
+			limit = { has_country_flag = np_is_studying	}
+			clr_country_flag = np_is_studying
+		}
+	}
+}
+
+custom_button = {
+	name = naval_professionalism_ability1_btn
+	tooltip = naval_professionalism_ability1_tooltip
+	potential = { always = yes }
+	trigger = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 5
+		}
+	}
+	effect = {
+		subtract_medium_np_progress = yes
+		add_yearly_sailors = 2
+	}
+}
+
+custom_button = {
+	name = naval_professionalism_ability2_btn
+	tooltip = naval_professionalism_ability2_tooltip
+	potential = { always = yes }
+	trigger = {
+		check_variable = {
+			which = navalProfessionalismVariable
+			value = 10
+		}
+	}
+	effect = {
+		subtract_large_np_progress = yes
+		random_owned_province = {
+			limit = { has_port = yes }
+			add_unit_construction = {
+				type = heavy_ship
+				amount = 5
+				speed = 0.1
+				cost = 0
+			}
 		}
 	}
 }

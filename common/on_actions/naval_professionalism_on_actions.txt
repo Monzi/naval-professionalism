@@ -6,6 +6,18 @@ on_startup = {
 }
 
 # country
+on_monthly_pulse = {
+	if = {
+		limit = { has_country_flag = np_is_studying }
+		add_tiny_np_progress = yes
+	}
+	events = {
+		naval_professionalism_events.0002 # Sets / Updates modifiers based on level of Naval Professionalism
+		naval_professionalism_events.0003 # Monthly check if country has over/under light ship limit
+	}
+}
+
+# country
 on_admiral_recruited = {
 	add_small_np_progress = yes
 }

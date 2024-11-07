@@ -3,6 +3,12 @@
  navalProfessionalismVariable:0 "Naval Professionalism"
  navalProfessionalismControlVariable:0 "Naval Professionalism Control"
  naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
+ naval_professionalism_study_btn:0 "Study"
+ naval_professionalism_study_tooltip:0 "Study tooltip"
+ naval_professionalism_ability1_btn:0 "Ability 1"
+ naval_professionalism_ability1_tooltip:0 "Spend 5% to gain 2 years worth of Sailors"
+ naval_professionalism_ability2_btn:0 "Ability 2"
+ naval_professionalism_ability2_tooltip:0 "Spend 10% to gain 5 heavy ships"
 
 # Ranks
 # Rank Gui Elements
@@ -21,6 +27,7 @@
  naval_professionalism_rank4_modifier:0 "Permanent Navy"
  naval_professionalism_rank5_modifier:0 "Professional Navy"
 
+ TINY_NP_GAIN:0 "Gain §G0.01%§! Naval Professionalism"
  SMALL_NP_GAIN:0 "Gain §G1.00%§! Naval Professionalism"
  MEDIUM_NP_GAIN:0 "Gain §G5.00%§! Naval Professionalism"
  LARGE_NP_GAIN:0 "Gain §G10.00%§! Naval Professionalism"
@@ -28,3 +35,11 @@
  SMALL_NP_LOSS:0 "Lose §R1.00%§! Naval Professionalism"
  MEDIUM_NP_LOSS:0 "Lose §R5.00%§! Naval Professionalism"
  LARGE_NP_LOSS:0 "Lose §R10.00%§! Naval Professionalism"
+
+# AI Only
+ np_ai_study_title:0 "AI Decision: Study"
+ np_ai_study_desc:0 "This decision is only available for AI due to them not being able to interact with custom GUI"
+ np_ai_ability1_title:0 "AI Decision: Ability 1"
+ np_ai_ability1_desc:0 "This decision is only available for AI due to them not being able to interact with custom GUI"
+ np_ai_ability2_title:0 "AI Decision: Ability 2"
+ np_ai_ability2_desc:0 "This decision is only available for AI due to them not being able to interact with custom GUI"

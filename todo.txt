@@ -1,12 +1,7 @@
-[] Add ability to Study
-    Replacement for drilling
-[] Add ability to spend Naval professionalism
-    Button to click, spend 5% to gain sailors
-    Button to click, spend 10-20% to press new ships into service
 [] Remove Debug code
 
 # Requirements
-# Feature               DLC
+# Feature               # DLC
 Flagship                Golden Century
 Special naval units     Domination
 Marines                 Rule Britannia, Golden Century, Lions of the North, Domination

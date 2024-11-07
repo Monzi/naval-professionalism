@@ -2,1487 +2,11 @@ defined_text = {
 	name = naval_professionalism_progress_tooltip_cl
 
 	text = {
-		localisation_key = string_np_progress_0
+		localisation_key = string_np_progress_100
 		trigger = {
 			check_variable = {
 				which = navalProfessionalismVariable
-				value = 0
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 1
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_1
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 1
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 2
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_2
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 2
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 3
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_3
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 3
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 4
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_4
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 4
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 5
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_5
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 5
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 6
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_6
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 6
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 7
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_7
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 7
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 8
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_8
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 8
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 9
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_9
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 9
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 10
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_10
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 10
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 11
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_11
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 11
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 12
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_12
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 12
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 13
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_13
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 13
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 14
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_14
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 14
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 15
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_15
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 15
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 16
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_16
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 16
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 17
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_17
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 17
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 18
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_18
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 18
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 19
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_19
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 19
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 20
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_20
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 20
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 21
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_21
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 21
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 22
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_22
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 22
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 23
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_23
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 23
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 24
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_24
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 24
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 25
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_25
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 25
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 26
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_26
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 26
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 27
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_27
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 27
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 28
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_28
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 28
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 29
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_29
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 29
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 30
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_30
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 30
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 31
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_31
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 31
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 32
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_32
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 32
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 33
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_33
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 33
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 34
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_34
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 34
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 35
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_35
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 35
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 36
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_36
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 36
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 37
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_37
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 37
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 38
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_38
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 38
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 39
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_39
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 39
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 40
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_40
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 40
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 41
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_41
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 41
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 42
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_42
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 42
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 43
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_43
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 43
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 44
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_44
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 44
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 45
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_45
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 45
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 46
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_46
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 46
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 47
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_47
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 47
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 48
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_48
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 48
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 49
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_49
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 49
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 50
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_50
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 50
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 51
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_51
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 51
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 52
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_52
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 52
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 53
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_53
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 53
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 54
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_54
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 54
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 55
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_55
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 55
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 56
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_56
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 56
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 57
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_57
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 57
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 58
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_58
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 58
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 59
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_59
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 59
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 60
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_60
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 60
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 61
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_61
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 61
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 62
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_62
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 62
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 63
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_63
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 63
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 64
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_64
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 64
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 65
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_65
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 65
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 66
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_66
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 66
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 67
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_67
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 67
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 68
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_68
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 68
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 69
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_69
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 69
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 70
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_70
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 70
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 71
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_71
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 71
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 72
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_72
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 72
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 73
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_73
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 73
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 74
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_74
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 74
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 75
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_75
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 75
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 76
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_76
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 76
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 77
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_77
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 77
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 78
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_78
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 78
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 79
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_79
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 79
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 80
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_80
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 80
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 81
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_81
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 81
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 82
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_82
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 82
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 83
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_83
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 83
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 84
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_84
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 84
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 85
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_85
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 85
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 86
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_86
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 86
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 87
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_87
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 87
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 88
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_88
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 88
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 89
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_89
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 89
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 90
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_90
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 90
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 91
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_91
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 91
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 92
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_92
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 92
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 93
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_93
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 93
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 94
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_94
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 94
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 95
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_95
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 95
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 96
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_96
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 96
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 97
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_97
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 97
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 98
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_progress_98
-		trigger = {
-			check_variable = {
-				which = navalProfessionalismVariable
-				value = 98
-			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 99
-				}
+				value = 100
 			}
 		}
 	}
@@ -1493,26 +17,896 @@ defined_text = {
 				which = navalProfessionalismVariable
 				value = 99
 			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 100
-				}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_98
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 98
 			}
 		}
 	}
 	text = {
-		localisation_key = string_np_progress_100
+		localisation_key = string_np_progress_97
 		trigger = {
 			check_variable = {
 				which = navalProfessionalismVariable
-				value = 100
+				value = 97
 			}
-			NOT = {
-				check_variable = {
-					which = navalProfessionalismVariable
-					value = 101
-				}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_96
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 96
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_95
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 95
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_94
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 94
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_93
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 93
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_92
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 92
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_91
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 91
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_90
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 90
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_89
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 89
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_88
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 88
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_87
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 87
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_86
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 86
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_85
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 85
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_84
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 84
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_83
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 83
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_82
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 82
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_81
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 81
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_80
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 80
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_79
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 79
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_78
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 78
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_77
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 77
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_76
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 76
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_75
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 75
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_74
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 74
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_73
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 73
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_72
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 72
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_71
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 71
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_70
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 70
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_69
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 69
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_68
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 68
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_67
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 67
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_66
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 66
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_65
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 65
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_64
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 64
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_63
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 63
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_62
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 62
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_61
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 61
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_60
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 60
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_59
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 59
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_58
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 58
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_57
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 57
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_56
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 56
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_55
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 55
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_54
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 54
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_53
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 53
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_52
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 52
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_51
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 51
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_50
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 50
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_49
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 49
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_48
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 48
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_47
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 47
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_46
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 46
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_45
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 45
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_44
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 44
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_43
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 43
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_42
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 42
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_41
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 41
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_40
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 40
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_39
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 39
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_38
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 38
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_37
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 37
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_36
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 36
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_35
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 35
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_34
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 34
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_33
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 33
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_32
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 32
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_31
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 31
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_30
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 30
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_29
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 29
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_28
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 28
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_27
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 27
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_26
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 26
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_25
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 25
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_24
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 24
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_23
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 23
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_22
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 22
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_21
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 21
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_20
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 20
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_19
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 19
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_18
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 18
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_17
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 17
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_16
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 16
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_15
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 15
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_14
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 14
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_13
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 13
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_12
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 12
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_11
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 11
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_10
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_9
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 9
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_8
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 8
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_7
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 7
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_6
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 6
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_5
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_4
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 4
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_3
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 3
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_2
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 2
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_1
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 1
+			}
+		}
+	}
+	text = {
+		localisation_key = string_np_progress_0
+		trigger = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 0
 			}
 		}
 	}

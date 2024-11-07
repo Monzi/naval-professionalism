@@ -1,5 +1,7 @@
-# System Event Modifiers
-30_day_cooldown = {
+# Studying Naval Professionalism
+np_studying = {
+	naval_morale = -1
+	naval_maintenance_modifier = 0.15
 }
 
 # allowed_marine_fraction is only used, if one of the following is enabled: Rule Britannia, Golden Century, Lions of the North, Domination

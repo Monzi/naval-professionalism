@@ -1,0 +1,137 @@
+country_decisions = {
+	np_ai_study = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			naval_maintenance = 1
+			heavy_ship_fraction = 0.1
+		}
+		effect = {
+			if = {
+				limit = { NOT = { has_country_flag = np_is_studying } }
+				set_country_flag = np_is_studying
+			}
+			else_if = {
+				limit = { has_country_flag = np_is_studying	}
+				clr_country_flag = np_is_studying
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				AND = {
+					has_country_flag = np_is_studying
+					is_at_war = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = { has_country_flag = np_is_studying }
+					is_at_war = yes
+				}
+			}
+		}
+	}
+
+	np_ai_ability1 = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 5
+			}
+		}
+		effect = {
+			add_yearly_sailors = 2
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				sailors_percentage = 0.5
+			}
+			modifier = {
+				factor = 1
+				sailors_percentage = 0.4
+			}
+			modifier = {
+				factor = 2
+				sailors_percentage = 0.3
+			}
+			modifier = {
+				factor = 3
+				sailors_percentage = 0.2
+			}
+			modifier = {
+				factor = 4
+				sailors_percentage = 0.1
+			}
+			modifier = {
+				factor = 5
+				sailors_percentage = 0
+			}
+		}
+	}
+
+	np_ai_ability2 = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			check_variable = {
+				which = navalProfessionalismVariable
+				value = 10
+			}
+		}
+		effect = {
+			subtract_large_np_progress = yes
+			random_owned_province = {
+				limit = { has_port = yes }
+				add_unit_construction = {
+					type = heavy_ship
+					amount = 5
+					speed = 0.1
+					cost = 0
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					check_variable = {
+						which = navalProfessionalismVariable
+						value = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				NOT = { heavy_ship_fraction = 0.1 }
+			}
+			modifier = {
+				factor = 2
+				light_ship_fraction = 0.5
+			}
+			modifier = {
+				factor = 10
+				light_ship_fraction = 0.70
+			}
+		}
+	}
+}

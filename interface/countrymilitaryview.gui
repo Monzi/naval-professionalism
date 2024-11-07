@@ -1717,6 +1717,19 @@ guiTypes = {
 			}
 			
 		}
+		# Naval Professionalism abilities
+		guiButtonType =	{
+			name = "naval_professionalism_ability1_btn"
+			quadTextureSprite= "GFX_slacken_button"
+			position = { x=155 y =551 }
+			scripted = yes
+		}
+		guiButtonType =	{
+			name = "naval_professionalism_ability2_btn"
+			quadTextureSprite= "GFX_slacken_button"
+			position = { x=135 y =571 }
+			scripted = yes
+		}
 		
 		iconType = {
 			name ="mothball_icon"
