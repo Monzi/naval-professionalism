@@ -1,6 +1,8 @@
-version="0.0.1a"
+version="1.0.0"
 tags={
 	"Balance"
+	"Gameplay"
+	"Military"
 	"Graphics"
 }
 name="Naval Professionalism"
