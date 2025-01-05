@@ -40,6 +40,7 @@ country_decisions = {
 			ai = yes
 		}
 		allow = {
+			num_of_ports = 1
 			check_variable = {
 				which = navalProfessionalismVariable
 				value = 5
@@ -91,6 +92,7 @@ country_decisions = {
 			ai = yes
 		}
 		allow = {
+			num_of_ports = 1
 			check_variable = {
 				which = navalProfessionalismVariable
 				value = 10

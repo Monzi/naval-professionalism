@@ -88,3 +88,13 @@ defined_text = {
 		}
 	}
 }
+
+defined_text = {
+	name = naval_professionalism_yearlygain
+	text = {
+		localisation_key = string_np_monthly_study_on_icon
+		trigger = {
+			has_country_flag = np_is_studying
+		}
+	}
+}

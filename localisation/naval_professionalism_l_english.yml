@@ -2,7 +2,7 @@
 # Interface
  navalProfessionalismVariable:0 "Naval Professionalism"
  navalProfessionalismControlVariable:0 "Naval Professionalism Control"
- naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
+ naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_yearlygain][This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
  naval_professionalism_study_tooltip:0 "[This.naval_professionalism_studying_cl]\nRequires Naval Maintenance to stay at 100%.\n§YAutomatically stops when at war§!"
  STUDYING_CT:0 "Gain Monthly §G0.01%§! Naval Professionalism\nMorale of Navies: §R-100.0%§!\nNaval Maintenance Modifier: §R+15.0%§!"
  naval_professionalism_ability1_tooltip:0 "§YSlacken Recruiting Standards§!"
@@ -20,7 +20,7 @@
  naval_professionalism_rank2_tooltip:0 "§YFlotilla Mustering§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y40.0%§!\n--------------\nShips can repair when in coastal sea zones"
  naval_professionalism_rank3_tooltip:0 "§YConscription Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y60.0%§!\n--------------\nNaval Combat Bonus off owned coast: §G+1.00§!"
  naval_professionalism_rank4_tooltip:0 "§YPermanent Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y80.0%§!\n--------------\nMorale Hit When Losing a Ship: §G-30.0%§!"
- naval_professionalism_rank5_tooltip:0 "§YProfessional Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y100.0%§!\n--------------\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_rank5_cl]"
+ naval_professionalism_rank5_tooltip:0 "§YProfessional Navy§!\nRequired [Root.navalProfessionalismVariable.GetName]: §Y100.0%§!\n--------------\n[This.naval_professionalism_dlc_rank5_cl]"
 
 # Rank Modifiers
 # Rank 0 - Merchant Navy

@@ -976,7 +976,7 @@ guiTypes = {
 			name = "button_recruit_general"
 			if_resolution = {
             max_height = 867
-			position = { x=208 y =466 }
+			position = { x=208 y =547 }
             }
             if_resolution = {
 			min_height = 868
@@ -996,7 +996,7 @@ guiTypes = {
 			name = "button_recruit_conquistador"
 			if_resolution = {
             max_height = 867
-			position = { x=260 y =466 }
+			position = { x=260 y =547 }
             }
             if_resolution = {
 			min_height = 868
@@ -1016,7 +1016,7 @@ guiTypes = {
 			name = "button_recruit_admiral"
 			if_resolution = {
             max_height = 867
-			position = { x=312 y =466 }
+			position = { x=312 y =547 }
             }
             if_resolution = {
 			min_height = 868
@@ -1036,7 +1036,7 @@ guiTypes = {
 			name = "button_recruit_explorer"
 			if_resolution = {
             max_height = 867
-			position = { x=364 y =466 }
+			position = { x=364 y =547 }
             }
             if_resolution = {
 			min_height = 868
@@ -1056,7 +1056,7 @@ guiTypes = {
 			name = "button_makerulergeneral"
 			if_resolution = {
 				max_height = 867
-				position = { x=416 y =466 }
+				position = { x=416 y =547 }
             }
             if_resolution = {
 				min_height = 868
@@ -1076,7 +1076,7 @@ guiTypes = {
 			name = "button_makeconsortgeneral"
 			if_resolution = {
 				max_height = 867
-				position = { x=416 y =466 }
+				position = { x=416 y =547 }
             }
             if_resolution = {
 				min_height = 868
@@ -1096,7 +1096,7 @@ guiTypes = {
 			name = "button_makeheirgeneral"
 			if_resolution = {
             max_height = 867
-			position = { x=468 y =466 }
+			position = { x=468 y =547 }
             }
             if_resolution = {
 			min_height = 868
@@ -1665,12 +1665,12 @@ guiTypes = {
 			
 			if_resolution = {
             max_height = 867
-			position = { x=60 y =507 }
+			position = { x=208 y =505 }
             }
             if_resolution = {
 			min_height = 868
 			max_height = 1047
-			position = { x=11 y =511 }
+			position = { x=11 y =551 }
             }
             if_resolution = {
 			min_height = 1048
@@ -1685,12 +1685,12 @@ guiTypes = {
 
 			if_resolution = {
             max_height = 867
-			position = { x=108 y =507 }
+			position = { x=250 y =505 }
             }
             if_resolution = {
 			min_height = 868
 			max_height = 1047
-			position = { x=58 y =511 }
+			position = { x=58 y =551 }
             }
             if_resolution = {
 			min_height = 1048
@@ -1704,12 +1704,12 @@ guiTypes = {
 
 			if_resolution = {
             max_height = 867
-			position = { x=207 y =507 }
+			position = { x=292 y =505 }
             }
             if_resolution = {
 			min_height = 868
 			max_height = 1047
-			position = { x=155 y =511 }
+			position = { x=155 y =551 }
             }
             if_resolution = {
 			min_height = 1048
@@ -1721,28 +1721,77 @@ guiTypes = {
 		guiButtonType =	{
 			name = "naval_professionalism_study_btn"
 			quadTextureSprite= "GFX_np_study_btn"
-			position = { x=58 y =645 }
+			if_resolution = {
+				max_height = 867
+				position = { x=340 y =505 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=58 y =645 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=58 y =645 }
+			}
 			scale = 0.55
 			scripted = yes
 		}
 		iconType = {
 			name = "naval_professionalism_study_mark"
 			spriteType = "GFX_np_study_yes"
-			position = { x=80 y =668 }
+			if_resolution = {
+				max_height = 867
+				position = { x=362 y =528 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=80 y =668 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=80 y =668 }
+			}
 			Orientation = "UPPER_LEFT"
+			alwaysTransparent = yes
 			scripted = yes
 		}
 		guiButtonType =	{
 			name = "naval_professionalism_ability1_btn"
 			quadTextureSprite= "GFX_np_ability1_btn"
-			position = { x=106 y =645 }
+			if_resolution = {
+				max_height = 867
+				position = { x=384 y =505 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=106 y =645 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=106 y =645 }
+			}
 			scale = 0.55
 			scripted = yes
 		}
 		guiButtonType =	{
 			name = "naval_professionalism_ability2_btn"
 			quadTextureSprite= "GFX_np_ability2_btn"
-			position = { x=155 y =645 }
+			if_resolution = {
+				max_height = 867
+				position = { x=428 y =505 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=155 y =645 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=155 y =645 }
+			}
 			scale = 0.55
 			scripted = yes
 		}
@@ -1752,12 +1801,12 @@ guiTypes = {
 			spriteType= "GFX_active_forts_icon"
 			if_resolution = {
 				max_height = 867
-				position = { x=157 y =507 }
+				position = { x=515 y =515 }
             }
             if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=115 y =511 }
+				position = { x=115 y =551 }
             }
             if_resolution = {
 				min_height = 1048
@@ -1767,20 +1816,19 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "mothball_label"
-			#if_resolution = {
-			#	max_height = 867
-			#	position = { x=157 y =527 }
-            #}
-            #if_resolution = {
-			#	min_height = 868
-			#	max_height = 1047
-            #}
-            #if_resolution = {
-			#	min_height = 1048
-			#	position = { x=105 y =531 }
-			#}
-			
-			position = { x=105 y =574 }
+			if_resolution = {
+				max_height = 867
+				position = { x=475 y =519 }
+            }
+            if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=105 y =574 }
+            }
+            if_resolution = {
+				min_height = 1048
+				position = { x=105 y =574 }
+			}
 			textureFile = ""
 			font = "vic_18"
 			text = "99/99 Forts Active"	
@@ -1803,12 +1851,12 @@ guiTypes = {
 			name ="automatic_full_maintenance_checkbox"
 			if_resolution = {
             max_height = 867
-			position = { x=248 y =514 }
+			position = { x=25 y =550 }
             }
             if_resolution = {
 			min_height = 868
 			max_height = 1047
-			position = { x=12 y =560 }
+			position = { x=12 y =600 }
             }
             if_resolution = {
 			min_height = 1048
@@ -1826,16 +1874,16 @@ guiTypes = {
 			name = "automatic_full_maintenance_label"
 			if_resolution = {
             max_height = 867
-			position = { x=268 y =513 }
-			maxWidth = 300
-			maxHeight = 40
+			position = { x=47 y =549 }
+			maxWidth = 180
+			maxHeight = 100
             }
             if_resolution = {
 			min_height = 868
 			max_height = 1047
-			position = { x=32 y =560 }
+			position = { x=32 y =600 }
 			maxWidth = 164
-			maxHeight = 120			
+			maxHeight = 44		
             }
             if_resolution = {
 			min_height = 1048

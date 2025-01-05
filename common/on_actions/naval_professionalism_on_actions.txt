@@ -1,7 +1,7 @@
 # country
 on_startup = {
 	events = {
-		naval_professionalism_events.0001 # Initialize Naval Professionalism
+		naval_professionalism_system.0001 # Initialize Naval Professionalism
 	}
 }
 
@@ -12,31 +12,34 @@ on_monthly_pulse = {
 			has_country_flag = np_is_studying
 			naval_maintenance = 1
 		}
-		add_tiny_np_progress = yes
-		add_country_modifier = {
-			name = np_studying
-			duration = -1
+		country_event = {
+			id = naval_professionalism_system.0004 # Updates studying reward based on force limit
 		}
 	}
 	else_if = {
 		limit = {
 			has_country_flag = np_is_studying
-			NOT= { naval_maintenance = 1 }
+			NOT = { naval_maintenance = 1 }
 		}
-		clr_country_flag = np_is_studying
-		remove_country_modifier = np_studying
+		stop_studying = yes
 	}
-	if = {
+	else_if = {
+		limit = {
+			has_country_flag = np_is_studying
+			NOT = { num_of_ports = 1 }
+		}
+		stop_studying = yes
+	}
+	else_if = {
 		limit = {
 			has_country_flag = np_is_studying
 			is_at_war = yes
 		}
-		clr_country_flag = np_is_studying
-		remove_country_modifier = np_studying
+		stop_studying = yes
 	}
 	events = {
-		naval_professionalism_events.0002 # Sets / Updates modifiers based on level of Naval Professionalism
-		naval_professionalism_events.0003 # Monthly check if country has over/under light ship limit
+		naval_professionalism_system.0002 # Sets / Updates modifiers based on level of Naval Professionalism
+		naval_professionalism_system.0003 # Monthly check if country has over/under light ship limit
 	}
 }
 
