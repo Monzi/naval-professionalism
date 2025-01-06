@@ -1,2 +1,0 @@
-If EU4 has been updated compare the following files with new ones before updating.
-- common/static_modifiers/00_static_modifiers.txt

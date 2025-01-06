@@ -1,4 +1,4 @@
-defined_text = {
+defined_text = { # modifier tooltip
 	name = naval_professionalism_progress_tooltip_cl
 
 	text = {
@@ -908,6 +908,710 @@ defined_text = {
 				which = navalProfessionalismVariable
 				value = 0
 			}
+		}
+	}
+}
+
+defined_text = {
+	name = naval_professionalism_yearlygain
+	text = {
+		localisation_key = string_np_yearly_study_gain_100
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 1
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_99
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.99
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_98
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.98
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_60
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.60
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_59
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.59
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_58
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.58
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_57
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.57
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_56
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.56
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_55
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.55
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_54
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.54
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_53
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.53
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_52
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.52
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_51
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.51
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_50
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.50
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_49
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.49
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_48
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.48
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_47
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.47
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_46
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.46
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_45
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.45
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_44
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.44
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_43
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.43
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_42
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.42
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_41
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.41
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_40
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.40
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_39
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.39
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_38
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.38
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_37
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.37
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_36
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.36
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_35
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.35
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_34
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.34
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_33
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.33
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_32
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.32
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_31
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.31
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_30
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.30
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_29
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.29
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_28
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.28
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_27
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.27
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_26
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.26
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_25
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.25
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_24
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.24
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_23
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.23
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_22
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.22
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_21
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.21
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_20
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.20
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_19
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.19
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_18
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.18
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_17
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.17
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_16
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.16
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_15
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.15
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_14
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.14
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_13
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.13
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_12
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.12
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_11
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.11
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_10
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.10
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_9
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.09
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_8
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.08
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_7
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.07
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_6
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.06
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_5
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.05
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_4
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.04
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_3
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.03
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_2
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.02
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_1
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.01
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_0
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.00
 		}
 	}
 }

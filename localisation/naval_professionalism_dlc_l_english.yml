@@ -4,10 +4,8 @@
  string_np_icon:0 "Recruit Admiral: §G+1%§!"
 # With DLC
  string_np_dlc_icon:0 "Recruit Admiral: §G+1%§!\nCapture Flagship: §G+5%§!\nLoss Flagship: §R-5%§!"
-# Monthly on/off
- string_np_monthly_study_on_icon:0 "\n§YYearly Gain:§!\nStudying: §G+1.0%§!"
+# Monthly gain
  string_np_monthly_on_icon:0 "\n§YMonthly Gain:§!\nOverreliance on Merchant ships: §R-0.01%§!"
- string_np_monthly_off_icon:0 ""
 
 # Ranks
 # Rank 5

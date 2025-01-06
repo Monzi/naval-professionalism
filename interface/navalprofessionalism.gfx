@@ -30,27 +30,27 @@ spriteTypes = {
 	# Ranks
 	spriteType = {
 		name = "GFX_np_rank_1_base"
-		texturefile = "gfx//interface//naval_professionalism//np_rank_1_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_1_grey.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_2_base"
-		texturefile = "gfx//interface//naval_professionalism//np_rank_2_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_2_grey.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_3_base"
-		texturefile = "gfx//interface//naval_professionalism//np_rank_3_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_3_grey.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_4_base"
-		texturefile = "gfx//interface//naval_professionalism//np_rank_4_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_4_grey.dds"
 	}
 
 	spriteType = {
 		name = "GFX_np_rank_5_base"
-		texturefile = "gfx//interface//naval_professionalism//np_rank_5_gray.dds"
+		texturefile = "gfx//interface//naval_professionalism//np_rank_5_grey.dds"
 	}
 
 	spriteType = { # Possible use for future update

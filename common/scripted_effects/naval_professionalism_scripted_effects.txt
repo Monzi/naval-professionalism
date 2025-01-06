@@ -7,12 +7,7 @@ update_control_variable = {
 
 stop_studying = {
 	clr_country_flag = np_is_studying
-	clear_naval_professionalism_flags = yes
 	remove_country_modifier = np_studying
-}
-
-clear_naval_professionalism_flags = {
-	clr_country_flag = study_percentage_100
 }
 
 clear_naval_professionalism_modifiers = {

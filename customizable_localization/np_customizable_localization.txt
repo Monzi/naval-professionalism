@@ -1,77 +1,3 @@
-defined_text = { # Icon Tooltip
-	name = naval_professionalism_monthly_icon_cl
-	text = {
-		localisation_key = string_np_monthly_on_icon
-		trigger = {
-			OR = {
-				AND = { # If country does not have VOC Indiamen then give penalty for being over 75%
-					light_ship_fraction = 0.75
-					if = {
-						limit = { has_dlc = "Domination" }
-						NOT = { has_reform = stadthalter_monarchy_reform }
-						NOT = { has_reform = dutch_republic }
-						NOT = { has_reform = dutch_theocracy_reform }
-						NOT = {
-							any_owned_province = {
-								has_province_modifier = ned_fort_of_batavia
-							}
-						}
-					}
-				}
-				AND = { # If country does have VOC Indiamen then give penalty for being under 25%
-					NOT = { light_ship_fraction = 0.25 }
-					if = {
-						limit = { has_dlc = "Domination" }
-						OR = {
-							has_reform = stadthalter_monarchy_reform # Dutch Government Reform
-							has_reform = dutch_republic # Dutch Government Reform
-							has_reform = dutch_theocracy_reform # Dutch Government Reform
-							any_owned_province = { # Dutch Mission
-								has_province_modifier = ned_fort_of_batavia
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	text = {
-		localisation_key = string_np_monthly_off_icon
-		trigger = {
-			OR = {
-				AND = { # If country does not have VOC Indiamen then give penalty for being over 75%
-					NOT = { light_ship_fraction = 0.75 }
-					if = {
-						limit = { has_dlc = "Domination" }
-						NOT = { has_reform = stadthalter_monarchy_reform }
-						NOT = { has_reform = dutch_republic }
-						NOT = { has_reform = dutch_theocracy_reform }
-						NOT = {
-							any_owned_province = {
-								has_province_modifier = ned_fort_of_batavia
-							}
-						}
-					}
-				}
-				AND = { # If country does have VOC Indiamen then give penalty for being under 25%
-					light_ship_fraction = 0.25
-					if = {
-						limit = { has_dlc = "Domination" }
-						OR = {
-							has_reform = stadthalter_monarchy_reform # Dutch Government Reform
-							has_reform = dutch_republic # Dutch Government Reform
-							has_reform = dutch_theocracy_reform # Dutch Government Reform
-							any_owned_province = { # Dutch Mission
-								has_province_modifier = ned_fort_of_batavia
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
 defined_text = {
 	name = naval_professionalism_studying_cl
 
@@ -83,16 +9,6 @@ defined_text = {
 	}
 	text = {
 		localisation_key = string_np_stop_study
-		trigger = {
-			has_country_flag = np_is_studying
-		}
-	}
-}
-
-defined_text = {
-	name = naval_professionalism_yearlygain
-	text = {
-		localisation_key = string_np_monthly_study_on_icon
 		trigger = {
 			has_country_flag = np_is_studying
 		}
