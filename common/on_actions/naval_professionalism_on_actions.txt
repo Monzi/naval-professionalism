@@ -12,6 +12,13 @@ on_monthly_pulse = {
 			has_country_flag = np_is_studying
 			naval_maintenance = 1
 		}
+		if = {
+			limit = { NOT = { has_country_modifier = np_studying } }
+			add_country_modifier = {
+				name = np_studying
+				duration = -1
+			}
+		}
 		country_event = {
 			id = naval_professionalism_system.0003 # Updates studying reward based on force limit
 		}
