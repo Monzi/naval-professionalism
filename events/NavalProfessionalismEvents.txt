@@ -1,10 +1,12 @@
 namespace = naval_professionalism_events
 
-# Foreign Talent
-# Wargames
+# events/ArmyProfessionalism.txt
+
+# Foreign Talent				army_professionalism_events.6
+# Wargames						army_professionalism_events.8
 # Thriving Weapons Industry
-# Lack of Officers
-# An Army Career
-# Private Contractors
+# Lack of Officers				army_professionalism_events.12
+# An Army Career				army_professionalism_events.10
+# Private Contractors			army_professionalism_events.9
 # Peacetime Life
-# Delayed salaries
+# Delayed salaries				army_professionalism_events.4

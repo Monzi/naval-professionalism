@@ -13,7 +13,7 @@ on_monthly_pulse = {
 			naval_maintenance = 1
 		}
 		country_event = {
-			id = naval_professionalism_system.0004 # Updates studying reward based on force limit
+			id = naval_professionalism_system.0003 # Updates studying reward based on force limit
 		}
 	}
 	else_if = {
@@ -39,7 +39,6 @@ on_monthly_pulse = {
 	}
 	events = {
 		naval_professionalism_system.0002 # Sets / Updates modifiers based on level of Naval Professionalism
-		naval_professionalism_system.0003 # Monthly check if country has over/under light ship limit
 	}
 }
 

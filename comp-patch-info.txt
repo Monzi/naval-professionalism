@@ -1,7 +1,0 @@
-These files / lines of code must be included for a comp. patch
-
-gfx/interface/army_professionalism/country_military_view_bg_ap_huge.dds
-	A lot of gui elements have been moved, so take care to inspect this file.
-
-interface/countrymilitaryview.gui
-	A lot of gui elements have been moved, so take care to inspect this file.

@@ -936,255 +936,262 @@ defined_text = {
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_97
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.97
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_96
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.96
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_95
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.95
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_94
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.94
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_93
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.93
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_92
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.92
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_91
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.91
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_90
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.90
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_89
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.89
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_88
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.88
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_87
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.87
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_86
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.86
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_85
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.85
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_84
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.84
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_83
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.83
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_82
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.82
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_81
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.81
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_80
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.80
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_79
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.79
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_78
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.78
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_77
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.77
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_76
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.76
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_75
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.75
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_74
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.74
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_73
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.73
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_72
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.72
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_71
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.71
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_70
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.70
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_69
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.69
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_68
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.68
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_67
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.67
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_66
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.66
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_65
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.65
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_64
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.64
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_63
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.63
 		}
 	}
 	text = {
-		localisation_key = string_np_yearly_study_gain_
+		localisation_key = string_np_yearly_study_gain_62
 		trigger = {
 			has_country_flag = np_is_studying
-			navy_size_percentage = 0.
+			navy_size_percentage = 0.62
+		}
+	}
+	text = {
+		localisation_key = string_np_yearly_study_gain_61
+		trigger = {
+			has_country_flag = np_is_studying
+			navy_size_percentage = 0.61
 		}
 	}
 	text = {

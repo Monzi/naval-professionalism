@@ -128,7 +128,6 @@ custom_button = {
 	trigger = {
 		if = {
 			limit = { NOT = { has_country_flag = np_is_studying } }
-			navy_size = 1
 			num_of_ports = 1
 			naval_maintenance = 1
 		}

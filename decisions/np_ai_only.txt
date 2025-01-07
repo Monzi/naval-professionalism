@@ -4,7 +4,11 @@ country_decisions = {
 			ai = yes
 		}
 		allow = {
-			naval_maintenance = 1
+			if = {
+				limit = { NOT = { has_country_flag = np_is_studying } }
+				num_of_ports = 1
+				naval_maintenance = 1
+			}
 		}
 		effect = {
 			if = {
@@ -13,7 +17,7 @@ country_decisions = {
 			}
 			else_if = {
 				limit = { has_country_flag = np_is_studying	}
-				clr_country_flag = np_is_studying
+				stop_studying = yes
 			}
 		}
 		ai_will_do = {
@@ -40,13 +44,14 @@ country_decisions = {
 			ai = yes
 		}
 		allow = {
-			num_of_ports = 1
 			check_variable = {
 				which = navalProfessionalismVariable
 				value = 5
 			}
+			num_of_ports = 1
 		}
 		effect = {
+			subtract_medium_np_progress = yes
 			add_yearly_sailors = 2
 		}
 		ai_will_do = {
@@ -92,11 +97,11 @@ country_decisions = {
 			ai = yes
 		}
 		allow = {
-			num_of_ports = 1
 			check_variable = {
 				which = navalProfessionalismVariable
 				value = 10
 			}
+			num_of_ports = 1
 		}
 		effect = {
 			subtract_large_np_progress = yes

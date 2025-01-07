@@ -2,7 +2,7 @@
 # Interface
  navalProfessionalismVariable:0 "Naval Professionalism"
  navalProfessionalismControlVariable:0 "Naval Professionalism Control"
- naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_yearlygain][This.naval_professionalism_monthly_icon_cl]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
+ naval_professionalism_tooltip:0 "§YNaval Professionalism§!\nNaval Professionalism is how dependent your country is on merchants or professional navies. It increases by studying naval strategies or recruiting admirals but decreases if you lose a flagship.\n--------------[This.naval_professionalism_yearlygain]\n§YImmediate Gain:§!\n[This.naval_professionalism_dlc_icon_cl]"
  string_np_start_study:0 "§YStudy Naval Strategies§!"
  string_np_stop_study:0 "§YStop Studying Naval Strategies§!"
  naval_professionalism_study_tooltip:0 "[This.naval_professionalism_studying_cl]\nRequires Naval Maintenance to stay at 100%.\n§YAutomatically stops when at war§!"
