@@ -22,19 +22,31 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 100
-				AND = {
-					has_country_flag = np_is_studying
-					is_at_war = yes
-				}
-			}
-			modifier = {
+			modifier = { # Will not click if at war
 				factor = 0
-				AND = {
-					NOT = { has_country_flag = np_is_studying }
-					is_at_war = yes
-				}
+				is_at_war = yes
+			}
+			modifier = { # Will not start studying if bankrupt
+				factor = 0
+				is_bankrupt = yes
+				NOT = { has_country_flag = np_is_studying }
+			}
+			modifier = { # Will not Start studying if running a deficit
+				factor = 0
+				is_in_deficit = yes
+				is_at_war = no
+			}
+			modifier = { # Will Stop studying if running a deficit
+				factor = 100
+				is_in_deficit = yes
+				is_at_war = no
+				has_country_flag = np_is_studying
+			}
+			modifier = { # Will Start studying if not running a deficit and not bankrupt
+				factor = 100
+				is_bankrupt = no
+				is_in_deficit = no
+				is_at_war = no
 			}
 		}
 	}
@@ -58,36 +70,46 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				is_at_war = no
+			}
+			modifier = {
+				factor = 0
 				NOT = {
 					check_variable = {
 						which = navalProfessionalismVariable
-						value = 40
+						value = 25
 					}
 				}
 			}
 			modifier = {
 				factor = 0
 				sailors_percentage = 0.5
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 1
 				sailors_percentage = 0.4
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 2
 				sailors_percentage = 0.3
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 3
 				sailors_percentage = 0.2
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 4
 				sailors_percentage = 0.1
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 5
 				sailors_percentage = 0
+				is_at_war = yes
 			}
 		}
 	}
@@ -122,9 +144,13 @@ country_decisions = {
 				NOT = {
 					check_variable = {
 						which = navalProfessionalismVariable
-						value = 40
+						value = 30
 					}
 				}
+			}
+			modifier = {
+				factor = 10
+				is_at_war = yes
 			}
 			modifier = {
 				factor = 10
