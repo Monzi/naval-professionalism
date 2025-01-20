@@ -41,22 +41,15 @@ country_event = { # Sets / Updates modifiers based on level of Naval Professiona
 
 	is_triggered_only = yes
 	trigger = { # Stop this from being triggered if Naval Professionalism hasn't changed
-		NOT = {
-			is_variable_equal = {
-				which = navalProfessionalismVariable
-				which = navalProfessionalismControlVariable
+		OR = {
+			NOT = { has_country_flag = has_naval_professionalism_modifier }
+			NOT = {
+				is_variable_equal = {
+					which = navalProfessionalismVariable
+					which = navalProfessionalismControlVariable
+				}
 			}
 		}
-		# Potentially remove after test
-		#OR = {
-		#	NOT = { has_country_flag = has_naval_professionalism_modifier }
-		#	NOT = {
-		#		is_variable_equal = {
-		#			which = navalProfessionalismVariable
-		#			which = navalProfessionalismControlVariable
-		#		}
-		#	}
-		#}
 	}
 
 	immediate = {
