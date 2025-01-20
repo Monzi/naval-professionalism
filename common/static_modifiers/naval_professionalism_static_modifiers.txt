@@ -1,6 +1,5 @@
 #100 Naval Forcelimit = 1
 naval_forcelimit = {
-	# Make sure to check if this still works!
-    free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
-	max_flagships = 1 # Only works if Golden Century is enabled
+    free_navy_leader_pool = 1.25 # 80 Naval Forcelimit -> +1 Free Leader
+	max_flagships = 1 # 100 Naval Forcelimit -> +1 Flagship | Only works if Golden Century is enabled
 }

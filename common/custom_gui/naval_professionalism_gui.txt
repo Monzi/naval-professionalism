@@ -7,7 +7,6 @@ custom_icon = {
 }
 
 # Naval Professionalism Progressbar
-# Naval Professionalism Progress
 custom_icon = {
 	name = naval_professionalism_progress
 	tooltip = naval_professionalism_progress_tooltip
@@ -134,13 +133,15 @@ custom_button = {
 	}
 	effect = {
 		custom_tooltip = STUDYING_CT
-		if = {
-			limit = { NOT = { has_country_flag = np_is_studying } }
-			set_country_flag = np_is_studying
-		}
-		else_if = {
-			limit = { has_country_flag = np_is_studying	}
-			stop_studying = yes
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_country_flag = np_is_studying } }
+				set_country_flag = np_is_studying
+			}
+			else_if = {
+				limit = { has_country_flag = np_is_studying	}
+				stop_studying = yes
+			}
 		}
 	}
 }
@@ -161,7 +162,7 @@ custom_button = {
 	}
 	effect = {
 		subtract_medium_np_progress = yes
-		add_yearly_sailors = 2
+		add_yearly_sailors = 3
 	}
 }
 

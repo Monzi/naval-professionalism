@@ -1,7 +1,40 @@
-update_control_variable = {
-	set_variable = {
-		which = navalProfessionalismControlVariable
-		which = navalProfessionalismVariable
+check_study = { # Used in on_monthly_pulse to check study progress
+	if = {
+		limit = {
+			has_country_flag = np_is_studying
+			NOT = { naval_maintenance = 1 }
+		}
+		stop_studying = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = np_is_studying
+			NOT = { num_of_ports = 1 }
+		}
+		stop_studying = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = np_is_studying
+			is_at_war = yes
+		}
+		stop_studying = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = np_is_studying
+			naval_maintenance = 1
+		}
+		if = {
+			limit = { NOT = { has_country_modifier = np_studying } }
+			add_country_modifier = {
+				name = np_studying
+				duration = -1
+			}
+		}
+		country_event = {
+			id = naval_professionalism_system.0003 # Updates studying reward based on force limit
+		}
 	}
 }
 

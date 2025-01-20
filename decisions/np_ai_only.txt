@@ -64,7 +64,7 @@ country_decisions = {
 		}
 		effect = {
 			subtract_medium_np_progress = yes
-			add_yearly_sailors = 2
+			add_yearly_sailors = 3
 		}
 		ai_will_do = {
 			factor = 1

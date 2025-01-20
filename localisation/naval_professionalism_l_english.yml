@@ -6,7 +6,7 @@
  string_np_start_study:0 "§YStudy Naval Strategies§!"
  string_np_stop_study:0 "§YStop Studying Naval Strategies§!"
  naval_professionalism_study_tooltip:0 "[This.naval_professionalism_studying_cl]\nRequires Naval Maintenance to stay at 100%\n§YAutomatically stops when at war§!"
- STUDYING_CT:0 "Gain Yearly Naval Professionalism based on Naval Force Limit Percentage.\nNaval Maintenance Modifier: §R+20.0%§!"
+ STUDYING_CT:0 "Gain Yearly Naval Professionalism based on Naval Force Limit Percentage.\nNaval Maintenance Modifier: §R+20.0%§!\nHeavy Ship Combat Ability: §R-100.0%§!\nGalley combat ability: §R-100.0%§!"
  naval_professionalism_ability1_tooltip:0 "§YSlacken Recruiting Standards§!"
  SLACKEN_SAILORS:0 "We need at least §Y5§! Naval Professionalism"
  naval_professionalism_ability2_tooltip:0 "§YDeal With the Merchants§!"

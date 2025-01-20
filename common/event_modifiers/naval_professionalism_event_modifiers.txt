@@ -1,6 +1,8 @@
 # Studying Naval Professionalism
 np_studying = {
 	naval_maintenance_modifier = 0.20
+	heavy_ship_power = -1.0
+	galley_power = -1.0
 }
 
 # allowed_marine_fraction is only used, if one of the following is enabled: Rule Britannia, Golden Century, Lions of the North, Domination

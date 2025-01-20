@@ -6,9 +6,8 @@ country_event = { # Initialize Naval Professionalism
 	desc = naval_professionalism_system.0001.d
 	picture = BIG_BOOK_eventPicture
 	hidden = yes
-	trigger = { # For initializing Naval Professionalism for countries created after game start
-		NOT = { has_country_flag = has_naval_professionalism }
-	}
+
+	is_triggered_only = yes
 	
 	immediate = {
 		set_variable = {
@@ -19,7 +18,7 @@ country_event = { # Initialize Naval Professionalism
 			which = navalProfessionalismControlVariable
 			value = 0
 		}
-		set_country_flag = has_naval_professionalism
+		set_country_flag = naval_professionalism_initialized # Debug flag
 	}
 
 	option = {
@@ -28,7 +27,7 @@ country_event = { # Initialize Naval Professionalism
 
 	after = {
 		country_event = {
-			id = naval_professionalism_system.0002
+			id = naval_professionalism_system.0002 # Sets modifiers based on level of Naval Professionalism
 		}
 	}
 }
@@ -39,17 +38,25 @@ country_event = { # Sets / Updates modifiers based on level of Naval Professiona
 	desc = naval_professionalism_system.0002.d
 	picture = BIG_BOOK_eventPicture
 	hidden = yes
+
 	is_triggered_only = yes
-	trigger = {
-		OR = {
-			NOT = { has_country_flag = has_naval_professionalism_modifier }
-			NOT = {
-				is_variable_equal = {
-					which = navalProfessionalismVariable
-					which = navalProfessionalismControlVariable
-				}
+	trigger = { # Stop this from being triggered if Naval Professionalism hasn't changed
+		NOT = {
+			is_variable_equal = {
+				which = navalProfessionalismVariable
+				which = navalProfessionalismControlVariable
 			}
 		}
+		# Potentially remove after test
+		#OR = {
+		#	NOT = { has_country_flag = has_naval_professionalism_modifier }
+		#	NOT = {
+		#		is_variable_equal = {
+		#			which = navalProfessionalismVariable
+		#			which = navalProfessionalismControlVariable
+		#		}
+		#	}
+		#}
 	}
 
 	immediate = {
@@ -1367,8 +1374,11 @@ country_event = { # Sets / Updates modifiers based on level of Naval Professiona
 				hidden = yes
 			}
 		}
-		update_control_variable = yes
-		set_country_flag = has_naval_professionalism_modifier
+		set_variable = { # Update control variable
+			which = navalProfessionalismControlVariable
+			which = navalProfessionalismVariable
+		}
+		set_country_flag = has_naval_professionalism_modifier # Debug flag
 	}
 
 	option = {
@@ -1376,12 +1386,13 @@ country_event = { # Sets / Updates modifiers based on level of Naval Professiona
 	}
 }
 
-country_event = {
+country_event = { # Gives Naval Professionalism based on force limit when studying
 	id = naval_professionalism_system.0003
 	title = naval_professionalism_system.0003.t
 	desc = naval_professionalism_system.0003.d
 	picture = BIG_BOOK_eventPicture
 	hidden = yes
+
 	is_triggered_only = yes
 
 	immediate = {
